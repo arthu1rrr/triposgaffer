@@ -6,17 +6,18 @@ import { defaultState, loadState, saveState } from './storage';
 import { uid } from './id';
 
 export function useStudyState() {
-    const [state, setState] = useState<StudyStateV1>(defaultState);
+    const [state, setState] = useState<StudyStateV1>(() => loadState());
+    const [hydrated, setHydrated] = useState(false);
 
-    // Load state from localStorage on mount
     useEffect(() => {
-        setState(loadState());
-    }, []);
-
+    setHydrated(true);
+    }, [])
     // Save state to localStorage whenever it changes
     useEffect(() => {
-        saveState(state);
-    }, [state]);
+    if (!hydrated) return;
+    saveState(state);
+}, [state, hydrated]);
+
 
     const actions = useMemo(() => {
         function addModule(courseId: string, name: string, year: 'IA' | 'IB' | 'II' | 'III', difficulty?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10, comfort?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10){
