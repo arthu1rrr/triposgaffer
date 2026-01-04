@@ -8,7 +8,7 @@ import { SelectField } from '@/components/SelectField';
 import { Course } from '@/lib/study/types';
 import {uid } from '@/lib/study/id';
 import { Button } from '@/components/Button';
-
+import { ModuleCard } from '@/components/ModuleCard';
 
 export default function DashboardPage() {
     const { state, setCourse } = useStudyState(); //call actions by referencing directly
@@ -16,6 +16,10 @@ export default function DashboardPage() {
     const [selectedPart, setSelectedPart] = useState<string>('');
     const selectedCourse = COURSE_OPTIONS.find(c => c.key === selectedCourseKey);
     const hasCourse = state.course !== null;
+    
+
+
+
     function handleSetCourse() {
         if (!selectedCourse || !selectedPart) return;
         const newCourse: Course = {
@@ -27,6 +31,15 @@ export default function DashboardPage() {
         };
         setCourse(newCourse);
     }
+
+    const modulesForCourse = useMemo(() => {
+    const course = state.course;
+    if (!course) return [];
+    return state.modules.filter(m => m.courseId === course.id && m.year === course.year)
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name));
+    }, [state.course, state.modules]);
+
     
     
     if (!hasCourse) {
@@ -84,6 +97,29 @@ export default function DashboardPage() {
   title={`Dashboard`}
   subtitle={`${state.course?.name} - Part ${state.course?.year}`}
 />
+<section className="mt-6">
+<h2 className="text-xl font-semibold mb-4 text-[var(--lightshadow)]">Modules</h2>
+{modulesForCourse.length == 0 ? (
+    <p className="text-[var(--lightshadow)]">No modules found for this course.</p>
+) : (
+    <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {modulesForCourse.map((mod) => {
+        const lecturesForModule = state.lectures.filter((l) => l.moduleId === mod.id);
+        const completed = lecturesForModule.filter((l) => l.completed).length;
+
+        return (
+          <ModuleCard
+            key={mod.id}
+            moduleId={mod.id}
+            name={mod.name}
+            completedCount={completed}
+            totalCount={lecturesForModule.length}
+          />
+        );
+      })}
+    </div>
+)}
+</section>
 
         </main>
     );

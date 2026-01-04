@@ -8,7 +8,7 @@ type ButtonProps = {
 export function Button({ onClick, children, disabled = false }: ButtonProps) {
     return (
     <button
-    type = "button"
+    type = "submit"
     onClick={onClick}
     disabled={disabled}
     className="
