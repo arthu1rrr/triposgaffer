@@ -22,7 +22,7 @@ export default function RootLayout({
         <TopNav />
 
         {/* Page content */}
-        <main className="px-6 py-8">{children}</main>
+        <main className="px-6 py-4">{children}</main>
       </body>
     </html>
   );

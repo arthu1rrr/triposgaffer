@@ -1,6 +1,7 @@
 export type Course ={
     id: string;
     name: string;
+    year: 'IA' | 'IB' | 'II' | 'III';
     department: string;
     createdAt: number;
 }
@@ -28,7 +29,7 @@ export type Lecture = {
 
 export type StudyStateV1 = {
     schemaVersion: 1;
-    course: Course;
+    course: Course | null;
     modules: Module[];
     lectures: Lecture[];
 

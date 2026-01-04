@@ -1,0 +1,6 @@
+f the user has a course and year (IA,IB...) assigned with them, dashboard shows: 
+Relevant modules with lecture count which can be explored further 
+Users tasks 
+Users planner summary (one week in advance) 
+If they do not have a course associated with them:
+it lets them choose a course, which is then associated with them

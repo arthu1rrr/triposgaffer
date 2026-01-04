@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import type { StudyStateV1, Module, Lecture } from './types';
+import type { StudyStateV1, Module, Lecture, Course } from './types';
 import { defaultState, loadState, saveState } from './storage';
 import { uid } from './id';
 
@@ -75,8 +75,23 @@ export function useStudyState() {
                 lectures: prev.lectures.filter((lec) => lec.moduleId !== moduleId),
             }));
         }
-        return { addModule, addLecture, toggleLectureCompletion, deleteLecture, deleteModule };
+        function setModuleRatings(moduleId: string, difficulty?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10, comfort?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10){
+            setState((prev) => ({
+                ...prev,
+                modules: prev.modules.map((mod) =>
+                    mod.id === moduleId ? { ...mod, difficulty, comfort } : mod
+                ),
+            }));
+        }
+        function setCourse(course: Course){
+            setState((prev) => ({
+                ...prev,
+                course
+            }));
+        }
+        return { addModule, addLecture, toggleLectureCompletion, deleteLecture, deleteModule, setModuleRatings, setCourse };
     }, []);
+
 
     return { state, setState, ...actions };
 }

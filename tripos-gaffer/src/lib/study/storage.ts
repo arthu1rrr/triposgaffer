@@ -5,12 +5,7 @@ const KEY = 'tripos-gaffer:study';
 export function defaultState(): StudyStateV1 {
     return {
         schemaVersion: SCHEMA_VERSION_LATEST,
-        course: {
-            id: 'course_1',
-            name: 'Computer Science',
-            department: 'CST',
-            createdAt: Date.now(),
-        },
+        course: null,
         modules: [],
         lectures: [],
     };
