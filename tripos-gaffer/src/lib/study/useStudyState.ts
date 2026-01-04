@@ -1,0 +1,79 @@
+'use client';
+
+import { useEffect, useMemo, useState } from 'react';
+import type { StudyStateV1, Module, Lecture } from './types';
+import { defaultState, loadState, saveState } from './storage';
+import { uid } from './id';
+
+export function useStudyState() {
+    const [state, setState] = useState<StudyStateV1>(defaultState);
+
+    // Load state from localStorage on mount
+    useEffect(() => {
+        setState(loadState());
+    }, []);
+
+    // Save state to localStorage whenever it changes
+    useEffect(() => {
+        saveState(state);
+    }, [state]);
+
+    const actions = useMemo(() => {
+        function addModule(courseId: string, name: string, year: 'IA' | 'IB' | 'II' | 'III'){
+            const trimmed = name.trim();
+            if (!trimmed) return;
+            const newModule: Module = {
+                id: uid('module'),
+                name: trimmed,
+                createdAt: Date.now(),
+                courseId,
+                year,
+            };
+            setState((prev) => ({
+                ...prev,
+                modules: [newModule, ...prev.modules],
+            }));
+        }
+        function addLecture(moduleId: string, title: string, date: number, lengthMinutes: number){
+            const trimmed = title.trim();
+            if (!trimmed) return;
+
+            const newLecture: Lecture = {
+                id: uid('lecture'),
+                moduleId,
+                title: trimmed,
+                date,
+                completed: false,
+                lengthMinutes,
+            };
+            setState((prev) => ({
+                ...prev,
+                lectures: [newLecture, ...prev.lectures],
+            }));
+        }
+        function toggleLectureCompletion(lectureId: string){
+            setState((prev) => ({
+                ...prev,
+                lectures: prev.lectures.map((lec) =>
+                    lec.id === lectureId ? { ...lec, completed: !lec.completed } : lec
+                ),
+            }));
+        }
+        function deleteLecture(lectureId: string){
+            setState((prev) => ({
+                ...prev,
+                lectures: prev.lectures.filter((lec) => lec.id !== lectureId),
+            }));
+        }
+        function deleteModule(moduleId: string){
+            setState((prev) => ({
+                ...prev,
+                modules: prev.modules.filter((mod) => mod.id !== moduleId),
+                lectures: prev.lectures.filter((lec) => lec.moduleId !== moduleId),
+            }));
+        }
+        return { addModule, addLecture, toggleLectureCompletion, deleteLecture, deleteModule };
+    }, []);
+
+    return { state, setState, ...actions };
+}
