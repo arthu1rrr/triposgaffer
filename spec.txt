@@ -1,0 +1,23 @@
+Features:
+Lecture tracking:
+Per lecture per course/module checklist
+Time estimates 
+Allow student to rate courses based on difficulty/comfortability
+Task tracking:
+Task types/tags (supervision, reading, coursework, tick, admin)
+Recurring tasks?
+Priority tasks
+time estimates
+Planner:
+Term calendar with labels 
+Workload summary, tasks due this week + backlog of lectures
+Extras
+Raven auth
+Store minimal data
+
+Decisions:
+Local storage without login
+Raven login across devices
+
+Tech stack:
+next.js
