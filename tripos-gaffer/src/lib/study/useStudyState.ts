@@ -19,7 +19,7 @@ export function useStudyState() {
     }, [state]);
 
     const actions = useMemo(() => {
-        function addModule(courseId: string, name: string, year: 'IA' | 'IB' | 'II' | 'III'){
+        function addModule(courseId: string, name: string, year: 'IA' | 'IB' | 'II' | 'III', difficulty?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10, comfort?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10){
             const trimmed = name.trim();
             if (!trimmed) return;
             const newModule: Module = {
@@ -28,13 +28,15 @@ export function useStudyState() {
                 createdAt: Date.now(),
                 courseId,
                 year,
+                difficulty,
+                comfort,
             };
             setState((prev) => ({
                 ...prev,
                 modules: [newModule, ...prev.modules],
             }));
         }
-        function addLecture(moduleId: string, title: string, date: number, lengthMinutes: number){
+        function addLecture(moduleId: string, title: string, date: number, lengthMinutes: number, index: number){
             const trimmed = title.trim();
             if (!trimmed) return;
 
@@ -45,6 +47,7 @@ export function useStudyState() {
                 date,
                 completed: false,
                 lengthMinutes,
+                index,
             };
             setState((prev) => ({
                 ...prev,

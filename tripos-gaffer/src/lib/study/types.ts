@@ -12,12 +12,15 @@ export type Module = {
     createdAt: number;
     courseId: string; 
     year: 'IA' | 'IB' | 'II' | 'III'; // e.g Part IA
+    difficulty?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10; // optional difficulty rating
+    comfort?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10; // optional comfort rating
 }
 
 export type Lecture = {
     id: string;
     moduleId: string;
     title: string;
+    index: number; // position within module e.g lecture 5
     date: number; // timestamp
     completed: boolean;
     lengthMinutes: number;
