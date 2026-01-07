@@ -1,15 +1,22 @@
 import Link from 'next/link';
+import { getLecturesForModule } from '@/lib/catalog';
+import { getModuleMetrics } from '@/lib/study/metrics';
+import type { StudyStateV2 } from '@/lib/study/types';
+import type { ModuleId } from '@/lib/catalog/types';
 
 type ModuleCardProps = {
-    moduleId: string;
+    moduleId: ModuleId;
     name: string;
-    completedCount: number;
-    totalCount: number;
+  completedLectureIds: StudyStateV2["completedLectureIds"];
 };
 
-export function ModuleCard({ moduleId, name, completedCount, totalCount }: ModuleCardProps) {
-    const pct = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
-
+export function ModuleCard({ moduleId, name, completedLectureIds }: ModuleCardProps) {
+    const lectures = getLecturesForModule(moduleId);
+    const {completedLectures,
+        totalLectures,
+        backlogLectures,
+        backlogMinutes} = getModuleMetrics(moduleId, lectures, completedLectureIds);
+      const pct = totalLectures === 0 ? 0 : (completedLectures / totalLectures) * 100;
     return (
         <Link
             href={`/modules/${moduleId}`}
@@ -18,7 +25,7 @@ export function ModuleCard({ moduleId, name, completedCount, totalCount }: Modul
 <div className="flex items-start justify-between gap-3">
         <h3 className="font-semibold text-[var(--lightshadow)]">{name}</h3>
         <span className="text-xs text-[var(--medshadow)]">
-          {totalCount === 0 ? '—' : `${completedCount}/${totalCount}`}
+          {backlogLectures} lectures left ({backlogMinutes} mins)
         </span>
       </div>
 
@@ -30,7 +37,7 @@ export function ModuleCard({ moduleId, name, completedCount, totalCount }: Modul
       </div>
 
       <div className="mt-2 text-xs text-[var(--medshadow)]">
-        {completedCount}/{totalCount} lectures
+        {completedLectures}/{totalLectures} lectures
       </div>
     </Link>
   );

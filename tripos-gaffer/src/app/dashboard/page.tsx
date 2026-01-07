@@ -5,10 +5,11 @@ import { useStudyState } from "@/lib/study/useStudyState";
 import { PageTitle } from "@/components/PageTitle";
 import { SelectField } from "@/components/SelectField";
 import { Button } from "@/components/Button";
-import { COURSE_OPTIONS } from "@/lib/courses";
+import { COURSE_OPTIONS } from "@/lib/catalog/courses";
 import { COURSES, getCourse, getModulesForCourse, getLecturesForModule } from "@/lib/catalog/index";
 import type { CourseId, Year } from "@/lib/catalog/types";
 import { ModuleCard } from "@/components/ModuleCard";
+import { getModuleMetrics } from "@/lib/study/metrics";
 
 function findCatalogCourseId(courseKey: string, year: Year): CourseId | null {
   // We match on CourseDefinition.key + year
@@ -37,6 +38,16 @@ export default function DashboardPage() {
     if (!courseId) return;
     setSelectedCourse(courseId);
   }
+  const totalBacklog = modulesForCourse.reduce(
+  (acc, mod) => {
+    const lectures = getLecturesForModule(mod.id);
+    const m = getModuleMetrics(mod.id, lectures, state.completedLectureIds);
+    acc.lectures += m.backlogLectures;
+    acc.minutes += m.backlogMinutes;
+    return acc;
+  },
+  { lectures: 0, minutes: 0 }
+);
 
   if (!hydrated) {
     return (
@@ -102,14 +113,30 @@ export default function DashboardPage() {
   return (
     <main className="mx-auto max-w-4xl px-4">
       <PageTitle title="Dashboard" subtitle={`${selectedCourse.name} — Part ${selectedCourse.year}`} />
-
-      <section className="mt-6">
-        <div className="mb-4 flex items-center justify-between">
+      <div className="mb-4 flex items-center justify-between">
         <Button
 
         onClick={() => setSelectedCourse(null)}
         > Reset Course </Button>
         </div>
+      <section className="mt-6"> {/* Display Summary of total backlog of lectures */}
+      <h2 className="text-xl font-semibold mb-4 text-[var(--lightshadow)]">Summary</h2>  
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="rounded-xl border border-[var(--mutedblack)] bg-[var(--background)]/60 p-3 backdrop-blur transition hover:border-[var(--medshadow)]">
+      <div className="flex items-center justify-between gap-3">
+        <div className="text-xs text-[var(--medshadow)]">Backlog</div>
+        <div className="text-sm font-medium text-[var(--lightshadow)]">
+          {totalBacklog.lectures} lectures • {totalBacklog.minutes} min
+        </div>
+      </div>
+    </div>
+
+    {/* Later tiles go here */}
+  </div>
+
+      </section>
+      <section className="mt-6">
+        
         <h2 className="text-xl font-semibold mb-4 text-[var(--lightshadow)]">Modules</h2>
 
         {modulesForCourse.length === 0 ? (
@@ -117,16 +144,15 @@ export default function DashboardPage() {
         ) : (
           <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {modulesForCourse.map((mod) => {
-              const lecturesForModule = getLecturesForModule(mod.id);
-              const completed = lecturesForModule.filter((l) => state.completedLectureIds[l.id]).length;
+              
 
               return (
                 <ModuleCard
                   key={mod.id}
                   moduleId={mod.id}
                   name={mod.name}
-                  completedCount={completed}
-                  totalCount={lecturesForModule.length}
+                  completedLectureIds={state.completedLectureIds}
+                  
                 />
               );
             })}

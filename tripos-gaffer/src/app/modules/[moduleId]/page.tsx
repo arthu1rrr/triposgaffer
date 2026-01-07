@@ -6,6 +6,7 @@ import { useParams } from "next/navigation";
 import { PageTitle } from "@/components/PageTitle";
 import { useStudyState } from "@/lib/study/useStudyState";
 import { getModule, getLecturesForModule } from "@/lib/catalog";
+import { getModuleMetrics } from "@/lib/study/metrics";
 
 export default function ModuleDetailPage() {
   const params = useParams<{ moduleId: string }>();
@@ -21,6 +22,12 @@ export default function ModuleDetailPage() {
   }, [lectures, state.completedLectureIds]);
 
   const pct = lectures.length === 0 ? 0 : Math.round((completedCount / lectures.length) * 100);
+  
+  const metrics = getModuleMetrics(
+  moduleId,
+  lectures,
+  state.completedLectureIds
+);
 
   if (!hydrated) {
     return (
@@ -46,7 +53,8 @@ export default function ModuleDetailPage() {
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-8">
-      <PageTitle title={module.name} subtitle={`${completedCount}/${lectures.length} lectures complete (${pct}%)`} />
+      <PageTitle title={module.name} subtitle={`  ${metrics.completedLectures}/${metrics.totalLectures} Lectures Complete • ${metrics.backlogMinutes} min left
+`} />
 
       <div className="mt-4 h-2 w-full rounded-full bg-[var(--mutedblack)] overflow-hidden">
         <div className="h-full bg-[var(--lightshadow)]" style={{ width: `${pct}%` }} />
@@ -73,7 +81,7 @@ export default function ModuleDetailPage() {
                     className="flex flex-1 items-start gap-3 text-left"
                   >
                     <span
-                      className="mt-1 inline-flex h-4 w-4 items-center justify-center rounded border border-[var(--mutedblack)]"
+                      className="mt-1 inline-flex h-4 w-4 items-center justify-center rounded border border-[var(--mutedblack)] text-[var(--lightshadow)]"
                       aria-hidden
                     >
                       {done ? "✓" : ""}
