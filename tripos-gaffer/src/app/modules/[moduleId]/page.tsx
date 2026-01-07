@@ -7,12 +7,13 @@ import { PageTitle } from "@/components/PageTitle";
 import { useStudyState } from "@/lib/study/useStudyState";
 import { getModule, getLecturesForModule } from "@/lib/catalog";
 import { getModuleMetrics } from "@/lib/study/metrics";
+import type { Rating10 } from "@/lib/study/types";
 
 export default function ModuleDetailPage() {
   const params = useParams<{ moduleId: string }>();
   const moduleId = params.moduleId;
 
-  const { state, hydrated, toggleLectureCompleted } = useStudyState();
+  const { state, hydrated, toggleLectureCompleted, setModuleRatings } = useStudyState();
 
   const module = useMemo(() => getModule(moduleId as any), [moduleId]);
   const lectures = useMemo(() => getLecturesForModule(moduleId as any), [moduleId]);
@@ -59,6 +60,84 @@ export default function ModuleDetailPage() {
       <div className="mt-4 h-2 w-full rounded-full bg-[var(--mutedblack)] overflow-hidden">
         <div className="h-full bg-[var(--lightshadow)]" style={{ width: `${pct}%` }} />
       </div>
+
+      <section className = "mt-6 flex gap-6">
+        <div className="w-full max-w-xl">
+          <h2 className="text-lg font-semibold text-[var(--lightshadow)]">Personal Thoughts</h2>
+<div className="mt-4 space-y-5">
+      {/* Difficulty */}
+      <div className="rounded-md border border-[var(--mutedblack)] bg-[var(--background)] p-4">
+        <div className="flex items-baseline justify-between gap-4">
+          <div>
+            <div className="text-sm font-medium text-[var(--lightshadow)]">
+              Difficulty
+            </div>
+            <div className="mt-1 text-xs text-[var(--medshadow)]">
+              Author-ish: how hard this module is overall.
+            </div>
+          </div>
+
+          <div className="text-sm text-[var(--lightshadow)]">
+            {state.moduleRatings?.[moduleId]?.difficulty ?? 5}/10
+          </div>
+        </div>
+
+        <input
+          className="mt-3 w-full accent-[var(--lightshadow)]"
+          type="range"
+          min={1}
+          max={10}
+          step={1}
+          value={state.moduleRatings?.[moduleId]?.difficulty ?? 5}
+          onChange={(e) =>
+            setModuleRatings(moduleId, 
+                Number(e.target.value) as Rating10,
+              undefined
+            )
+          }
+          aria-label="Difficulty rating"
+        />
+      </div>
+
+      {/* Comfort */}
+      <div className="rounded-md border border-[var(--mutedblack)] bg-[var(--background)] p-4">
+        <div className="flex items-baseline justify-between gap-4">
+          <div>
+            <div className="text-sm font-medium text-[var(--lightshadow)]">
+              Comfort
+            </div>
+            <div className="mt-1 text-xs text-[var(--medshadow)]">
+              User-specific: how confident you feel right now.
+            </div>
+          </div>
+
+          <div className="text-sm text-[var(--lightshadow)]">
+            {state.moduleRatings?.[moduleId]?.comfort ?? 5}/10
+          </div>
+        </div>
+
+        <input
+          className="mt-3 w-full accent-[var(--lightshadow)]"
+          type="range"
+          min={1}
+          max={10}
+          step={1}
+          value={state.moduleRatings?.[moduleId]?.comfort ?? 5}
+          onChange={(e) =>
+            setModuleRatings(moduleId, 
+              undefined,
+              Number(e.target.value) as Rating10,
+            )
+          }
+          aria-label="Comfort rating"
+        />
+      </div>
+    </div>
+
+
+          </div>
+
+        </section>
 
       <section className="mt-8">
         <h2 className="text-lg font-semibold text-[var(--lightshadow)]">Lectures</h2>

@@ -68,6 +68,12 @@ export function useStudyState() {
                 if (difficulty === undefined && comfort === undefined) {
                     delete moduleRatings[moduleId];
                 } else {
+                    if (difficulty === undefined && prev.moduleRatings[moduleId]) {
+                        rating.difficulty = prev.moduleRatings[moduleId].difficulty;
+                    }
+                    if (comfort === undefined && prev.moduleRatings[moduleId]) {
+                        rating.comfort = prev.moduleRatings[moduleId].comfort;
+                    }
                     moduleRatings[moduleId] = rating;
                 }
 
