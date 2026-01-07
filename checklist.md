@@ -1,17 +1,17 @@
 # Cambridge Study Manager – Project Checklist
 
 ## 0) Repo & project setup
-- [ ] Create new Next.js (App Router) project with TypeScript
-- [ ] Set up ESLint + Prettier
+- [x] Create new Next.js (App Router) project with TypeScript
+- [x] Set up ESLint + Prettier
 - [ ] Add `.env.example`
-- [ ] Create base layout and navigation (Dashboard / Modules / Tasks / Settings)
-- [ ] Choose and apply a minimal UI styling approach
+- [ ] Create base layout and navigation (Dashboard / Modules / Tasks / Settings) #DASHBOARD AND MODULES DONE
+- [x] Choose and apply a minimal UI styling approach
 
 ---
 
 ## 1) Data model
-- [ ] Define `Module` type
-- [ ] Define `Lecture` type
+- [x] Define `Module` type
+- [x] Define `Lecture` type
 - [ ] Define `Task` type
 - [ ] Define enums for task `type` and `priority`
 - [ ] Add optional placeholder type for recurring tasks
@@ -36,7 +36,7 @@
 ## 3) State & derived logic
 - [ ] Create central app state layer
 - [ ] Implement derived calculations:
-  - [ ] Lecture progress per module
+  - [x] Lecture progress per module
   - [ ] Lecture backlog count
   - [ ] Lecture backlog minutes
   - [ ] Tasks due this week
@@ -45,15 +45,15 @@
 ---
 
 ## 4) Modules & lecture tracking
-- [ ] Build Modules list page
-- [ ] Add create / edit / delete module functionality
+- [x] Build Modules list page
+- [ ] Add create / edit / delete module functionality 
 - [ ] Display module progress and backlog minutes
-- [ ] Build Module detail page
-- [ ] Implement per-lecture checklist
-- [ ] Add per-lecture time estimates
+- [ ] Build Module detail page #BASIC FOR TESTING
+- [x] Implement per-lecture checklist
+- [x] Add per-lecture time estimates
 - [ ] Add difficulty rating
 - [ ] Add comfortability rating
-- [ ] Ensure deleting a module deletes its lectures
+- [ ] Ensure deleting a module deletes its lectures 
 
 ---
 
@@ -77,6 +77,7 @@
 - [ ] Add term start date setting
 - [ ] Compute Week 1–8 labels
 - [ ] Display current term week on Dashboard
+- [ ] iCal integration
 
 ---
 
