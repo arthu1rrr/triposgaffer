@@ -12,5 +12,12 @@ export const COURSE_OPTIONS: CourseOption[] = [
         department: 'Department of Computer Science and Technology',
         parts: ['IA', 'IB', 'II', 'III'],
     },
+    {
+    key: "cs-tripos-demo",
+    name: "Computer Science Tripos Demo",
+    department: "Department of Computer Science and Technology",
+    parts: ["IB"],
+  },
+
 ];
 

@@ -1,98 +1,101 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import type { StudyStateV1, Module, Lecture, Course } from './types';
-import { defaultState, loadState, saveState } from './storage';
-import { uid } from './id';
+import type { CourseId, LectureId, ModuleId } from "@/lib/catalog/types";
+import type { Rating10, StudyState, UserModuleRating } from "./types";
+import { loadState, saveState } from "./storage";
+
 
 export function useStudyState() {
-    const [state, setState] = useState<StudyStateV1>(() => loadState());
+    const [state, setState] = useState<StudyState>(loadState());
     const [hydrated, setHydrated] = useState(false);
-
     useEffect(() => {
-    setHydrated(true);
-    }, [])
-    // Save state to localStorage whenever it changes
-    useEffect(() => {
-    if (!hydrated) return;
-    saveState(state);
-}, [state, hydrated]);
-
-
-    const actions = useMemo(() => {
-        function addModule(courseId: string, name: string, year: 'IA' | 'IB' | 'II' | 'III', difficulty?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10, comfort?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10){
-            const trimmed = name.trim();
-            if (!trimmed) return;
-            const newModule: Module = {
-                id: uid('module'),
-                name: trimmed,
-                createdAt: Date.now(),
-                courseId,
-                year,
-                difficulty,
-                comfort,
-            };
-            setState((prev) => ({
-                ...prev,
-                modules: [newModule, ...prev.modules],
-            }));
-        }
-        function addLecture(moduleId: string, title: string, date: number, lengthMinutes: number, index: number){
-            const trimmed = title.trim();
-            if (!trimmed) return;
-
-            const newLecture: Lecture = {
-                id: uid('lecture'),
-                moduleId,
-                title: trimmed,
-                date,
-                completed: false,
-                lengthMinutes,
-                index,
-            };
-            setState((prev) => ({
-                ...prev,
-                lectures: [newLecture, ...prev.lectures],
-            }));
-        }
-        function toggleLectureCompletion(lectureId: string){
-            setState((prev) => ({
-                ...prev,
-                lectures: prev.lectures.map((lec) =>
-                    lec.id === lectureId ? { ...lec, completed: !lec.completed } : lec
-                ),
-            }));
-        }
-        function deleteLecture(lectureId: string){
-            setState((prev) => ({
-                ...prev,
-                lectures: prev.lectures.filter((lec) => lec.id !== lectureId),
-            }));
-        }
-        function deleteModule(moduleId: string){
-            setState((prev) => ({
-                ...prev,
-                modules: prev.modules.filter((mod) => mod.id !== moduleId),
-                lectures: prev.lectures.filter((lec) => lec.moduleId !== moduleId),
-            }));
-        }
-        function setModuleRatings(moduleId: string, difficulty?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10, comfort?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10){
-            setState((prev) => ({
-                ...prev,
-                modules: prev.modules.map((mod) =>
-                    mod.id === moduleId ? { ...mod, difficulty, comfort } : mod
-                ),
-            }));
-        }
-        function setCourse(course: Course){
-            setState((prev) => ({
-                ...prev,
-                course
-            }));
-        }
-        return { addModule, addLecture, toggleLectureCompletion, deleteLecture, deleteModule, setModuleRatings, setCourse };
+        setHydrated(true);
     }, []);
 
+    useEffect(() => {
+        if (!hydrated) return;
+        saveState(state);
+    }, [state, hydrated]);
 
-    return { state, setState, hydrated, ...actions };
+    const actions = useMemo(() => {
+        function setSelectedCourse(courseId: CourseId | null) {
+            setState((prev) => ({
+                ...prev,
+                selectedCourseId: courseId,
+            }));
+        }
+        function toggleLectureCompleted(lectureId: LectureId) {
+            setState((prev) => {
+                const completedLectureIds = { ...prev.completedLectureIds };
+                if (completedLectureIds[lectureId]) {
+                    delete completedLectureIds[lectureId];
+                } else {
+                    completedLectureIds[lectureId] = true;
+                }
+                return {
+                    ...prev,
+                    completedLectureIds,
+                };
+            });
+        }
+        function setLectureMinutesOverride(lectureId: LectureId, minutes: number | null) {
+            setState((prev) => {
+                const lectureMinutesOverride = { ...prev.lectureMinutesOverride };
+                if (minutes === null) {
+                    delete lectureMinutesOverride[lectureId];
+                    return {
+                        ...prev,
+                        lectureMinutesOverride,
+                    };
+                } 
+                const safe = Number.isFinite(minutes) && minutes > 0 ? Math.floor(minutes) : 0;
+                if (safe === 0) {
+                    return prev;
+                }
+                lectureMinutesOverride[lectureId] = safe;
+                return {
+                    ...prev,
+                    lectureMinutesOverride,
+                };
+            });
+        }
+        function setModuleRatings(moduleId: ModuleId, difficulty?: Rating10, comfort?: Rating10) {
+            setState((prev) => {
+                const moduleRatings: Record<ModuleId, UserModuleRating> = { ...prev.moduleRatings }
+                const rating: UserModuleRating = { difficulty, comfort };
+
+                if (difficulty === undefined && comfort === undefined) {
+                    delete moduleRatings[moduleId];
+                } else {
+                    moduleRatings[moduleId] = rating;
+                }
+
+                return {
+                    ...prev,
+                    moduleRatings,
+                };
+            });
+    }
+    function clearAllData() {
+        setState({
+            schemaVersion: 2,
+            selectedCourseId: null,
+            completedLectureIds: {},
+            lectureMinutesOverride: {},
+            moduleRatings: {},
+            tasks: [],
+        });
+    }
+    
+        return {
+            setSelectedCourse,
+            toggleLectureCompleted,
+            setLectureMinutesOverride,
+            setModuleRatings,
+            clearAllData,
+        };
+    }, []);
+
+    return { state, setState, ...actions, hydrated };
 }
