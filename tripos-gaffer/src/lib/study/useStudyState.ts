@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import type { CourseId, LectureId, ModuleId } from "@/lib/catalog/types";
-import type { Rating10, StudyState, UserModuleRating } from "./types";
+import type { Rating10, StudyState, UserModuleRating, Task } from "./types";
 import { loadState, saveState } from "./storage";
 
 
@@ -91,7 +91,36 @@ export function useStudyState() {
             lectureMinutesOverride: {},
             moduleRatings: {},
             tasks: [],
+            supervisors: []
         });
+    }
+    function createTask(task: Task){
+        setState((prev) => ({
+            ...prev,
+            tasks: [...prev.tasks, task],
+        }));
+    }
+    function toggleTaskCompleted(taskId: string){
+        setState((prev) => ({
+            ...prev,
+            tasks: prev.tasks.map((task) =>
+                task.id === taskId ? { ...task, completed: !task.completed } : task
+            ),
+        }));
+    }
+    function deleteTask(taskId: string){
+        setState((prev) => ({
+            ...prev,
+            tasks: prev.tasks.filter((task) => task.id !== taskId),
+        }));
+    }
+    function updateTask(taskId: string, updates:Partial<Omit<Task, "id" | "type">>){ //cannot change id or type
+        setState((prev) => ({
+            ...prev,
+            tasks: prev.tasks.map((task) =>
+                task.id === taskId ? { ...task, ...updates } : task
+            ),
+        }));
     }
     
         return {
@@ -100,6 +129,10 @@ export function useStudyState() {
             setLectureMinutesOverride,
             setModuleRatings,
             clearAllData,
+            createTask,
+            toggleTaskCompleted,
+            deleteTask,
+            updateTask,
         };
     }, []);
 

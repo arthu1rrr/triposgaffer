@@ -22,7 +22,7 @@ export default function TopNav() {
     <header className="sticky top-0 z-50 border-b border-[var(--mutedblack)] bg-[var(--background)]/90 backdrop-blur text-[var(--lightshadow)]">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <div className="flex items-baseline gap-3">
-          <Link href="/dashboard" className="text-base font-semibold tracking-tight">
+          <Link href="/" className="text-base font-semibold tracking-tight">
             Tripos Gaffer
           </Link>
           

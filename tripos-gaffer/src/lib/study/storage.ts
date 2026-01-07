@@ -11,6 +11,7 @@ export function defaultState(): StudyStateV2 {
         lectureMinutesOverride: {},
         moduleRatings: {},
         tasks: [],
+        supervisors: []
     };
 }
 
@@ -62,6 +63,7 @@ export function loadState(): StudyStateV2 {
             lectureMinutesOverride: parsed.lectureMinutesOverride ?? {},
             moduleRatings: parsed.moduleRatings ?? {},
             tasks: parsed.tasks ?? [],
+            supervisors: parsed.supervisors ?? [],
         };
         return reconcileWithCatalog(state);
     } catch {
