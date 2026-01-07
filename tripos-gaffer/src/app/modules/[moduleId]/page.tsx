@@ -6,12 +6,15 @@ import Link from 'next/link';
 import { useStudyState } from '@/lib/study/useStudyState';
 import { PageTitle } from '@/components/PageTitle';
 import { Button } from '@/components/Button';
+import { useRouter } from 'next/navigation';
+
 
 export default function ModulesPage() {
   const params = useParams<{ moduleId: string }>(); 
   const moduleId = params.moduleId;
+  const router = useRouter();
 
-  const { state, addLecture, toggleLectureCompletion, deleteLecture } = useStudyState();
+  const { state, addLecture, toggleLectureCompletion, deleteLecture, deleteModule } = useStudyState();
 
   const module = useMemo(() => 
 state.modules.find((mod) => mod.id === moduleId), [state.modules, moduleId]);
@@ -32,6 +35,15 @@ state.modules.find((mod) => mod.id === moduleId), [state.modules, moduleId]);
 
   const canAddLecture = Boolean(module && title.trim().length > 0);
   const nextLectureIndex = lecturesForModule.length + 1;
+
+  function handleDeleteModule() {
+    if (!module) return;
+    const ok = window.confirm(`Are you sure you want to delete the module "${module.name}"? This will also delete all its lectures.`);
+    if (!ok) return;
+    
+    deleteModule(module.id);
+    router.push('/dashboard');
+  }
 
   function handleAddLecture() {
     if (!module) return;
@@ -72,10 +84,16 @@ state.modules.find((mod) => mod.id === moduleId), [state.modules, moduleId]);
         title={module.name}
         subtitle={`${completedCount}/${lecturesForModule.length} lectures complete (${pct}%)`}
       />
-
+        
       <div className="mt-4 h-2 w-full rounded-full bg-[var(--mutedblack)] overflow-hidden">
         <div className="h-full bg-[var(--lightshadow)]" style={{ width: `${pct}%` }} />
       </div>
+
+      <div className="mt-4">
+  <Button  onClick={handleDeleteModule}>
+    Delete module
+  </Button>
+</div>
 
       {/* Add lecture */}
       <section className="mt-8 rounded-md border border-[var(--mutedblack)] p-4">

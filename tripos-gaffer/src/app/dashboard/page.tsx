@@ -9,15 +9,30 @@ import { Course } from '@/lib/study/types';
 import {uid } from '@/lib/study/id';
 import { Button } from '@/components/Button';
 import { ModuleCard } from '@/components/ModuleCard';
+import { DEMO_COURSE, DEMO_MODULES, DEMO_LECTURES } from '@/lib/demoData';
+
+
 
 export default function DashboardPage() {
-    const { state, setCourse } = useStudyState(); //call actions by referencing directly
+    
+    const { state, setCourse, hydrated } = useStudyState(); //call actions by referencing directly
+    
     const [selectedCourseKey, setSelectedCourseKey] = useState<string>('');
     const [selectedPart, setSelectedPart] = useState<string>('');
     const selectedCourse = COURSE_OPTIONS.find(c => c.key === selectedCourseKey);
-    const hasCourse = state.course !== null;
+    console.log('NEXT_PUBLIC_DEMO_MODE:', process.env.NEXT_PUBLIC_DEMO_MODE);
+    console.log('DEMO_MODE:', process.env.NEXT_PUBLIC_DEMO_MODE === '1');
+    
+    const DEMO_MODE = process.env.NEXT_PUBLIC_DEMO_MODE === '1';
+    const course = DEMO_MODE ? DEMO_COURSE : state.course;
+    const modules = DEMO_MODE ? DEMO_MODULES : state.modules;
+    const lectures = DEMO_MODE ? DEMO_LECTURES : state.lectures;
+
+    const hasCourse = course != null;
+    
     
 
+    
 
 
     function handleSetCourse() {
@@ -33,14 +48,19 @@ export default function DashboardPage() {
     }
 
     const modulesForCourse = useMemo(() => {
-    const course = state.course;
     if (!course) return [];
-    return state.modules.filter(m => m.courseId === course.id && m.year === course.year)
+    return modules.filter(m => m.courseId === course.id && m.year === course.year)
     .slice()
     .sort((a, b) => a.name.localeCompare(b.name));
-    }, [state.course, state.modules]);
+    }, [course, modules]);
 
-    
+    if (!hydrated) {
+  return (
+    <main className="mx-auto max-w-4xl px-4">
+      <PageTitle title="Dashboard" subtitle="Loading…" />
+    </main>
+  );
+}
     
     if (!hasCourse) {
         return (
@@ -95,7 +115,7 @@ export default function DashboardPage() {
 
             <PageTitle
   title={`Dashboard`}
-  subtitle={`${state.course?.name} - Part ${state.course?.year}`}
+  subtitle={`${course?.name} - Part ${course?.year}`}
 />
 <section className="mt-6">
 <h2 className="text-xl font-semibold mb-4 text-[var(--lightshadow)]">Modules</h2>
@@ -104,7 +124,7 @@ export default function DashboardPage() {
 ) : (
     <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {modulesForCourse.map((mod) => {
-        const lecturesForModule = state.lectures.filter((l) => l.moduleId === mod.id);
+        const lecturesForModule = lectures.filter((l) => l.moduleId === mod.id);
         const completed = lecturesForModule.filter((l) => l.completed).length;
 
         return (

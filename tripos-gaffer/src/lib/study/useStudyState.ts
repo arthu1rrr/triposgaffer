@@ -94,5 +94,5 @@ export function useStudyState() {
     }, []);
 
 
-    return { state, setState, ...actions };
+    return { state, setState, hydrated, ...actions };
 }
