@@ -20,13 +20,13 @@
 ---
 
 ## 2) Local-first persistence (Phase 1)
-- [ ] Choose storage solution (IndexedDB or localStorage)
+- [x] Choose storage solution (IndexedDB or localStorage)
 - [ ] Implement persistence layer:
-  - [ ] Load all data
-  - [ ] Upsert / delete modules
-  - [ ] Upsert / delete lectures
+  - [x] Load all data
+  - [x] Upsert / delete modules
+  - [x] Upsert / delete lectures
   - [ ] Upsert / delete tasks
-- [ ] Add storage versioning / migrations
+- [x] Add storage versioning / migrations
 - [ ] Implement export to JSON
 - [ ] Implement import from JSON
 - [ ] Add “Delete all data” action in Settings
@@ -34,11 +34,11 @@
 ---
 
 ## 3) State & derived logic
-- [ ] Create central app state layer
+- [x] Create central app state layer
 - [ ] Implement derived calculations:
   - [x] Lecture progress per module
-  - [ ] Lecture backlog count
-  - [ ] Lecture backlog minutes
+  - [x] Lecture backlog count
+  - [x] Lecture backlog minutes
   - [ ] Tasks due this week
 - [ ] Add unit tests for derived logic
 
@@ -46,14 +46,13 @@
 
 ## 4) Modules & lecture tracking
 - [x] Build Modules list page
-- [ ] Add create / edit / delete module functionality 
-- [ ] Display module progress and backlog minutes
-- [ ] Build Module detail page #BASIC FOR TESTING
+- [x] Display module progress and backlog minutes
+- [x] Build Module detail page #BASIC FOR TESTING
 - [x] Implement per-lecture checklist
 - [x] Add per-lecture time estimates
 - [ ] Add difficulty rating
 - [ ] Add comfortability rating
-- [ ] Ensure deleting a module deletes its lectures 
+
 
 ---
 
@@ -70,7 +69,7 @@
 ---
 
 ## 6) Planner & term calendar
-- [ ] Build Dashboard page
+- [ ] Build Dashboard page #In Progress
 - [ ] Show tasks due this week
 - [ ] Show overdue tasks
 - [ ] Show lecture backlog summary
