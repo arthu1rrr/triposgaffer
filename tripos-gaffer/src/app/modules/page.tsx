@@ -26,14 +26,14 @@ export default function ModulesPage() {
 
   if (!course) {
     return (
-      <main className="mx-auto max-w-4xl px-4 py-8">
+      <main className="mx-auto max-w-4xl px-4 ">
         <PageTitle title="Modules" subtitle="Set up your course first on the dashboard." />
       </main>
     );
   }
 
   return (
-    <main className="mx-auto max-w-4xl px-4 py-8">
+    <main className="mx-auto max-w-4xl px-4 ">
       <PageTitle title="Modules" subtitle={`${course.name} — Part ${course.year}`} />
 
       <section className="mt-8">

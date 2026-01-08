@@ -256,7 +256,7 @@ const modulesForCourse = getModulesForCourse(state.selectedCourseId || "");
     );
   }
   return (
-    <main className="mx-auto w-full max-w-6xl px-4 py-8">
+    <main className="mx-auto w-full max-w-6xl px-4 ">
       <PageTitle title="Tasks" />
 
       {/* Top row: left lists + right create form */}
