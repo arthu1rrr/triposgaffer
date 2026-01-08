@@ -80,6 +80,14 @@ export const DEMO_LECTURES: LectureDefinition[] = [
         lengthMinutes: 90,
     },
     {
+        id: "cs-tripos-demo-2025-oop-03",
+        moduleId: "cs-tripos-demo-2025-oop",
+        title: "Classes and Objects part 2",
+        index: 3,
+        date: "2026-02-25T14:00:00Z",
+        lengthMinutes: 90,
+    },
+    {
         id: "cs-tripos-demo-2025-databases-01",
         moduleId: "cs-tripos-demo-2025-databases",
         title: "Introduction to Databases",

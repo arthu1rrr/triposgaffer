@@ -8,8 +8,19 @@ import type { Task, TaskPriority, TaskType } from "@/lib/study/types";
 import { uid } from "@/lib/study/id";
 import { SelectField } from "@/components/SelectField";
 import { getModulesForCourse } from "@/lib/catalog";
+import { getOverdueTasks } from "@/lib/study/planner";
 
-
+function filterButtonClass(active: boolean) {
+  return `
+    h-8 rounded-full px-3 text-xs transition
+    border
+    ${
+      active
+        ? "border-[var(--blue)] bg-[var(--blue)] text-white"
+        : "border-[var(--mutedblack)] text-[var(--medshadow)] hover:border-[var(--lightshadow)]"
+    }
+  `;
+}
 
 
 function startOfToday(now = new Date()) {
@@ -153,9 +164,11 @@ const modulesForCourse = getModulesForCourse(state.selectedCourseId || "");
   if (!trimmed) return;
   if (!priority) return;
   if (!type) return;
+  //remove spaces from trimmed to form valid id
+  const key = trimmed.replace(/\s+/g, '_');
 
   const base = {
-    id: uid(trimmed),
+    id: uid(key),
     title: trimmed,
     priority: priority as TaskPriority,
     completed: false,
@@ -229,6 +242,8 @@ const modulesForCourse = getModulesForCourse(state.selectedCourseId || "");
   const activeTop3 = active.slice(0, 3);
   const activeHighTop3 = active.filter((t) => t.priority === "high").slice(0, 3);
 
+
+
   return {
     active,
     activeTop3,
@@ -237,6 +252,23 @@ const modulesForCourse = getModulesForCourse(state.selectedCourseId || "");
     pastDueNotCompleted,
   };
 }, [tasks]);
+  type TaskFilter = "all" | "overdue" | "active" | "completed";
+
+const [taskFilter, setTaskFilter] = useState<TaskFilter>("all");
+
+const filteredTasks = useMemo(() => {
+  switch (taskFilter) {
+    case "overdue":
+      return getOverdueTasks(state.tasks, new Date()); // planner helper
+    case "active":
+      return state.tasks.filter((t) => !t.completed);
+    case "completed":
+      return state.tasks.filter((t) => t.completed);
+    case "all":
+    default:
+      return state.tasks;
+  }
+}, [taskFilter, state.tasks]);
   if (!hydrated) {
   return (
     <main className="mx-auto w-full max-w-6xl px-4 py-8">
@@ -423,70 +455,67 @@ const modulesForCourse = getModulesForCourse(state.selectedCourseId || "");
           </form>
         </div>
       </section>
+      {/* Task list section */}
 
-      <section className="mt-6">
-  <div className="flex items-baseline justify-between">
-    <h2 className="text-sm font-semibold text-[var(--lightshadow)]">Active</h2>
-    <div className="text-xs text-[var(--medshadow)]">{active.length} total</div>
+  <section className="mt-6">
+  <div className="flex flex-wrap items-center justify-between gap-3">
+    <h2 className="text-sm font-semibold text-[var(--lightshadow)]">
+      Tasks
+    </h2>
+
+    <div className="flex items-center gap-2">
+      <button
+        onClick={() => setTaskFilter("all")}
+        className={filterButtonClass(taskFilter === "all")}
+      >
+        All
+      </button>
+
+      <button
+        onClick={() => setTaskFilter("overdue")}
+        className={filterButtonClass(taskFilter === "overdue")}
+      >
+        Overdue
+      </button>
+
+      <button
+        onClick={() => setTaskFilter("active")}
+        className={filterButtonClass(taskFilter === "active")}
+      >
+        Active
+      </button>
+
+      <button
+        onClick={() => setTaskFilter("completed")}
+        className={filterButtonClass(taskFilter === "completed")}
+      >
+        Completed
+      </button>
+
+      <div className="ml-2 text-xs text-[var(--medshadow)]">
+        {filteredTasks.length} 
+      </div>
+    </div>
   </div>
-
-  {active.length === 0 ? (
+  {filteredTasks.length === 0 ? (
     <div className="mt-3 rounded-md border border-[var(--mutedblack)] bg-[var(--background)] p-4 text-sm text-[var(--medshadow)]">
-      No active tasks.
+      No tasks match this filter.
     </div>
   ) : (
     <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      {active.map((t) => (
-        <TaskCard key={t.id} t={t} onToggleCompleted={toggleTaskCompleted} />
+      {filteredTasks.map((t) => (
+        <TaskCard
+          key={t.id}
+          t={t}
+          onToggleCompleted={toggleTaskCompleted}
+        />
       ))}
     </div>
   )}
 </section>
-<section className="mt-6 grid gap-4 lg:grid-cols-2">
-  {/* Completed (not past due) */}
-  <div className="rounded-md border border-[var(--mutedblack)] bg-[var(--background)] p-4">
-    <div className="flex items-baseline justify-between">
-      <h2 className="text-sm font-semibold text-[var(--lightshadow)]">
-        Completed (not past due)
-      </h2>
-      <div className="text-xs text-[var(--medshadow)]">
-        {completedNotPastDue.length}
-      </div>
-    </div>
 
-    {completedNotPastDue.length === 0 ? (
-      <div className="mt-3 text-sm text-[var(--medshadow)]">None.</div>
-    ) : (
-      <div className="mt-3 grid gap-3">
-        {completedNotPastDue.map((t) => (
-          <TaskMiniLink key={t.id} t={t} />
-        ))}
-      </div>
-    )}
-  </div>
 
-  {/* Past due (not completed) */}
-  <div className="rounded-md border border-[var(--mutedblack)] bg-[var(--background)] p-4">
-    <div className="flex items-baseline justify-between">
-      <h2 className="text-sm font-semibold text-[var(--lightshadow)]">
-        Past due (not completed)
-      </h2>
-      <div className="text-xs text-[var(--medshadow)]">
-        {pastDueNotCompleted.length}
-      </div>
-    </div>
 
-    {pastDueNotCompleted.length === 0 ? (
-      <div className="mt-3 text-sm text-[var(--medshadow)]">None.</div>
-    ) : (
-      <div className="mt-3 grid gap-3">
-        {pastDueNotCompleted.map((t) => (
-          <TaskMiniLink key={t.id} t={t} />
-        ))}
-      </div>
-    )}
-  </div>
-</section>
     </main>
   );
 }
