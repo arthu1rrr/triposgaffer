@@ -17,9 +17,7 @@ export function SelectField({
 }: SelectFieldProps) {
   return (
     <div>
-      <label className="block text-sm mb-1 text-[var(--medshadow)]">
-        {label}
-      </label>
+      <label className="block text-sm mb-1 text-[var(--medshadow)]">{label}</label>
 
       <select
         value={value}

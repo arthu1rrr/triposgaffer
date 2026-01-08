@@ -1,4 +1,4 @@
-import type { Task } from "@/lib/study/types";
+import type { Task } from '@/lib/study/types';
 
 const DAY_MS = 86_400_000;
 
@@ -58,6 +58,6 @@ export function getNextTask(tasks: Task[], now: Date): Task | null {
     if (aOver !== bOver) return aOver - bOver;
     return a.due - b.due;
   });
-  console.log("Next task:", pending[0].t.title, "due", new Date(pending[0].due).toISOString());
+  console.log('Next task:', pending[0].t.title, 'due', new Date(pending[0].due).toISOString());
   return pending[0].t;
 }

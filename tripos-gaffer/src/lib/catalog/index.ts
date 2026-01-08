@@ -1,12 +1,12 @@
+import { DEMO_COURSE, DEMO_LECTURES, DEMO_MODULES } from './cs_demo';
 import type {
-    CourseDefinition,
-    ModuleDefinition,
-    LectureDefinition,
-    CourseId,
-    ModuleId,
-    LectureId,
-} from "./types";
-import { DEMO_COURSE, DEMO_MODULES, DEMO_LECTURES } from "./cs_demo";
+  CourseDefinition,
+  CourseId,
+  LectureDefinition,
+  LectureId,
+  ModuleDefinition,
+  ModuleId,
+} from './types';
 
 export const COURSES: CourseDefinition[] = [DEMO_COURSE];
 export const MODULES: ModuleDefinition[] = [...DEMO_MODULES];
@@ -16,13 +16,11 @@ const courseById = new Map<CourseId, CourseDefinition>(COURSES.map((c) => [c.id,
 const moduleById = new Map<ModuleId, ModuleDefinition>(MODULES.map((m) => [m.id, m]));
 const lectureById = new Map<LectureId, LectureDefinition>(LECTURES.map((l) => [l.id, l]));
 
-
 export function getCourse(courseId: CourseId): CourseDefinition | null {
   return courseById.get(courseId) ?? null;
 }
 export function getModulesForCourse(courseId: CourseId): ModuleDefinition[] {
-  return MODULES
-    .filter((m) => m.courseId === courseId)
+  return MODULES.filter((m) => m.courseId === courseId)
     .slice()
     .sort((a, b) => a.name.localeCompare(b.name));
 }
@@ -32,8 +30,7 @@ export function getModule(moduleId: ModuleId): ModuleDefinition | null {
 }
 
 export function getLecturesForModule(moduleId: ModuleId): LectureDefinition[] {
-  return LECTURES
-    .filter((l) => l.moduleId === moduleId)
+  return LECTURES.filter((l) => l.moduleId === moduleId)
     .slice()
     .sort((a, b) => a.index - b.index);
 }
@@ -41,7 +38,6 @@ export function getLecturesForModule(moduleId: ModuleId): LectureDefinition[] {
 export function getLecture(lectureId: LectureId): LectureDefinition | null {
   return lectureById.get(lectureId) ?? null;
 }
-
 
 export function isValidCourseId(id: string): id is CourseId {
   return courseById.has(id as CourseId);

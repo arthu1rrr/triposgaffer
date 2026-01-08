@@ -1,11 +1,10 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import { useMemo } from "react";
-import { useStudyState } from "@/lib/study/useStudyState";
-import { PageTitle } from "@/components/PageTitle";
-import { getCourse, getModulesForCourse } from "@/lib/catalog";
-import { ModuleCard } from "@/components/ModuleCard";
+import { ModuleCard } from '@/components/ModuleCard';
+import { PageTitle } from '@/components/PageTitle';
+import { getCourse, getModulesForCourse } from '@/lib/catalog';
+import { useStudyState } from '@/lib/study/useStudyState';
+import { useMemo } from 'react';
 
 export default function ModulesPage() {
   const { state, hydrated } = useStudyState();
@@ -38,7 +37,6 @@ export default function ModulesPage() {
       <PageTitle title="Modules" subtitle={`${course.name} — Part ${course.year}`} />
 
       <section className="mt-6">
-        
         <h2 className="text-xl font-semibold mb-4 text-[var(--lightshadow)]">Modules</h2>
 
         {modules.length === 0 ? (
@@ -46,15 +44,12 @@ export default function ModulesPage() {
         ) : (
           <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {modules.map((mod) => {
-              
-
               return (
                 <ModuleCard
                   key={mod.id}
                   moduleId={mod.id}
                   name={mod.name}
                   completedLectureIds={state.completedLectureIds}
-                  
                 />
               );
             })}

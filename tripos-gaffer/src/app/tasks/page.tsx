@@ -1,27 +1,26 @@
-"use client";
+'use client';
 
-import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
-import { PageTitle } from "@/components/PageTitle";
-import { useStudyState } from "@/lib/study/useStudyState";
-import type { Task, TaskPriority, TaskType } from "@/lib/study/types";
-import { uid } from "@/lib/study/id";
-import { SelectField } from "@/components/SelectField";
-import { getModulesForCourse } from "@/lib/catalog";
-import { getOverdueTasks } from "@/lib/study/planner";
-
+import { PageTitle } from '@/components/PageTitle';
+import { SelectField } from '@/components/SelectField';
+import { getModulesForCourse } from '@/lib/catalog';
+import { ModuleId } from '@/lib/catalog/types';
+import { uid } from '@/lib/study/id';
+import { getOverdueTasks } from '@/lib/study/planner';
+import type { Task, TaskPriority, TaskType } from '@/lib/study/types';
+import { useStudyState } from '@/lib/study/useStudyState';
+import Link from 'next/link';
+import { useEffect, useMemo, useState } from 'react';
 function filterButtonClass(active: boolean) {
   return `
     h-8 rounded-full px-3 text-xs transition
     border
     ${
       active
-        ? "border-[var(--blue)] bg-[var(--blue)] text-white"
-        : "border-[var(--mutedblack)] text-[var(--medshadow)] hover:border-[var(--lightshadow)]"
+        ? 'border-[var(--blue)] bg-[var(--blue)] text-white'
+        : 'border-[var(--mutedblack)] text-[var(--medshadow)] hover:border-[var(--lightshadow)]'
     }
   `;
 }
-
 
 function startOfToday(now = new Date()) {
   return new Date(now.getFullYear(), now.getMonth(), now.getDate());
@@ -40,7 +39,7 @@ function dueSortKey(task: Task) {
 }
 
 function formatDue(dueDate: string | null) {
-  if (!dueDate) return "No due date";
+  if (!dueDate) return 'No due date';
   return dueDate.slice(0, 10);
 }
 
@@ -57,14 +56,7 @@ function TaskMiniLink({ t }: { t: Task }) {
     </Link>
   );
 }
-function workPreview(t: Task) {
-  // Only supervision tasks have `work` in your model, but guard anyway.
-  const w = (t as any).work as string | undefined;
-  if (!w) return null;
-  const trimmed = w.trim();
-  if (!trimmed) return null;
-  return trimmed.length > 20 ? trimmed.slice(0, 20) + "…" : trimmed;
-}
+
 function TaskCard({
   t,
   onToggleCompleted,
@@ -72,16 +64,15 @@ function TaskCard({
   t: Task;
   onToggleCompleted: (taskId: string) => void;
 }) {
-  const preview = workPreview(t);
   const overdue = isPastDue(t);
 
   return (
     <Link
       href={`/tasks/${t.id}`}
       className={[
-        "rounded-md border bg-[var(--background)] p-4 hover:bg-[var(--mutedblack)]/20",
-        overdue ? "border-red-500/60" : "border-[var(--mutedblack)]",
-      ].join(" ")}
+        'rounded-md border bg-[var(--background)] p-4 hover:bg-[var(--mutedblack)]/20',
+        overdue ? 'border-red-500/60' : 'border-[var(--mutedblack)]',
+      ].join(' ')}
     >
       <div className="flex items-start gap-3">
         {/* Checkbox */}
@@ -93,14 +84,14 @@ function TaskCard({
             onToggleCompleted(t.id);
           }}
           className={[
-            "mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded border",
+            'mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded border',
             t.completed
-              ? "border-[var(--lightshadow)] text-[var(--lightshadow)]"
-              : "border-[var(--mutedblack)] text-[var(--lightshadow)]",
-          ].join(" ")}
-          aria-label={t.completed ? "Mark as not completed" : "Mark as completed"}
+              ? 'border-[var(--lightshadow)] text-[var(--lightshadow)]'
+              : 'border-[var(--mutedblack)] text-[var(--lightshadow)]',
+          ].join(' ')}
+          aria-label={t.completed ? 'Mark as not completed' : 'Mark as completed'}
         >
-          {t.completed ? "✓" : ""}
+          {t.completed ? '✓' : ''}
         </button>
 
         {/* Content */}
@@ -120,10 +111,6 @@ function TaskCard({
           <div className="mt-1 text-xs text-[var(--medshadow)]">
             {formatDue(t.dueDate)} • {t.type} • {t.priority}
           </div>
-
-          {preview ? (
-            <div className="mt-2 text-xs text-[var(--medshadow)]">{preview}</div>
-          ) : null}
         </div>
       </div>
     </Link>
@@ -131,9 +118,8 @@ function TaskCard({
 }
 
 export default function TasksPage() {
-  const { state,hydrated, deleteTask, createTask , toggleTaskCompleted} = useStudyState();
-  const tasks = state.tasks ?? [];
-  
+  const { state, hydrated, deleteTask, createTask, toggleTaskCompleted } = useStudyState();
+  const tasks = useMemo(() => state.tasks ?? [], [state.tasks]);
 
   // Auto-delete: past due AND completed
   useEffect(() => {
@@ -146,137 +132,129 @@ export default function TasksPage() {
   }, [tasks, deleteTask]);
 
   // Form state
-  const [title, setTitle] = useState("");
-  const [dueDate, setDueDate] = useState<string>(""); // YYYY-MM-DD from <input type="date" />
-const [priority, setPriority] = useState<TaskPriority | "">("");
-const [type, setType] = useState<TaskType | "">("");
-  const [notes, setNotes] = useState("");
-  const [moduleId, setModuleId] = useState<string>(""); // "" = none
-const [svNum, setSvNum] = useState<string>("1"); // keep as string for <select>
-const [supervisorId, setSupervisorId] = useState("");
-const [work, setWork] = useState("");
-const modulesForCourse = getModulesForCourse(state.selectedCourseId || "");
+  const [title, setTitle] = useState('');
+  const [dueDate, setDueDate] = useState<string>(''); // YYYY-MM-DD from <input type="date" />
+  const [priority, setPriority] = useState<TaskPriority | ''>('');
+  const [type, setType] = useState<TaskType | ''>('');
+  const [notes, setNotes] = useState('');
+  const [moduleId, setModuleId] = useState<string>(''); // "" = none
+  const [svNum, setSvNum] = useState<string>('1'); // keep as string for <select>
+  const [supervisorId, setSupervisorId] = useState('');
+  const [work, setWork] = useState('');
+  const modulesForCourse = getModulesForCourse(state.selectedCourseId || '');
 
   function onSubmit(e: React.FormEvent) {
-  e.preventDefault();
+    e.preventDefault();
 
-  const trimmed = title.trim();
-  if (!trimmed) return;
-  if (!priority) return;
-  if (!type) return;
-  //remove spaces from trimmed to form valid id
-  const key = trimmed.replace(/\s+/g, '_');
+    const trimmed = title.trim();
+    if (!trimmed) return;
+    if (!priority) return;
+    if (!type) return;
+    //remove spaces from trimmed to form valid id
+    const key = trimmed.replace(/\s+/g, '_');
 
-  const base = {
-    id: uid(key),
-    title: trimmed,
-    priority: priority as TaskPriority,
-    completed: false,
-    // store due date as ISO if provided
-    dueDate: dueDate ? new Date(dueDate).toISOString() : null,
-    createdAt: new Date().toISOString(),
-    notes: notes.trim() || undefined,
-  };
+    const base = {
+      id: uid(key),
+      title: trimmed,
+      priority: priority as TaskPriority,
+      completed: false,
+      // store due date as ISO if provided
+      dueDate: dueDate ? new Date(dueDate).toISOString() : null,
+      createdAt: new Date().toISOString(),
+      notes: notes.trim() || undefined,
+    };
 
-  if (type === "custom") {
-    createTask({ ...base, type: "custom" });
-  } else if (type === "tick") {
-    createTask({
-      ...base,
-      type: "tick",
-      moduleId: moduleId ? (moduleId as any) : null,
-    });
-  } else {
-    // supervision
-    const supTrim = supervisorId.trim();
-    const workTrim = work.trim();
-    if (!supTrim || !workTrim) return;
+    if (type === 'custom') {
+      createTask({ ...base, type: 'custom' });
+    } else if (type === 'tick') {
+      createTask({
+        ...base,
+        type: 'tick',
+        moduleId: moduleId ? (moduleId as ModuleId) : null,
+      });
+    } else {
+      // supervision
+      const supTrim = supervisorId.trim();
+      const workTrim = work.trim();
+      if (!supTrim || !workTrim) return;
 
-    const n = Number(svNum);
-    const safeSvNum = Number.isFinite(n) ? Math.min(4, Math.max(1, n)) : 1;
+      const n = Number(svNum);
+      const safeSvNum = Number.isFinite(n) ? Math.min(4, Math.max(1, n)) : 1;
 
-    createTask({
-      ...base,
-      type: "supervision",
-      moduleId: moduleId ? (moduleId as any) : null,
-      svNum: safeSvNum,
-      supervisorId: supTrim,
-      work: workTrim,
-    });
+      createTask({
+        ...base,
+        type: 'supervision',
+        moduleId: moduleId ? (moduleId as ModuleId) : null,
+        svNum: safeSvNum,
+        supervisorId: supTrim,
+        work: workTrim,
+      });
+    }
+
+    // reset
+    setTitle('');
+    setDueDate('');
+    setPriority('');
+    setType('');
+    setNotes('');
+    setModuleId('');
+    setSvNum('1');
+    setSupervisorId('');
+    setWork('');
   }
 
-  // reset
-  setTitle("");
-  setDueDate("");
-  setPriority("");
-  setType("");
-  setNotes("");
-  setModuleId("");
-  setSvNum("1");
-  setSupervisorId("");
-  setWork("");
-}
+  const { activeTop3, activeHighTop3 } = useMemo(() => {
+    const now = new Date();
 
-  const {
-  active,
-  activeTop3,
-  activeHighTop3,
-  completedNotPastDue,
-  pastDueNotCompleted,
-} = useMemo(() => {
-  const now = new Date();
+    const active = tasks
+      .filter((t) => !t.completed && !isPastDue(t, now))
+      .sort((a, b) => dueSortKey(a) - dueSortKey(b));
 
-  const active = tasks
-    .filter((t) => !t.completed && !isPastDue(t, now))
-    .sort((a, b) => dueSortKey(a) - dueSortKey(b));
+    const completedNotPastDue = tasks
+      .filter((t) => t.completed && !isPastDue(t, now))
+      .sort((a, b) => dueSortKey(a) - dueSortKey(b));
 
-  const completedNotPastDue = tasks
-    .filter((t) => t.completed && !isPastDue(t, now))
-    .sort((a, b) => dueSortKey(a) - dueSortKey(b));
+    const pastDueNotCompleted = tasks
+      .filter((t) => !t.completed && isPastDue(t, now))
+      // oldest due first (most overdue at top)
+      .sort((a, b) => dueSortKey(a) - dueSortKey(b));
 
-  const pastDueNotCompleted = tasks
-    .filter((t) => !t.completed && isPastDue(t, now))
-    // oldest due first (most overdue at top)
-    .sort((a, b) => dueSortKey(a) - dueSortKey(b));
+    const activeTop3 = active.slice(0, 3);
+    const activeHighTop3 = active.filter((t) => t.priority === 'high').slice(0, 3);
 
-  const activeTop3 = active.slice(0, 3);
-  const activeHighTop3 = active.filter((t) => t.priority === "high").slice(0, 3);
+    return {
+      active,
+      activeTop3,
+      activeHighTop3,
+      completedNotPastDue,
+      pastDueNotCompleted,
+    };
+  }, [tasks]);
+  type TaskFilter = 'all' | 'overdue' | 'active' | 'completed';
 
+  const [taskFilter, setTaskFilter] = useState<TaskFilter>('all');
 
-
-  return {
-    active,
-    activeTop3,
-    activeHighTop3,
-    completedNotPastDue,
-    pastDueNotCompleted,
-  };
-}, [tasks]);
-  type TaskFilter = "all" | "overdue" | "active" | "completed";
-
-const [taskFilter, setTaskFilter] = useState<TaskFilter>("all");
-
-const filteredTasks = useMemo(() => {
-  switch (taskFilter) {
-    case "overdue":
-      return getOverdueTasks(state.tasks, new Date()); // planner helper
-    case "active":
-      return state.tasks.filter((t) => !t.completed);
-    case "completed":
-      return state.tasks.filter((t) => t.completed);
-    case "all":
-    default:
-      return state.tasks;
-  }
-}, [taskFilter, state.tasks]);
+  const filteredTasks = useMemo(() => {
+    switch (taskFilter) {
+      case 'overdue':
+        return getOverdueTasks(state.tasks, new Date()); // planner helper
+      case 'active':
+        return state.tasks.filter((t) => !t.completed);
+      case 'completed':
+        return state.tasks.filter((t) => t.completed);
+      case 'all':
+      default:
+        return state.tasks;
+    }
+  }, [taskFilter, state.tasks]);
   if (!hydrated) {
-  return (
-    <main className="mx-auto w-full max-w-6xl px-4 py-8">
-      <PageTitle title="Tasks" />
-      <p className="mt-4 text-sm text-[var(--medshadow)]">Loading…</p>
-    </main>
-  );
-}
+    return (
+      <main className="mx-auto w-full max-w-6xl px-4 py-8">
+        <PageTitle title="Tasks" />
+        <p className="mt-4 text-sm text-[var(--medshadow)]">Loading…</p>
+      </main>
+    );
+  }
   if (!state.selectedCourseId) {
     return (
       <main className="mx-auto w-full max-w-6xl px-4 py-8">
@@ -355,80 +333,79 @@ const filteredTasks = useMemo(() => {
               </label>
 
               <SelectField
-  label="Priority"
-  value={priority}
-  placeholder="Select priority"
-  onChange={(v) => setPriority(v as TaskPriority)}
->
-  <option value="low">low</option>
-  <option value="medium">medium</option>
-  <option value="high">high</option>
-</SelectField>
+                label="Priority"
+                value={priority}
+                placeholder="Select priority"
+                onChange={(v) => setPriority(v as TaskPriority)}
+              >
+                <option value="low">low</option>
+                <option value="medium">medium</option>
+                <option value="high">high</option>
+              </SelectField>
             </div>
 
             <SelectField
-  label="Type"
-  value={type}
-  placeholder="Select task type"
-  onChange={(v) => setType(v as TaskType)}
->
-  <option value="custom">custom</option>
-  <option value="tick">tick</option>
-  <option value="supervision">supervision</option>
-</SelectField>
-{type === "tick" || type === "supervision" ? (
-  <SelectField
-    label="Module (optional)"
-    value={moduleId}
-    placeholder="null"
-    onChange={setModuleId}
-  >
-    {modulesForCourse.map((m) => (
-      <option key={m.id} value={m.id}>
-        {m.name}
-      </option>
-    ))}
-  </SelectField>
-) : null}
+              label="Type"
+              value={type}
+              placeholder="Select task type"
+              onChange={(v) => setType(v as TaskType)}
+            >
+              <option value="custom">custom</option>
+              <option value="tick">tick</option>
+              <option value="supervision">supervision</option>
+            </SelectField>
+            {type === 'tick' || type === 'supervision' ? (
+              <SelectField
+                label="Module (optional)"
+                value={moduleId}
+                placeholder="null"
+                onChange={setModuleId}
+              >
+                {modulesForCourse.map((m) => (
+                  <option key={m.id} value={m.id}>
+                    {m.name}
+                  </option>
+                ))}
+              </SelectField>
+            ) : null}
 
-{type === "supervision" ? (
-  <div className="grid gap-3">
-    <div className="grid grid-cols-2 gap-3">
-      <SelectField
-        label="Supervision #"
-        value={svNum}
-        placeholder="Select number"
-        onChange={setSvNum}
-      >
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-      </SelectField>
+            {type === 'supervision' ? (
+              <div className="grid gap-3">
+                <div className="grid grid-cols-2 gap-3">
+                  <SelectField
+                    label="Supervision #"
+                    value={svNum}
+                    placeholder="Select number"
+                    onChange={setSvNum}
+                  >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </SelectField>
 
-      <label className="grid gap-1">
-        <span className="text-xs text-[var(--medshadow)]">Supervisor ID</span>
-        <input
-          value={supervisorId}
-          onChange={(e) => setSupervisorId(e.target.value)}
-          className="w-full rounded-md border border-[var(--mutedblack)] bg-[var(--background)] px-3 py-2 text-sm text-[var(--lightshadow)] outline-none"
-          placeholder="e.g. crsid or name"
-        />
-      </label>
-    </div>
+                  <label className="grid gap-1">
+                    <span className="text-xs text-[var(--medshadow)]">Supervisor ID</span>
+                    <input
+                      value={supervisorId}
+                      onChange={(e) => setSupervisorId(e.target.value)}
+                      className="w-full rounded-md border border-[var(--mutedblack)] bg-[var(--background)] px-3 py-2 text-sm text-[var(--lightshadow)] outline-none"
+                      placeholder="e.g. crsid or name"
+                    />
+                  </label>
+                </div>
 
-    <label className="grid gap-1">
-      <span className="text-xs text-[var(--medshadow)]">Work</span>
-      <textarea
-        value={work}
-        onChange={(e) => setWork(e.target.value)}
-        className="min-h-[72px] w-full rounded-md border border-[var(--mutedblack)] bg-[var(--background)] px-3 py-2 text-sm text-[var(--lightshadow)] outline-none"
-        placeholder="What needs doing for this supervision?"
-      />
-    </label>
-  </div>
-) : null}
-
+                <label className="grid gap-1">
+                  <span className="text-xs text-[var(--medshadow)]">Work</span>
+                  <textarea
+                    value={work}
+                    onChange={(e) => setWork(e.target.value)}
+                    className="min-h-[72px] w-full rounded-md border border-[var(--mutedblack)] bg-[var(--background)] px-3 py-2 text-sm text-[var(--lightshadow)] outline-none"
+                    placeholder="What needs doing for this supervision?"
+                  />
+                </label>
+              </div>
+            ) : null}
 
             <label className="grid gap-1">
               <span className="text-xs text-[var(--medshadow)]">Notes (optional)</span>
@@ -443,11 +420,11 @@ const filteredTasks = useMemo(() => {
             <button
               type="submit"
               disabled={
-  !title.trim() ||
-  !priority ||
-  !type ||
-  (type === "supervision" && (!supervisorId.trim() || !work.trim()))
-}
+                !title.trim() ||
+                !priority ||
+                !type ||
+                (type === 'supervision' && (!supervisorId.trim() || !work.trim()))
+              }
               className="mt-1 inline-flex items-center justify-center rounded-md bg-[var(--blue)] px-4 py-2 text-sm text-[#e6e8f0] disabled:opacity-60"
             >
               Add
@@ -457,65 +434,54 @@ const filteredTasks = useMemo(() => {
       </section>
       {/* Task list section */}
 
-  <section className="mt-6">
-  <div className="flex flex-wrap items-center justify-between gap-3">
-    <h2 className="text-sm font-semibold text-[var(--lightshadow)]">
-      Tasks
-    </h2>
+      <section className="mt-6">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 className="text-sm font-semibold text-[var(--lightshadow)]">Tasks</h2>
 
-    <div className="flex items-center gap-2">
-      <button
-        onClick={() => setTaskFilter("all")}
-        className={filterButtonClass(taskFilter === "all")}
-      >
-        All
-      </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setTaskFilter('all')}
+              className={filterButtonClass(taskFilter === 'all')}
+            >
+              All
+            </button>
 
-      <button
-        onClick={() => setTaskFilter("overdue")}
-        className={filterButtonClass(taskFilter === "overdue")}
-      >
-        Overdue
-      </button>
+            <button
+              onClick={() => setTaskFilter('overdue')}
+              className={filterButtonClass(taskFilter === 'overdue')}
+            >
+              Overdue
+            </button>
 
-      <button
-        onClick={() => setTaskFilter("active")}
-        className={filterButtonClass(taskFilter === "active")}
-      >
-        Active
-      </button>
+            <button
+              onClick={() => setTaskFilter('active')}
+              className={filterButtonClass(taskFilter === 'active')}
+            >
+              Active
+            </button>
 
-      <button
-        onClick={() => setTaskFilter("completed")}
-        className={filterButtonClass(taskFilter === "completed")}
-      >
-        Completed
-      </button>
+            <button
+              onClick={() => setTaskFilter('completed')}
+              className={filterButtonClass(taskFilter === 'completed')}
+            >
+              Completed
+            </button>
 
-      <div className="ml-2 text-xs text-[var(--medshadow)]">
-        {filteredTasks.length} 
-      </div>
-    </div>
-  </div>
-  {filteredTasks.length === 0 ? (
-    <div className="mt-3 rounded-md border border-[var(--mutedblack)] bg-[var(--background)] p-4 text-sm text-[var(--medshadow)]">
-      No tasks match this filter.
-    </div>
-  ) : (
-    <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      {filteredTasks.map((t) => (
-        <TaskCard
-          key={t.id}
-          t={t}
-          onToggleCompleted={toggleTaskCompleted}
-        />
-      ))}
-    </div>
-  )}
-</section>
-
-
-
+            <div className="ml-2 text-xs text-[var(--medshadow)]">{filteredTasks.length}</div>
+          </div>
+        </div>
+        {filteredTasks.length === 0 ? (
+          <div className="mt-3 rounded-md border border-[var(--mutedblack)] bg-[var(--background)] p-4 text-sm text-[var(--medshadow)]">
+            No tasks match this filter.
+          </div>
+        ) : (
+          <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {filteredTasks.map((t) => (
+              <TaskCard key={t.id} t={t} onToggleCompleted={toggleTaskCompleted} />
+            ))}
+          </div>
+        )}
+      </section>
     </main>
   );
 }
