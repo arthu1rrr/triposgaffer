@@ -5,7 +5,7 @@ import { useStudyState } from "@/lib/study/useStudyState";
 import { PageTitle } from "@/components/PageTitle";
 import { SelectField } from "@/components/SelectField";
 import { Button } from "@/components/Button";
-import { COURSE_OPTIONS } from "@/lib/catalog/courses";
+import { COURSE_OPTIONS } from "@/lib/catalog/CourseOptions";
 import { COURSES, getCourse, getModulesForCourse, getLecturesForModule } from "@/lib/catalog/index";
 import type { CourseId, Year } from "@/lib/catalog/types";
 import { getModuleMetrics } from "@/lib/study/metrics";
