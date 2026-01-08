@@ -23,7 +23,9 @@ export default function ModuleDetailPage() {
   }, [lectures, state.completedLectureIds]);
 
   const pct = lectures.length === 0 ? 0 : Math.round((completedCount / lectures.length) * 100);
-  
+  const allCompleted = lectures.every(
+  (lec) => state.completedLectureIds[lec.id]
+);
   const metrics = getModuleMetrics(
   moduleId,
   lectures,
@@ -140,8 +142,36 @@ export default function ModuleDetailPage() {
         </section>
 
       <section className="mt-8">
-        <h2 className="text-lg font-semibold text-[var(--lightshadow)]">Lectures</h2>
+        <div className="flex items-center justify-between">
+    <h2 className="text-lg font-semibold text-[var(--lightshadow)]">
+      Lectures
+    </h2>
 
+    <button
+      type="button"
+      onClick={() => {
+        lectures.forEach((lec) => {
+          const isDone = Boolean(state.completedLectureIds[lec.id]);
+
+          // if all are completed → unset all
+          // otherwise → set all
+          if (allCompleted && isDone) {
+            toggleLectureCompleted(lec.id);
+          } else if (!allCompleted && !isDone) {
+            toggleLectureCompleted(lec.id);
+          }
+        });
+      }}
+      className="
+        text-sm
+        text-[var(--medshadow)]
+        hover:text-[var(--lightshadow)]
+        transition-colors
+      "
+    >
+      {allCompleted ? "Mark all incomplete" : "Mark all complete"}
+    </button>
+  </div>
         {lectures.length === 0 ? (
           <p className="mt-2 text-sm text-[var(--medshadow)]">No lectures found.</p>
         ) : (

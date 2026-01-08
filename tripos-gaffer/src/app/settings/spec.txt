@@ -1,0 +1,6 @@
+Settings Page:
+profile tab with all stored personal information visible (name, email)
+(empty until sign in added)
+current course
+change course action, change year 
+reset/delete all data
