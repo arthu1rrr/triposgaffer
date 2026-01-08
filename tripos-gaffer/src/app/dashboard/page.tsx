@@ -135,30 +135,7 @@ export default function DashboardPage() {
   </div>
 
       </section>
-      <section className="mt-6">
-        
-        <h2 className="text-xl font-semibold mb-4 text-[var(--lightshadow)]">Modules</h2>
-
-        {modulesForCourse.length === 0 ? (
-          <p className="text-[var(--lightshadow)]">No modules found for this course.</p>
-        ) : (
-          <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {modulesForCourse.map((mod) => {
-              
-
-              return (
-                <ModuleCard
-                  key={mod.id}
-                  moduleId={mod.id}
-                  name={mod.name}
-                  completedLectureIds={state.completedLectureIds}
-                  
-                />
-              );
-            })}
-          </div>
-        )}
-      </section>
+      
     </main>
   );
 }

@@ -12,8 +12,8 @@
 ## 1) Data model
 - [x] Define `Module` type
 - [x] Define `Lecture` type
-- [ ] Define `Task` type
-- [ ] Define enums for task `type` and `priority`
+- [x] Define `Task` type
+- [x] Define enums for task `type` and `priority` #I think
 - [ ] Add optional placeholder type for recurring tasks
 - [ ] Document “minimal data” policy (`/docs/data-policy.md`)
 
@@ -21,11 +21,11 @@
 
 ## 2) Local-first persistence (Phase 1)
 - [x] Choose storage solution (IndexedDB or localStorage)
-- [ ] Implement persistence layer:
+- [x] Implement persistence layer:
   - [x] Load all data
   - [x] Upsert / delete modules
   - [x] Upsert / delete lectures
-  - [ ] Upsert / delete tasks
+  - [x] Upsert / delete tasks
 - [x] Add storage versioning / migrations
 - [ ] Implement export to JSON
 - [ ] Implement import from JSON
@@ -50,21 +50,21 @@
 - [x] Build Module detail page #BASIC FOR TESTING
 - [x] Implement per-lecture checklist
 - [x] Add per-lecture time estimates
-- [ ] Add difficulty rating
-- [ ] Add comfortability rating
+- [x] Add difficulty rating
+- [x] Add comfortability rating
 
 
 ---
 
 ## 5) Task tracking
-- [ ] Build Tasks page
-- [ ] Create tasks with required due date
-- [ ] Toggle task completion
-- [ ] Edit task fields
-- [ ] Delete tasks
+- [x] Build Tasks page
+- [x] Create tasks with required due date
+- [x] Toggle task completion
+- [x] Edit task fields
+- [x] Delete tasks
 - [ ] Add filters (type, priority)
 - [ ] Add sorting (due date, priority)
-- [ ] Add quick-add task input
+- [x] Add quick-add task input
 
 ---
 
@@ -81,7 +81,7 @@
 ---
 
 ## 7) UX & quality
-- [ ] Add empty states (no modules / no tasks)
+- [x] Add empty states (no modules / no tasks)
 - [ ] Add confirmation dialogs for destructive actions
 - [ ] Ensure consistent date formatting
 - [ ] Keyboard accessibility for checklists and buttons
