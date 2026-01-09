@@ -10,7 +10,9 @@ export function useStudyState() {
   // Rehydrate on first client mount
   useEffect(() => {
     const next = loadState();   // now window exists
+        // eslint-disable-next-line react-hooks/set-state-in-effect
     setState(next);
+    
     setHydrated(true);
   }, []);
 

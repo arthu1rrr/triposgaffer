@@ -1,4 +1,3 @@
-import { index } from "drizzle-orm/gel-core";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -35,14 +34,13 @@ if (!Array.isArray(data.events)) {
 }
 
 // --- print first event ---
-const firstEvent = data.events[0];
 
 // Process Data 
 let allLectures = data.events
 
 // modules is the set of displayName attributes from all lectures
 
-const modules = new Set(
+const modules: Set<string> = new Set(
     allLectures.map((lecture: RawLecture) => lecture.displayName)
 );
 
@@ -76,7 +74,7 @@ allLectures = allLectures.map((lecture: RawLecture) => {
     };
 });
 // rename field displayName to module
-allLectures = allLectures.map((lecture: any) => {
+allLectures = allLectures.map((lecture: { displayName: string; start: string; end: string }) => {
     return {
         module: lecture.displayName,
         start: lecture.start,
@@ -84,7 +82,7 @@ allLectures = allLectures.map((lecture: any) => {
     };
 });
 // Add a duration field in minutes
-allLectures = allLectures.map((lecture: any) => {
+allLectures = allLectures.map((lecture: { module: string; start: string; end: string }) => {
     const start = new Date(lecture.start);
     const end = new Date(lecture.end);
     const length_minutes = (end.getTime() - start.getTime()) / (1000 * 60); // duration in minutes
@@ -95,7 +93,7 @@ allLectures = allLectures.map((lecture: any) => {
 });
 
 //sort lectures by module and then by start date
-allLectures = allLectures.sort((a: any, b: any) => {
+allLectures = allLectures.sort((a: { module: string; start: string; end: string }, b: { module: string; start: string; end: string }) => {
     if (a.module < b.module) return -1;
     if (a.module > b.module) return 1;
     // same module, sort by start date
@@ -108,7 +106,7 @@ allLectures = allLectures.sort((a: any, b: any) => {
 
 
 const moduleLectureCounts: { [module: string]: number } = {};
-allLectures = allLectures.map((lecture: any) => {
+allLectures = allLectures.map((lecture: { module: string; start: string; end: string }) => {
     const module = lecture.module;
     if (!moduleLectureCounts[module]) {
         moduleLectureCounts[module] = 1;
@@ -122,7 +120,7 @@ allLectures = allLectures.map((lecture: any) => {
 });
 
 // create title field as Module + " #" + index
-allLectures = allLectures.map((lecture: any) => {
+allLectures = allLectures.map((lecture: { module: string; start: string; end: string; index: number }) => {
     return {
         ...lecture,
         title: `${lecture.module} #${lecture.index}`
@@ -130,7 +128,7 @@ allLectures = allLectures.map((lecture: any) => {
 });
 
 // produce module JSON list with fields id, courseId, year, name
-const modulesList = Array.from(modules).map((module: any) => {
+const modulesList = Array.from(modules).map((module: string) => {
     return {
         id: `cs-tripos-ia-module-${module.replace(/\s+/g, "-").toLowerCase()}`,
         courseId: "cs-tripos",
@@ -140,7 +138,7 @@ const modulesList = Array.from(modules).map((module: any) => {
 });
 
 //produce lectures JSON list with fields id, moduleId, title, date, lengthMinutes
-const lecturesList = allLectures.map((lecture: any) => {
+const lecturesList = allLectures.map((lecture: { module: string; start: string; end: string; index: number; title: string; length_minutes: number }) => {
     return {
         id: `cs-tripos-ia-${lecture.module.replace(/\s+/g, "-").toLowerCase()}-${String(lecture.index).padStart(2, "0")}`,
         moduleId: `cs-tripos-ia-module-${lecture.module.replace(/\s+/g, "-").toLowerCase()}`,

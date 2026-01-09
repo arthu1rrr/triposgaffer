@@ -15,6 +15,9 @@ const eslintConfig = defineConfig([
     'out/**',
     'build/**',
     'next-env.d.ts',
+    // Custom ignores:
+    'scripts/**',
+    'src/app/api/catalog/**'
   ]),
 ]);
 

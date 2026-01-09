@@ -1,33 +1,78 @@
 'use client';
 
 import { PageTitle } from '@/components/PageTitle';
-import { getLecturesForModule, getModule } from '@/lib/catalog';
-import { ModuleId } from '@/lib/catalog/types';
+import { catalogClient } from '@/lib/catalog/client';
+import type { LectureDefinition, ModuleDefinition, ModuleId } from '@/lib/catalog/types';
 import { getModuleMetrics } from '@/lib/study/metrics';
 import type { Rating10 } from '@/lib/study/types';
 import { useStudyState } from '@/lib/study/useStudyState';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+
+type LoadState =
+  | { status: 'loading' }
+  | { status: 'loaded'; module: ModuleDefinition; lectures: LectureDefinition[] }
+  | { status: 'not_found' }
+  | { status: 'error'; message: string };
 
 export default function ModuleDetailPage() {
   const params = useParams<{ moduleId: string }>();
-  const moduleId = params.moduleId;
+  const moduleId = params.moduleId as ModuleId;
 
   const { state, hydrated, toggleLectureCompleted, setModuleRatings } = useStudyState();
+  const [load, setLoad] = useState<LoadState>({ status: 'loading' });
 
-  const modulex = useMemo(() => getModule(moduleId as ModuleId), [moduleId]);
-  const lectures = useMemo(() => getLecturesForModule(moduleId as ModuleId), [moduleId]);
+  useEffect(() => {
+    let cancelled = false;
+    setLoad({ status: 'loading' });
 
+    (async () => {
+      try {
+        const [mod, lecs] = await Promise.all([
+          catalogClient.getModule(moduleId),
+          catalogClient.listLecturesForModule(moduleId),
+        ]);
+
+        if (cancelled) return;
+
+        // NOTE: this only works if getModule returns falsy on not found.
+        // If it throws on 404, you'll go to catch and show "error" instead.
+        if (!mod) {
+          setLoad({ status: 'not_found' });
+          return;
+        }
+
+        setLoad({ status: 'loaded', module: mod, lectures: lecs ?? [] });
+      } catch (e) {
+        if (cancelled) return;
+        setLoad({
+          status: 'error',
+          message: e instanceof Error ? e.message : 'Unknown error',
+        });
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [moduleId]);
+
+  // ✅ derive these BEFORE any returns so hooks below can run every render
+  const modulex = load.status === 'loaded' ? load.module : null;
+  const lectures = load.status === 'loaded' ? load.lectures : [];
+
+  // ✅ hooks must always run (even while loading)
   const completedCount = useMemo(() => {
     return lectures.filter((l) => state.completedLectureIds[l.id]).length;
   }, [lectures, state.completedLectureIds]);
 
   const pct = lectures.length === 0 ? 0 : Math.round((completedCount / lectures.length) * 100);
-  const allCompleted = lectures.every((lec) => state.completedLectureIds[lec.id]);
+  const allCompleted = lectures.length > 0 && lectures.every((lec) => state.completedLectureIds[lec.id]);
   const metrics = getModuleMetrics(moduleId, lectures, state.completedLectureIds);
 
-  if (!hydrated) {
+  // ---- now it's safe to return early ----
+  if (!hydrated || load.status === 'loading') {
     return (
       <main className="mx-auto max-w-4xl px-4 py-8">
         <PageTitle title="Module" subtitle="Loading…" />
@@ -35,7 +80,7 @@ export default function ModuleDetailPage() {
     );
   }
 
-  if (!modulex) {
+  if (load.status === 'not_found') {
     return (
       <main className="mx-auto max-w-4xl px-4 py-8">
         <PageTitle title="Module not found" subtitle="This module doesn’t exist in the catalog." />
@@ -49,15 +94,28 @@ export default function ModuleDetailPage() {
     );
   }
 
+  if (load.status === 'error') {
+    return (
+      <main className="mx-auto max-w-4xl px-4 py-8">
+        <PageTitle title="Couldn’t load module" subtitle={load.message} />
+        <Link
+          href="/dashboard"
+          className="mt-4 inline-block text-sm text-[var(--lightshadow)] underline underline-offset-4"
+        >
+          Back to dashboard
+        </Link>
+      </main>
+    );
+  }
+
   return (
     <main className="mx-auto max-w-4xl px-4 py-8">
       <PageTitle
-        title={modulex.name}
-        subtitle={`  ${metrics.completedLectures}/${metrics.totalLectures} Lectures Complete • ${metrics.backlogMinutes} min left
-`}
+        title={modulex!.name}
+        subtitle={`${metrics.completedLectures}/${metrics.totalLectures} Lectures Complete • ${metrics.backlogMinutes} min left`}
       />
 
-      <div className="mt-4 h-2 w-full rounded-full bg-[var(--mutedblack)] overflow-hidden">
+      <div className="mt-4 h-2 w-full overflow-hidden rounded-full bg-[var(--mutedblack)]">
         <div className="h-full bg-[var(--lightshadow)]" style={{ width: `${pct}%` }} />
       </div>
 
@@ -136,8 +194,6 @@ export default function ModuleDetailPage() {
               lectures.forEach((lec) => {
                 const isDone = Boolean(state.completedLectureIds[lec.id]);
 
-                // if all are completed → unset all
-                // otherwise → set all
                 if (allCompleted && isDone) {
                   toggleLectureCompleted(lec.id);
                 } else if (!allCompleted && !isDone) {
@@ -145,16 +201,13 @@ export default function ModuleDetailPage() {
                 }
               });
             }}
-            className="
-        text-sm
-        text-[var(--medshadow)]
-        hover:text-[var(--lightshadow)]
-        transition-colors
-      "
+            className="text-sm text-[var(--medshadow)] transition-colors hover:text-[var(--lightshadow)]"
+            disabled={lectures.length === 0}
           >
             {allCompleted ? 'Mark all incomplete' : 'Mark all complete'}
           </button>
         </div>
+
         {lectures.length === 0 ? (
           <p className="mt-2 text-sm text-[var(--medshadow)]">No lectures found.</p>
         ) : (
