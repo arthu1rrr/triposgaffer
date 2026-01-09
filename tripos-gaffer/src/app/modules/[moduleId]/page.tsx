@@ -109,7 +109,7 @@ export default function ModuleDetailPage() {
   }
 
   return (
-    <main className="mx-auto max-w-4xl px-4 py-8">
+    <main className="mx-auto max-w-4xl px-4 py">
       <PageTitle
         title={modulex!.name}
         subtitle={`${metrics.completedLectures}/${metrics.totalLectures} Lectures Complete • ${metrics.backlogMinutes} min left`}

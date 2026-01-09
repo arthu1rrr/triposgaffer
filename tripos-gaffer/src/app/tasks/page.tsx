@@ -2,7 +2,9 @@
 
 import { PageTitle } from '@/components/PageTitle';
 import { SelectField } from '@/components/SelectField';
-import { getModulesForCourse } from '@/lib/catalog';
+import { catalogClient } from '@/lib/catalog/client';
+import type { ModuleDefinition } from '@/lib/catalog/types';
+// remove: import { getModulesForCourse } from '@/lib/catalog';
 import { ModuleId } from '@/lib/catalog/types';
 import { uid } from '@/lib/study/id';
 import { getOverdueTasks } from '@/lib/study/planner';
@@ -120,7 +122,46 @@ function TaskCard({
 export default function TasksPage() {
   const { state, hydrated, deleteTask, createTask, toggleTaskCompleted } = useStudyState();
   const tasks = useMemo(() => state.tasks ?? [], [state.tasks]);
+  type ModulesLoad =
+  | { status: 'idle' }
+  | { status: 'loading' }
+  | { status: 'loaded'; modules: ModuleDefinition[] }
+  | { status: 'error'; message: string };
 
+const [modulesLoad, setModulesLoad] = useState<ModulesLoad>({ status: 'idle' });
+
+useEffect(() => {
+  if (!hydrated) return;
+  if (!state.selectedCourseId) return;
+
+  let cancelled = false;
+
+  async function run() {
+    setModulesLoad({ status: 'loading' });
+    try {
+      if (state.selectedCourseId === null) {
+        const mods = [];
+        return;
+      }
+    
+      const mods = await catalogClient.listModulesForCourse(state.selectedCourseId);
+      
+      if (cancelled) return;
+      setModulesLoad({ status: 'loaded', modules: mods });
+    } catch (e) {
+      if (cancelled) return;
+      setModulesLoad({
+        status: 'error',
+        message: e instanceof Error ? e.message : 'Failed to load modules',
+      });
+    }
+  }
+
+  run();
+  return () => {
+    cancelled = true;
+  };
+}, [hydrated, state.selectedCourseId]);
   // Auto-delete: past due AND completed
   useEffect(() => {
     const now = new Date();
@@ -141,8 +182,8 @@ export default function TasksPage() {
   const [svNum, setSvNum] = useState<string>('1'); // keep as string for <select>
   const [supervisorId, setSupervisorId] = useState('');
   const [work, setWork] = useState('');
-  const modulesForCourse = getModulesForCourse(state.selectedCourseId || '');
-
+const modulesForCourse =
+  modulesLoad.status === 'loaded' ? modulesLoad.modules : []
   function onSubmit(e: React.FormEvent) {
     e.preventDefault();
 
@@ -235,18 +276,18 @@ export default function TasksPage() {
   const [taskFilter, setTaskFilter] = useState<TaskFilter>('all');
 
   const filteredTasks = useMemo(() => {
-    switch (taskFilter) {
-      case 'overdue':
-        return getOverdueTasks(state.tasks, new Date()); // planner helper
-      case 'active':
-        return state.tasks.filter((t) => !t.completed);
-      case 'completed':
-        return state.tasks.filter((t) => t.completed);
-      case 'all':
-      default:
-        return state.tasks;
-    }
-  }, [taskFilter, state.tasks]);
+  switch (taskFilter) {
+    case 'overdue':
+      return getOverdueTasks(tasks, new Date());
+    case 'active':
+      return tasks.filter((t) => !t.completed);
+    case 'completed':
+      return tasks.filter((t) => t.completed);
+    case 'all':
+    default:
+      return tasks;
+  }
+}, [taskFilter, tasks]);
   if (!hydrated) {
     return (
       <main className="mx-auto w-full max-w-6xl px-4 py-8">
@@ -361,6 +402,7 @@ export default function TasksPage() {
                 placeholder="null"
                 onChange={setModuleId}
               >
+                <option value="">None</option>
                 {modulesForCourse.map((m) => (
                   <option key={m.id} value={m.id}>
                     {m.name}

@@ -1,22 +1,33 @@
 'use client';
 
+import { Button } from '@/components/Button';
 import { PageTitle } from '@/components/PageTitle';
+import { SelectField } from '@/components/SelectField';
+import { catalogClient } from '@/lib/catalog/client';
+import type { ModuleDefinition, ModuleId } from '@/lib/catalog/types';
 import type { SupervisionTask, Task, TaskPriority, TickTask } from '@/lib/study/types';
 import { useStudyState } from '@/lib/study/useStudyState';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { useMemo } from 'react';
-
-import { Button } from '@/components/Button';
-import { SelectField } from '@/components/SelectField';
-import { getModulesForCourse } from '@/lib/catalog';
-import type { ModuleDefinition, ModuleId } from '@/lib/catalog/types';
+import { useEffect, useMemo, useState } from 'react';
 
 function formatTypeLabel(t: string) {
   if (t === 'custom') return 'Custom';
   if (t === 'tick') return 'Tick';
   if (t === 'supervision') return 'Supervision';
   return t;
+}
+
+type ModulesLoad =
+  | { status: 'idle' }
+  | { status: 'loading' }
+  | { status: 'loaded'; modules: ModuleDefinition[] }
+  | { status: 'error'; message: string };
+
+function isoToDateInputValue(iso: string | null | undefined) {
+  if (!iso) return '';
+  // ISO like 2026-01-09T12:34:56Z -> 2026-01-09
+  return iso.slice(0, 10);
 }
 
 export default function TaskDetailPage() {
@@ -26,15 +37,47 @@ export default function TaskDetailPage() {
 
   const { state, hydrated, deleteTask, toggleTaskCompleted, updateTask } = useStudyState();
 
-  const modulesForCourse = useMemo<ModuleDefinition[]>(() => {
-    if (!state.selectedCourseId) return [];
-    return getModulesForCourse(state.selectedCourseId);
-  }, [state.selectedCourseId]);
+  const tasks = useMemo(() => state.tasks ?? [], [state.tasks]);
 
   const task = useMemo<Task | undefined>(
-    () => state.tasks.find((t) => t.id === taskId),
-    [state.tasks, taskId],
+    () => tasks.find((t) => t.id === taskId),
+    [tasks, taskId],
   );
+
+  const [modulesLoad, setModulesLoad] = useState<ModulesLoad>({ status: 'idle' });
+
+  useEffect(() => {
+    if (!hydrated) return;
+    if (!state.selectedCourseId) return;
+
+    let cancelled = false;
+
+    async function run() {
+      setModulesLoad({ status: 'loading' });
+      try {
+        if (state.selectedCourseId === null) {
+          const mods = [];
+          return;
+        }
+        const mods = await catalogClient.listModulesForCourse(state.selectedCourseId);
+        if (cancelled) return;
+        setModulesLoad({ status: 'loaded', modules: mods });
+      } catch (e) {
+        if (cancelled) return;
+        setModulesLoad({
+          status: 'error',
+          message: e instanceof Error ? e.message : 'Failed to load modules',
+        });
+      }
+    }
+
+    run();
+    return () => {
+      cancelled = true;
+    };
+  }, [hydrated, state.selectedCourseId]);
+
+  const modulesForCourse = modulesLoad.status === 'loaded' ? modulesLoad.modules : [];
 
   if (!hydrated) {
     return (
@@ -59,11 +102,14 @@ export default function TaskDetailPage() {
     );
   }
 
-  const dueValue = task.dueDate ?? '';
+  const dueInputValue = isoToDateInputValue(task.dueDate);
 
   return (
-    <main className="mx-auto w-full max-w-3xl px-4 py-6">
-      <PageTitle title={task.title} subtitle={dueValue ? dueValue.slice(0, 10) : 'No due date'} />
+    <main className="mx-auto w-full max-w-3xl px-4 ">
+      <PageTitle
+        title={task.title}
+        subtitle={dueInputValue ? dueInputValue : 'No due date'}
+      />
 
       {/* Details card */}
       <div className="mt-6 rounded-md border border-[var(--mutedblack)] bg-[var(--background)] p-4">
@@ -119,10 +165,11 @@ export default function TaskDetailPage() {
               <span className="text-xs text-[var(--medshadow)]">Due date</span>
               <input
                 type="date"
-                value={dueValue}
+                value={dueInputValue}
                 onChange={(e) =>
                   updateTask(task.id, {
-                    dueDate: e.target.value ? e.target.value : null,
+                    // keep storage consistent: ISO or null
+                    dueDate: e.target.value ? new Date(e.target.value).toISOString() : null,
                   })
                 }
                 className="w-full rounded-md border border-[var(--mutedblack)] bg-[var(--background)] px-3 py-2 text-sm text-[var(--lightshadow)] outline-none"
@@ -153,23 +200,34 @@ export default function TaskDetailPage() {
 
           {/* Module (tick + supervision) */}
           {task.type === 'tick' || task.type === 'supervision' ? (
-            <SelectField
-              label="Module (optional)"
-              value={task.moduleId ?? ''}
-              placeholder="Select module"
-              onChange={(v) =>
-                updateTask(task.id, {
-                  moduleId: (v ? (v as ModuleId) : null) satisfies ModuleId | null,
-                } as Partial<TickTask | SupervisionTask>)
-              }
-            >
-              <option value="">-</option>
-              {modulesForCourse.map((m) => (
-                <option key={m.id} value={m.id}>
-                  {m.name}
-                </option>
-              ))}
-            </SelectField>
+            <>
+              <SelectField
+                label="Module (optional)"
+                value={task.moduleId ?? ''}
+                placeholder="Select module"
+                onChange={(v) =>
+                  updateTask(
+                    task.id,
+                    {
+                      moduleId: (v ? (v as ModuleId) : null) satisfies ModuleId | null,
+                    } as Partial<TickTask | SupervisionTask>,
+                  )
+                }
+              >
+                <option value="">None</option>
+                {modulesForCourse.map((m) => (
+                  <option key={m.id} value={m.id}>
+                    {m.name}
+                  </option>
+                ))}
+              </SelectField>
+
+              {modulesLoad.status === 'loading' ? (
+                <div className="-mt-2 text-xs text-[var(--medshadow)]">Loading modules…</div>
+              ) : modulesLoad.status === 'error' ? (
+                <div className="-mt-2 text-xs text-red-400">{modulesLoad.message}</div>
+              ) : null}
+            </>
           ) : null}
 
           {/* Supervision-only fields */}
@@ -181,9 +239,13 @@ export default function TaskDetailPage() {
                   value={task.svNum ? String(task.svNum) : ''}
                   placeholder="Select number"
                   onChange={(v) =>
-                    updateTask(task.id, {
-                      svNum: v ? Number(v) : 0,
-                    } as Partial<SupervisionTask>)
+                    updateTask(
+                      task.id,
+                      {
+                        // keep within 1..4, or 0 if blank (but you might prefer null)
+                        svNum: v ? Number(v) : 0,
+                      } as Partial<SupervisionTask>,
+                    )
                   }
                 >
                   <option value="">-</option>
@@ -198,9 +260,10 @@ export default function TaskDetailPage() {
                   <input
                     value={task.supervisorId ?? ''}
                     onChange={(e) =>
-                      updateTask(task.id, {
-                        supervisorId: e.target.value,
-                      } as Partial<SupervisionTask>)
+                      updateTask(
+                        task.id,
+                        { supervisorId: e.target.value } as Partial<SupervisionTask>,
+                      )
                     }
                     className="w-full rounded-md border border-[var(--mutedblack)] bg-[var(--background)] px-3 py-2 text-sm text-[var(--lightshadow)] outline-none"
                     placeholder="e.g. crsid or name"
@@ -213,9 +276,7 @@ export default function TaskDetailPage() {
                 <textarea
                   value={task.work ?? ''}
                   onChange={(e) =>
-                    updateTask(task.id, {
-                      work: e.target.value,
-                    } as Partial<SupervisionTask>)
+                    updateTask(task.id, { work: e.target.value } as Partial<SupervisionTask>)
                   }
                   className="min-h-[72px] w-full rounded-md border border-[var(--mutedblack)] bg-[var(--background)] px-3 py-2 text-sm text-[var(--lightshadow)] outline-none"
                   placeholder="What needs doing for this supervision?"
