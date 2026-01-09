@@ -1,0 +1,1802 @@
+{
+  "modules": [
+    {
+      "id": "cs-tripos-ib-module-complexity-theory",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Complexity Theory"
+    },
+    {
+      "id": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Concurrent and Distributed Systems"
+    },
+    {
+      "id": "cs-tripos-ib-module-computer-networking",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Computer Networking"
+    },
+    {
+      "id": "cs-tripos-ib-module-computation-theory",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Computation Theory"
+    },
+    {
+      "id": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Introduction to Computer Architecture"
+    },
+    {
+      "id": "cs-tripos-ib-module-artificial-intelligence",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Artificial Intelligence"
+    },
+    {
+      "id": "cs-tripos-ib-module-further-graphics",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Further Graphics"
+    },
+    {
+      "id": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Semantics of Programming Languages"
+    },
+    {
+      "id": "cs-tripos-ib-module-economics-law-and-ethics",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Economics Law and Ethics"
+    },
+    {
+      "id": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Programming in C and C++"
+    },
+    {
+      "id": "cs-tripos-ib-module-cybersecurity",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Cybersecurity"
+    },
+    {
+      "id": "cs-tripos-ib-module-logic-and-proof",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Logic and Proof"
+    },
+    {
+      "id": "cs-tripos-ib-module-prolog",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Prolog"
+    },
+    {
+      "id": "cs-tripos-ib-module-further-human-computer-interaction",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Further Human-computer Interaction"
+    },
+    {
+      "id": "cs-tripos-ib-module-formal-models-of-language",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Formal Models of Language"
+    },
+    {
+      "id": "cs-tripos-ib-module-data-science",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Data Science"
+    },
+    {
+      "id": "cs-tripos-ib-module-compiler-construction",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Compiler Construction"
+    },
+    {
+      "id": "cs-tripos-ib-module-unix-tools",
+      "courseId": "cs-tripos",
+      "year": "IB",
+      "name": "Unix Tools"
+    }
+  ],
+  "lectures": [
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-01",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #1",
+      "index": 1,
+      "date": "2026-05-01",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-02",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #2",
+      "index": 2,
+      "date": "2026-05-06",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-03",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #3",
+      "index": 3,
+      "date": "2026-05-08",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-04",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #4",
+      "index": 4,
+      "date": "2026-05-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-05",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #5",
+      "index": 5,
+      "date": "2026-05-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-06",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #6",
+      "index": 6,
+      "date": "2026-05-15",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-07",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #7",
+      "index": 7,
+      "date": "2026-05-18",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-08",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #8",
+      "index": 8,
+      "date": "2026-05-20",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-09",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #9",
+      "index": 9,
+      "date": "2026-05-22",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-10",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #10",
+      "index": 10,
+      "date": "2026-05-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-artificial-intelligence-11",
+      "moduleId": "cs-tripos-ib-module-artificial-intelligence",
+      "title": "Artificial Intelligence #11",
+      "index": 11,
+      "date": "2026-05-29",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-01",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #1",
+      "index": 1,
+      "date": "2026-01-23",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-02",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #2",
+      "index": 2,
+      "date": "2026-01-26",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-03",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #3",
+      "index": 3,
+      "date": "2026-01-28",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-04",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #4",
+      "index": 4,
+      "date": "2026-01-30",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-05",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #5",
+      "index": 5,
+      "date": "2026-02-02",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-06",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #6",
+      "index": 6,
+      "date": "2026-02-04",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-07",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #7",
+      "index": 7,
+      "date": "2026-02-06",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-08",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #8",
+      "index": 8,
+      "date": "2026-02-09",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-09",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #9",
+      "index": 9,
+      "date": "2026-02-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-10",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #10",
+      "index": 10,
+      "date": "2026-02-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-11",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #11",
+      "index": 11,
+      "date": "2026-02-16",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-12",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #12",
+      "index": 12,
+      "date": "2026-02-18",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-13",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #13",
+      "index": 13,
+      "date": "2026-02-20",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-14",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #14",
+      "index": 14,
+      "date": "2026-02-23",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-15",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #15",
+      "index": 15,
+      "date": "2026-02-25",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-compiler-construction-16",
+      "moduleId": "cs-tripos-ib-module-compiler-construction",
+      "title": "Compiler Construction #16",
+      "index": 16,
+      "date": "2026-02-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-01",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #1",
+      "index": 1,
+      "date": "2026-05-01",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-02",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #2",
+      "index": 2,
+      "date": "2026-05-06",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-03",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #3",
+      "index": 3,
+      "date": "2026-05-08",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-04",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #4",
+      "index": 4,
+      "date": "2026-05-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-05",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #5",
+      "index": 5,
+      "date": "2026-05-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-06",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #6",
+      "index": 6,
+      "date": "2026-05-15",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-07",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #7",
+      "index": 7,
+      "date": "2026-05-18",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-08",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #8",
+      "index": 8,
+      "date": "2026-05-20",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-09",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #9",
+      "index": 9,
+      "date": "2026-05-22",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-10",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #10",
+      "index": 10,
+      "date": "2026-05-26",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-11",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #11",
+      "index": 11,
+      "date": "2026-05-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-complexity-theory-12",
+      "moduleId": "cs-tripos-ib-module-complexity-theory",
+      "title": "Complexity Theory #12",
+      "index": 12,
+      "date": "2026-05-29",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-01",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #1",
+      "index": 1,
+      "date": "2026-01-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-02",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #2",
+      "index": 2,
+      "date": "2026-01-29",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-03",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #3",
+      "index": 3,
+      "date": "2026-02-03",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-04",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #4",
+      "index": 4,
+      "date": "2026-02-05",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-05",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #5",
+      "index": 5,
+      "date": "2026-02-10",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-06",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #6",
+      "index": 6,
+      "date": "2026-02-12",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-07",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #7",
+      "index": 7,
+      "date": "2026-02-17",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-08",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #8",
+      "index": 8,
+      "date": "2026-02-19",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-09",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #9",
+      "index": 9,
+      "date": "2026-02-24",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-10",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #10",
+      "index": 10,
+      "date": "2026-02-26",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-11",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #11",
+      "index": 11,
+      "date": "2026-03-03",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computation-theory-12",
+      "moduleId": "cs-tripos-ib-module-computation-theory",
+      "title": "Computation Theory #12",
+      "index": 12,
+      "date": "2026-03-05",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-01",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #1",
+      "index": 1,
+      "date": "2026-01-23",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-02",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #2",
+      "index": 2,
+      "date": "2026-01-26",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-03",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #3",
+      "index": 3,
+      "date": "2026-01-28",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-04",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #4",
+      "index": 4,
+      "date": "2026-01-30",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-05",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #5",
+      "index": 5,
+      "date": "2026-02-02",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-06",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #6",
+      "index": 6,
+      "date": "2026-02-04",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-07",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #7",
+      "index": 7,
+      "date": "2026-02-06",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-08",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #8",
+      "index": 8,
+      "date": "2026-02-09",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-09",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #9",
+      "index": 9,
+      "date": "2026-02-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-10",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #10",
+      "index": 10,
+      "date": "2026-02-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-11",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #11",
+      "index": 11,
+      "date": "2026-02-16",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-12",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #12",
+      "index": 12,
+      "date": "2026-02-18",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-13",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #13",
+      "index": 13,
+      "date": "2026-02-20",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-14",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #14",
+      "index": 14,
+      "date": "2026-02-23",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-15",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #15",
+      "index": 15,
+      "date": "2026-02-25",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-16",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #16",
+      "index": 16,
+      "date": "2026-02-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-17",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #17",
+      "index": 17,
+      "date": "2026-03-02",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-18",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #18",
+      "index": 18,
+      "date": "2026-03-04",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-19",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #19",
+      "index": 19,
+      "date": "2026-03-06",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-20",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #20",
+      "index": 20,
+      "date": "2026-03-09",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-computer-networking-21",
+      "moduleId": "cs-tripos-ib-module-computer-networking",
+      "title": "Computer Networking #21",
+      "index": 21,
+      "date": "2026-03-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-01",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #1",
+      "index": 1,
+      "date": "2025-10-14",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-02",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #2",
+      "index": 2,
+      "date": "2025-10-16",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-03",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #3",
+      "index": 3,
+      "date": "2025-10-21",
+      "lengthMinutes": 120
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-04",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #4",
+      "index": 4,
+      "date": "2025-10-23",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-05",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #5",
+      "index": 5,
+      "date": "2025-10-28",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-06",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #6",
+      "index": 6,
+      "date": "2025-10-30",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-07",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #7",
+      "index": 7,
+      "date": "2025-11-04",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-08",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #8",
+      "index": 8,
+      "date": "2025-11-06",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-09",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #9",
+      "index": 9,
+      "date": "2025-11-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-10",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #10",
+      "index": 10,
+      "date": "2025-11-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-11",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #11",
+      "index": 11,
+      "date": "2025-11-18",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-12",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #12",
+      "index": 12,
+      "date": "2025-11-20",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-13",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #13",
+      "index": 13,
+      "date": "2025-11-25",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-14",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #14",
+      "index": 14,
+      "date": "2025-11-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-concurrent-and-distributed-systems-15",
+      "moduleId": "cs-tripos-ib-module-concurrent-and-distributed-systems",
+      "title": "Concurrent and Distributed Systems #15",
+      "index": 15,
+      "date": "2025-12-02",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-01",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #1",
+      "index": 1,
+      "date": "2026-05-01",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-02",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #2",
+      "index": 2,
+      "date": "2026-05-04",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-03",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #3",
+      "index": 3,
+      "date": "2026-05-06",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-04",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #4",
+      "index": 4,
+      "date": "2026-05-08",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-05",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #5",
+      "index": 5,
+      "date": "2026-05-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-06",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #6",
+      "index": 6,
+      "date": "2026-05-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-07",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #7",
+      "index": 7,
+      "date": "2026-05-15",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-08",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #8",
+      "index": 8,
+      "date": "2026-05-18",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-09",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #9",
+      "index": 9,
+      "date": "2026-05-20",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-10",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #10",
+      "index": 10,
+      "date": "2026-05-22",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-11",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #11",
+      "index": 11,
+      "date": "2026-05-26",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-cybersecurity-12",
+      "moduleId": "cs-tripos-ib-module-cybersecurity",
+      "title": "Cybersecurity #12",
+      "index": 12,
+      "date": "2026-05-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-01",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #1",
+      "index": 1,
+      "date": "2025-10-10",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-02",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #2",
+      "index": 2,
+      "date": "2025-10-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-03",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #3",
+      "index": 3,
+      "date": "2025-10-15",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-04",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #4",
+      "index": 4,
+      "date": "2025-10-17",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-05",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #5",
+      "index": 5,
+      "date": "2025-10-20",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-06",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #6",
+      "index": 6,
+      "date": "2025-10-22",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-07",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #7",
+      "index": 7,
+      "date": "2025-10-24",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-08",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #8",
+      "index": 8,
+      "date": "2025-10-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-09",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #9",
+      "index": 9,
+      "date": "2025-10-29",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-10",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #10",
+      "index": 10,
+      "date": "2025-10-31",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-11",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #11",
+      "index": 11,
+      "date": "2025-11-03",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-12",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #12",
+      "index": 12,
+      "date": "2025-11-05",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-13",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #13",
+      "index": 13,
+      "date": "2025-11-10",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-14",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #14",
+      "index": 14,
+      "date": "2025-11-12",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-15",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #15",
+      "index": 15,
+      "date": "2025-11-17",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-data-science-16",
+      "moduleId": "cs-tripos-ib-module-data-science",
+      "title": "Data Science #16",
+      "index": 16,
+      "date": "2025-11-19",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-economics-law-and-ethics-01",
+      "moduleId": "cs-tripos-ib-module-economics-law-and-ethics",
+      "title": "Economics Law and Ethics #1",
+      "index": 1,
+      "date": "2025-11-06",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-economics-law-and-ethics-02",
+      "moduleId": "cs-tripos-ib-module-economics-law-and-ethics",
+      "title": "Economics Law and Ethics #2",
+      "index": 2,
+      "date": "2025-11-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-economics-law-and-ethics-03",
+      "moduleId": "cs-tripos-ib-module-economics-law-and-ethics",
+      "title": "Economics Law and Ethics #3",
+      "index": 3,
+      "date": "2025-11-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-economics-law-and-ethics-04",
+      "moduleId": "cs-tripos-ib-module-economics-law-and-ethics",
+      "title": "Economics Law and Ethics #4",
+      "index": 4,
+      "date": "2025-11-18",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-economics-law-and-ethics-05",
+      "moduleId": "cs-tripos-ib-module-economics-law-and-ethics",
+      "title": "Economics Law and Ethics #5",
+      "index": 5,
+      "date": "2025-11-20",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-economics-law-and-ethics-06",
+      "moduleId": "cs-tripos-ib-module-economics-law-and-ethics",
+      "title": "Economics Law and Ethics #6",
+      "index": 6,
+      "date": "2025-11-25",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-economics-law-and-ethics-07",
+      "moduleId": "cs-tripos-ib-module-economics-law-and-ethics",
+      "title": "Economics Law and Ethics #7",
+      "index": 7,
+      "date": "2025-11-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-economics-law-and-ethics-08",
+      "moduleId": "cs-tripos-ib-module-economics-law-and-ethics",
+      "title": "Economics Law and Ethics #8",
+      "index": 8,
+      "date": "2025-12-02",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-formal-models-of-language-01",
+      "moduleId": "cs-tripos-ib-module-formal-models-of-language",
+      "title": "Formal Models of Language #1",
+      "index": 1,
+      "date": "2026-04-30",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-formal-models-of-language-02",
+      "moduleId": "cs-tripos-ib-module-formal-models-of-language",
+      "title": "Formal Models of Language #2",
+      "index": 2,
+      "date": "2026-05-05",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-formal-models-of-language-03",
+      "moduleId": "cs-tripos-ib-module-formal-models-of-language",
+      "title": "Formal Models of Language #3",
+      "index": 3,
+      "date": "2026-05-07",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-formal-models-of-language-04",
+      "moduleId": "cs-tripos-ib-module-formal-models-of-language",
+      "title": "Formal Models of Language #4",
+      "index": 4,
+      "date": "2026-05-12",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-formal-models-of-language-05",
+      "moduleId": "cs-tripos-ib-module-formal-models-of-language",
+      "title": "Formal Models of Language #5",
+      "index": 5,
+      "date": "2026-05-14",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-formal-models-of-language-06",
+      "moduleId": "cs-tripos-ib-module-formal-models-of-language",
+      "title": "Formal Models of Language #6",
+      "index": 6,
+      "date": "2026-05-19",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-formal-models-of-language-07",
+      "moduleId": "cs-tripos-ib-module-formal-models-of-language",
+      "title": "Formal Models of Language #7",
+      "index": 7,
+      "date": "2026-05-21",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-formal-models-of-language-08",
+      "moduleId": "cs-tripos-ib-module-formal-models-of-language",
+      "title": "Formal Models of Language #8",
+      "index": 8,
+      "date": "2026-05-26",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-further-graphics-01",
+      "moduleId": "cs-tripos-ib-module-further-graphics",
+      "title": "Further Graphics #1",
+      "index": 1,
+      "date": "2025-10-09",
+      "lengthMinutes": 120
+    },
+    {
+      "id": "cs-tripos-ib-further-graphics-02",
+      "moduleId": "cs-tripos-ib-module-further-graphics",
+      "title": "Further Graphics #2",
+      "index": 2,
+      "date": "2025-10-16",
+      "lengthMinutes": 120
+    },
+    {
+      "id": "cs-tripos-ib-further-graphics-03",
+      "moduleId": "cs-tripos-ib-module-further-graphics",
+      "title": "Further Graphics #3",
+      "index": 3,
+      "date": "2025-10-23",
+      "lengthMinutes": 120
+    },
+    {
+      "id": "cs-tripos-ib-further-graphics-04",
+      "moduleId": "cs-tripos-ib-module-further-graphics",
+      "title": "Further Graphics #4",
+      "index": 4,
+      "date": "2025-10-30",
+      "lengthMinutes": 120
+    },
+    {
+      "id": "cs-tripos-ib-further-human-computer-interaction-01",
+      "moduleId": "cs-tripos-ib-module-further-human-computer-interaction",
+      "title": "Further Human-computer Interaction #1",
+      "index": 1,
+      "date": "2026-01-22",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-further-human-computer-interaction-02",
+      "moduleId": "cs-tripos-ib-module-further-human-computer-interaction",
+      "title": "Further Human-computer Interaction #2",
+      "index": 2,
+      "date": "2026-01-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-further-human-computer-interaction-03",
+      "moduleId": "cs-tripos-ib-module-further-human-computer-interaction",
+      "title": "Further Human-computer Interaction #3",
+      "index": 3,
+      "date": "2026-01-29",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-further-human-computer-interaction-04",
+      "moduleId": "cs-tripos-ib-module-further-human-computer-interaction",
+      "title": "Further Human-computer Interaction #4",
+      "index": 4,
+      "date": "2026-02-03",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-further-human-computer-interaction-05",
+      "moduleId": "cs-tripos-ib-module-further-human-computer-interaction",
+      "title": "Further Human-computer Interaction #5",
+      "index": 5,
+      "date": "2026-02-05",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-further-human-computer-interaction-06",
+      "moduleId": "cs-tripos-ib-module-further-human-computer-interaction",
+      "title": "Further Human-computer Interaction #6",
+      "index": 6,
+      "date": "2026-02-10",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-further-human-computer-interaction-07",
+      "moduleId": "cs-tripos-ib-module-further-human-computer-interaction",
+      "title": "Further Human-computer Interaction #7",
+      "index": 7,
+      "date": "2026-02-12",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-further-human-computer-interaction-08",
+      "moduleId": "cs-tripos-ib-module-further-human-computer-interaction",
+      "title": "Further Human-computer Interaction #8",
+      "index": 8,
+      "date": "2026-02-17",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-01",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #1",
+      "index": 1,
+      "date": "2025-10-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-02",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #2",
+      "index": 2,
+      "date": "2025-10-15",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-03",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #3",
+      "index": 3,
+      "date": "2025-10-17",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-04",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #4",
+      "index": 4,
+      "date": "2025-10-20",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-05",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #5",
+      "index": 5,
+      "date": "2025-10-22",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-06",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #6",
+      "index": 6,
+      "date": "2025-10-24",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-07",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #7",
+      "index": 7,
+      "date": "2025-10-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-08",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #8",
+      "index": 8,
+      "date": "2025-10-29",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-09",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #9",
+      "index": 9,
+      "date": "2025-10-31",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-10",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #10",
+      "index": 10,
+      "date": "2025-11-03",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-11",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #11",
+      "index": 11,
+      "date": "2025-11-05",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-12",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #12",
+      "index": 12,
+      "date": "2025-11-07",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-13",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #13",
+      "index": 13,
+      "date": "2025-11-10",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-14",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #14",
+      "index": 14,
+      "date": "2025-11-12",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-15",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #15",
+      "index": 15,
+      "date": "2025-11-17",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-introduction-to-computer-architecture-16",
+      "moduleId": "cs-tripos-ib-module-introduction-to-computer-architecture",
+      "title": "Introduction to Computer Architecture #16",
+      "index": 16,
+      "date": "2025-11-19",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-01",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #1",
+      "index": 1,
+      "date": "2026-02-09",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-02",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #2",
+      "index": 2,
+      "date": "2026-02-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-03",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #3",
+      "index": 3,
+      "date": "2026-02-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-04",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #4",
+      "index": 4,
+      "date": "2026-02-23",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-05",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #5",
+      "index": 5,
+      "date": "2026-02-25",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-06",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #6",
+      "index": 6,
+      "date": "2026-02-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-07",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #7",
+      "index": 7,
+      "date": "2026-03-02",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-08",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #8",
+      "index": 8,
+      "date": "2026-03-04",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-09",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #9",
+      "index": 9,
+      "date": "2026-03-06",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-10",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #10",
+      "index": 10,
+      "date": "2026-03-09",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-11",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #11",
+      "index": 11,
+      "date": "2026-03-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-logic-and-proof-12",
+      "moduleId": "cs-tripos-ib-module-logic-and-proof",
+      "title": "Logic and Proof #12",
+      "index": 12,
+      "date": "2026-03-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-01",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #1",
+      "index": 1,
+      "date": "2025-10-10",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-02",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #2",
+      "index": 2,
+      "date": "2025-10-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-03",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #3",
+      "index": 3,
+      "date": "2025-10-15",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-04",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #4",
+      "index": 4,
+      "date": "2025-10-17",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-05",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #5",
+      "index": 5,
+      "date": "2025-10-20",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-06",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #6",
+      "index": 6,
+      "date": "2025-10-22",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-07",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #7",
+      "index": 7,
+      "date": "2025-10-24",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-08",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #8",
+      "index": 8,
+      "date": "2025-10-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-09",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #9",
+      "index": 9,
+      "date": "2025-10-29",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-10",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #10",
+      "index": 10,
+      "date": "2025-10-31",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-11",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #11",
+      "index": 11,
+      "date": "2025-11-03",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-programming-in-c-and-c++-12",
+      "moduleId": "cs-tripos-ib-module-programming-in-c-and-c++",
+      "title": "Programming in C and C++ #12",
+      "index": 12,
+      "date": "2025-11-05",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-prolog-01",
+      "moduleId": "cs-tripos-ib-module-prolog",
+      "title": "Prolog #1",
+      "index": 1,
+      "date": "2026-03-02",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-prolog-02",
+      "moduleId": "cs-tripos-ib-module-prolog",
+      "title": "Prolog #2",
+      "index": 2,
+      "date": "2026-03-04",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-prolog-03",
+      "moduleId": "cs-tripos-ib-module-prolog",
+      "title": "Prolog #3",
+      "index": 3,
+      "date": "2026-03-06",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-prolog-04",
+      "moduleId": "cs-tripos-ib-module-prolog",
+      "title": "Prolog #4",
+      "index": 4,
+      "date": "2026-03-09",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-prolog-05",
+      "moduleId": "cs-tripos-ib-module-prolog",
+      "title": "Prolog #5",
+      "index": 5,
+      "date": "2026-03-11",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-prolog-06",
+      "moduleId": "cs-tripos-ib-module-prolog",
+      "title": "Prolog #6",
+      "index": 6,
+      "date": "2026-03-13",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-prolog-07",
+      "moduleId": "cs-tripos-ib-module-prolog",
+      "title": "Prolog #7",
+      "index": 7,
+      "date": "2026-03-16",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-prolog-08",
+      "moduleId": "cs-tripos-ib-module-prolog",
+      "title": "Prolog #8",
+      "index": 8,
+      "date": "2026-03-18",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-01",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #1",
+      "index": 1,
+      "date": "2026-01-27",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-02",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #2",
+      "index": 2,
+      "date": "2026-01-29",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-03",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #3",
+      "index": 3,
+      "date": "2026-02-03",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-04",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #4",
+      "index": 4,
+      "date": "2026-02-05",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-05",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #5",
+      "index": 5,
+      "date": "2026-02-10",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-06",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #6",
+      "index": 6,
+      "date": "2026-02-12",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-07",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #7",
+      "index": 7,
+      "date": "2026-02-17",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-08",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #8",
+      "index": 8,
+      "date": "2026-02-19",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-09",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #9",
+      "index": 9,
+      "date": "2026-02-24",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-10",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #10",
+      "index": 10,
+      "date": "2026-02-26",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-11",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #11",
+      "index": 11,
+      "date": "2026-03-03",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-semantics-of-programming-languages-12",
+      "moduleId": "cs-tripos-ib-module-semantics-of-programming-languages",
+      "title": "Semantics of Programming Languages #12",
+      "index": 12,
+      "date": "2026-03-05",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-unix-tools-01",
+      "moduleId": "cs-tripos-ib-module-unix-tools",
+      "title": "Unix Tools #1",
+      "index": 1,
+      "date": "2025-11-17",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-unix-tools-02",
+      "moduleId": "cs-tripos-ib-module-unix-tools",
+      "title": "Unix Tools #2",
+      "index": 2,
+      "date": "2025-11-19",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-unix-tools-03",
+      "moduleId": "cs-tripos-ib-module-unix-tools",
+      "title": "Unix Tools #3",
+      "index": 3,
+      "date": "2025-11-21",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-unix-tools-04",
+      "moduleId": "cs-tripos-ib-module-unix-tools",
+      "title": "Unix Tools #4",
+      "index": 4,
+      "date": "2025-11-24",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-unix-tools-05",
+      "moduleId": "cs-tripos-ib-module-unix-tools",
+      "title": "Unix Tools #5",
+      "index": 5,
+      "date": "2025-11-26",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-unix-tools-06",
+      "moduleId": "cs-tripos-ib-module-unix-tools",
+      "title": "Unix Tools #6",
+      "index": 6,
+      "date": "2025-11-28",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-unix-tools-07",
+      "moduleId": "cs-tripos-ib-module-unix-tools",
+      "title": "Unix Tools #7",
+      "index": 7,
+      "date": "2025-12-01",
+      "lengthMinutes": 60
+    },
+    {
+      "id": "cs-tripos-ib-unix-tools-08",
+      "moduleId": "cs-tripos-ib-module-unix-tools",
+      "title": "Unix Tools #8",
+      "index": 8,
+      "date": "2025-12-03",
+      "lengthMinutes": 60
+    }
+  ]
+}

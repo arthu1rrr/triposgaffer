@@ -21,7 +21,6 @@ async function main() {
       { courseId: "cs-tripos", year: "IA" },
       { courseId: "cs-tripos", year: "IB" },
       { courseId: "cs-tripos", year: "II" },
-      { courseId: "cs-tripos", year: "III" },
     ])
     .onConflictDoNothing();
 
