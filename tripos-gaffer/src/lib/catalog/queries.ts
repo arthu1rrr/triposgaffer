@@ -215,3 +215,24 @@ export async function getAllCourses(): Promise<CourseDefinition[]> {
 
   return out;
 }
+
+
+export async function listLecturesForCourse(courseId: CourseId): Promise<LectureDefinition[]> {
+    const { key, year } = unmakeCourseId(courseId);
+    const moduleRows = await db
+    .select({ id: modules.id })
+    .from(modules)
+    .where(
+        and(eq(modules.courseId, key),eq(modules.year, year))
+    );
+    const moduleIds = moduleRows.map(m => m.id as ModuleId);
+    if (moduleIds.length === 0) {
+        return [];
+    }
+    const lectureRows = await db
+    .select()
+    .from(lectures)
+    .where(inArray(lectures.moduleId, moduleIds))
+    .orderBy(lectures.moduleId, lectures.index);
+    return lectureRows.map(makeLectureDef);
+}

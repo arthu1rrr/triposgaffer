@@ -25,22 +25,7 @@ function reconcileWithCatalog(state: StudyStateV2): StudyStateV2 {
     moduleRatings: { ...state.moduleRatings },
   };
 
-  if (next.selectedCourseId && !isValidCourseId(next.selectedCourseId)) {
-    next.selectedCourseId = null;
-  }
-
-  for (const lectureId of Object.keys(next.completedLectureIds)) {
-    if (!isValidLectureId(lectureId)) delete next.completedLectureIds[lectureId as LectureId];
-  }
-
-  for (const lectureId of Object.keys(next.lectureMinutesOverride)) {
-    if (!isValidLectureId(lectureId)) delete next.lectureMinutesOverride[lectureId as LectureId];
-  }
-
-  for (const moduleId of Object.keys(next.moduleRatings)) {
-    if (!isValidModuleId(moduleId)) delete next.moduleRatings[moduleId as ModuleId];
-  }
-
+  
   return next;
 }
 

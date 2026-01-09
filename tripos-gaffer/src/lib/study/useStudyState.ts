@@ -1,16 +1,17 @@
-'use client';
-
-import type { CourseId, LectureId, ModuleId } from '@/lib/catalog/types';
 import { useEffect, useMemo, useState } from 'react';
-import { loadState, saveState } from './storage';
+import { defaultState, loadState, saveState } from './storage';
+import type { CourseId, LectureId, ModuleId } from '@/lib/catalog/types';
 import type { Rating10, StudyState, Task, UserModuleRating } from './types';
 
 export function useStudyState() {
-  const [state, setState] = useState<StudyState>(loadState());
+  const [state, setState] = useState<StudyState>(() => defaultState());
   const [hydrated, setHydrated] = useState(false);
+
+  // Rehydrate on first client mount
   useEffect(() => {
-    const id = requestAnimationFrame(() => setHydrated(true));
-    return () => cancelAnimationFrame(id);
+    const next = loadState();   // now window exists
+    setState(next);
+    setHydrated(true);
   }, []);
 
   useEffect(() => {
@@ -20,10 +21,7 @@ export function useStudyState() {
 
   const actions = useMemo(() => {
     function setSelectedCourse(courseId: CourseId | null) {
-      setState((prev) => ({
-        ...prev,
-        selectedCourseId: courseId,
-      }));
+      setState((prev) => ({ ...prev, selectedCourseId: courseId }));
     }
     function toggleLectureCompleted(lectureId: LectureId) {
       setState((prev) => {
