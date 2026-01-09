@@ -18,6 +18,7 @@ function findCatalogCourseId(courseKey: string, year: Year): CourseId | null {
 }
 
 export default function DashboardPage() {
+  console.log('courses', COURSES)
   const { state, hydrated, setSelectedCourse } = useStudyState();
 
   const [selectedCourseKey, setSelectedCourseKey] = useState<string>('');

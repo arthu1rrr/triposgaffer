@@ -15,6 +15,13 @@
       "when": 1767896408793,
       "tag": "0001_silky_silver_fox",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1767962890531,
+      "tag": "0002_confused_pride",
+      "breakpoints": true
     }
   ]
 }

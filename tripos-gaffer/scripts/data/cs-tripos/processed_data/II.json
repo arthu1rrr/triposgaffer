@@ -193,7 +193,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #1",
       "index": 1,
-      "date": "2026-01-23",
+      "date": "2026-01-23T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -201,7 +201,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #2",
       "index": 2,
-      "date": "2026-01-26",
+      "date": "2026-01-26T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -209,7 +209,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #3",
       "index": 3,
-      "date": "2026-01-28",
+      "date": "2026-01-28T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -217,7 +217,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #4",
       "index": 4,
-      "date": "2026-01-30",
+      "date": "2026-01-30T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -225,7 +225,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #5",
       "index": 5,
-      "date": "2026-02-02",
+      "date": "2026-02-02T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -233,7 +233,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #6",
       "index": 6,
-      "date": "2026-02-04",
+      "date": "2026-02-04T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -241,7 +241,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #7",
       "index": 7,
-      "date": "2026-02-06",
+      "date": "2026-02-06T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -249,7 +249,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #8",
       "index": 8,
-      "date": "2026-02-09",
+      "date": "2026-02-09T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -257,7 +257,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #9",
       "index": 9,
-      "date": "2026-02-11",
+      "date": "2026-02-11T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -265,7 +265,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #10",
       "index": 10,
-      "date": "2026-02-13",
+      "date": "2026-02-13T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -273,7 +273,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #11",
       "index": 11,
-      "date": "2026-02-16",
+      "date": "2026-02-16T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -281,7 +281,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #12",
       "index": 12,
-      "date": "2026-02-18",
+      "date": "2026-02-18T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -289,7 +289,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #13",
       "index": 13,
-      "date": "2026-02-20",
+      "date": "2026-02-20T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -297,7 +297,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #14",
       "index": 14,
-      "date": "2026-02-23",
+      "date": "2026-02-23T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -305,7 +305,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #15",
       "index": 15,
-      "date": "2026-02-25",
+      "date": "2026-02-25T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -313,7 +313,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-computer-architecture",
       "title": "Advanced Computer Architecture #16",
       "index": 16,
-      "date": "2026-02-27",
+      "date": "2026-02-27T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -321,7 +321,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #1",
       "index": 1,
-      "date": "2025-10-09",
+      "date": "2025-10-09T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -329,7 +329,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #2",
       "index": 2,
-      "date": "2025-10-14",
+      "date": "2025-10-14T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -337,7 +337,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #3",
       "index": 3,
-      "date": "2025-10-16",
+      "date": "2025-10-16T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -345,7 +345,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #4",
       "index": 4,
-      "date": "2025-10-21",
+      "date": "2025-10-21T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -353,7 +353,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #5",
       "index": 5,
-      "date": "2025-10-23",
+      "date": "2025-10-23T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -361,7 +361,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #6",
       "index": 6,
-      "date": "2025-10-30",
+      "date": "2025-10-30T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -369,7 +369,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #7",
       "index": 7,
-      "date": "2025-11-04",
+      "date": "2025-11-04T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -377,7 +377,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #8",
       "index": 8,
-      "date": "2025-11-06",
+      "date": "2025-11-06T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -385,7 +385,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #9",
       "index": 9,
-      "date": "2025-11-11",
+      "date": "2025-11-11T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -393,7 +393,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #10",
       "index": 10,
-      "date": "2025-11-13",
+      "date": "2025-11-13T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -401,7 +401,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #11",
       "index": 11,
-      "date": "2025-11-18",
+      "date": "2025-11-18T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -409,7 +409,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #12",
       "index": 12,
-      "date": "2025-11-20",
+      "date": "2025-11-20T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -417,7 +417,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #13",
       "index": 13,
-      "date": "2025-11-25",
+      "date": "2025-11-25T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -425,7 +425,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #14",
       "index": 14,
-      "date": "2025-11-27",
+      "date": "2025-11-27T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -433,7 +433,7 @@
       "moduleId": "cs-tripos-ii-module-advanced-graphics-and-image-processing-(option)",
       "title": "Advanced Graphics and Image Processing (Option) #15",
       "index": 15,
-      "date": "2025-12-02",
+      "date": "2025-12-02T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -441,7 +441,7 @@
       "moduleId": "cs-tripos-ii-module-affective-artificial-intelligence-(option)",
       "title": "Affective Artificial Intelligence (Option) #1",
       "index": 1,
-      "date": "2025-10-14",
+      "date": "2025-10-14T12:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -449,7 +449,7 @@
       "moduleId": "cs-tripos-ii-module-affective-artificial-intelligence-(option)",
       "title": "Affective Artificial Intelligence (Option) #2",
       "index": 2,
-      "date": "2025-10-21",
+      "date": "2025-10-21T12:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -457,7 +457,7 @@
       "moduleId": "cs-tripos-ii-module-affective-artificial-intelligence-(option)",
       "title": "Affective Artificial Intelligence (Option) #3",
       "index": 3,
-      "date": "2025-10-28",
+      "date": "2025-10-28T13:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -465,7 +465,7 @@
       "moduleId": "cs-tripos-ii-module-affective-artificial-intelligence-(option)",
       "title": "Affective Artificial Intelligence (Option) #4",
       "index": 4,
-      "date": "2025-11-04",
+      "date": "2025-11-04T13:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -473,7 +473,7 @@
       "moduleId": "cs-tripos-ii-module-affective-artificial-intelligence-(option)",
       "title": "Affective Artificial Intelligence (Option) #5",
       "index": 5,
-      "date": "2025-11-11",
+      "date": "2025-11-11T13:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -481,7 +481,7 @@
       "moduleId": "cs-tripos-ii-module-affective-artificial-intelligence-(option)",
       "title": "Affective Artificial Intelligence (Option) #6",
       "index": 6,
-      "date": "2025-11-18",
+      "date": "2025-11-18T13:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -489,7 +489,7 @@
       "moduleId": "cs-tripos-ii-module-affective-artificial-intelligence-(option)",
       "title": "Affective Artificial Intelligence (Option) #7",
       "index": 7,
-      "date": "2025-11-25",
+      "date": "2025-11-25T13:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -497,7 +497,7 @@
       "moduleId": "cs-tripos-ii-module-affective-artificial-intelligence-(option)",
       "title": "Affective Artificial Intelligence (Option) #8",
       "index": 8,
-      "date": "2025-12-02",
+      "date": "2025-12-02T13:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -505,7 +505,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #1",
       "index": 1,
-      "date": "2026-01-26",
+      "date": "2026-01-26T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -513,7 +513,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #2",
       "index": 2,
-      "date": "2026-01-28",
+      "date": "2026-01-28T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -521,7 +521,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #3",
       "index": 3,
-      "date": "2026-01-30",
+      "date": "2026-01-30T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -529,7 +529,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #4",
       "index": 4,
-      "date": "2026-02-02",
+      "date": "2026-02-02T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -537,7 +537,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #5",
       "index": 5,
-      "date": "2026-02-04",
+      "date": "2026-02-04T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -545,7 +545,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #6",
       "index": 6,
-      "date": "2026-02-06",
+      "date": "2026-02-06T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -553,7 +553,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #7",
       "index": 7,
-      "date": "2026-02-09",
+      "date": "2026-02-09T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -561,7 +561,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #8",
       "index": 8,
-      "date": "2026-02-11",
+      "date": "2026-02-11T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -569,7 +569,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #9",
       "index": 9,
-      "date": "2026-02-13",
+      "date": "2026-02-13T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -577,7 +577,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #10",
       "index": 10,
-      "date": "2026-02-16",
+      "date": "2026-02-16T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -585,7 +585,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #11",
       "index": 11,
-      "date": "2026-02-18",
+      "date": "2026-02-18T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -593,7 +593,7 @@
       "moduleId": "cs-tripos-ii-module-algebraic-techniques-for-programming",
       "title": "Algebraic Techniques for Programming #12",
       "index": 12,
-      "date": "2026-02-20",
+      "date": "2026-02-20T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -601,7 +601,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #1",
       "index": 1,
-      "date": "2025-10-21",
+      "date": "2025-10-21T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -609,7 +609,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #2",
       "index": 2,
-      "date": "2025-10-23",
+      "date": "2025-10-23T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -617,7 +617,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #3",
       "index": 3,
-      "date": "2025-10-28",
+      "date": "2025-10-28T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -625,7 +625,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #4",
       "index": 4,
-      "date": "2025-10-30",
+      "date": "2025-10-30T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -633,7 +633,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #5",
       "index": 5,
-      "date": "2025-11-04",
+      "date": "2025-11-04T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -641,7 +641,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #6",
       "index": 6,
-      "date": "2025-11-06",
+      "date": "2025-11-06T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -649,7 +649,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #7",
       "index": 7,
-      "date": "2025-11-11",
+      "date": "2025-11-11T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -657,7 +657,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #8",
       "index": 8,
-      "date": "2025-11-13",
+      "date": "2025-11-13T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -665,7 +665,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #9",
       "index": 9,
-      "date": "2025-11-18",
+      "date": "2025-11-18T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -673,7 +673,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #10",
       "index": 10,
-      "date": "2025-11-20",
+      "date": "2025-11-20T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -681,7 +681,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #11",
       "index": 11,
-      "date": "2025-11-25",
+      "date": "2025-11-25T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -689,7 +689,7 @@
       "moduleId": "cs-tripos-ii-module-bioinformatics",
       "title": "Bioinformatics #12",
       "index": 12,
-      "date": "2025-11-27",
+      "date": "2025-11-27T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -697,7 +697,7 @@
       "moduleId": "cs-tripos-ii-module-business-studies",
       "title": "Business Studies #1",
       "index": 1,
-      "date": "2025-11-10",
+      "date": "2025-11-10T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -705,7 +705,7 @@
       "moduleId": "cs-tripos-ii-module-business-studies",
       "title": "Business Studies #2",
       "index": 2,
-      "date": "2025-11-12",
+      "date": "2025-11-12T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -713,7 +713,7 @@
       "moduleId": "cs-tripos-ii-module-business-studies",
       "title": "Business Studies #3",
       "index": 3,
-      "date": "2025-11-17",
+      "date": "2025-11-17T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -721,7 +721,7 @@
       "moduleId": "cs-tripos-ii-module-business-studies",
       "title": "Business Studies #4",
       "index": 4,
-      "date": "2025-11-19",
+      "date": "2025-11-19T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -729,7 +729,7 @@
       "moduleId": "cs-tripos-ii-module-business-studies",
       "title": "Business Studies #5",
       "index": 5,
-      "date": "2025-11-24",
+      "date": "2025-11-24T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -737,7 +737,7 @@
       "moduleId": "cs-tripos-ii-module-business-studies",
       "title": "Business Studies #6",
       "index": 6,
-      "date": "2025-11-26",
+      "date": "2025-11-26T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -745,7 +745,7 @@
       "moduleId": "cs-tripos-ii-module-business-studies",
       "title": "Business Studies #7",
       "index": 7,
-      "date": "2025-12-01",
+      "date": "2025-12-01T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -753,7 +753,7 @@
       "moduleId": "cs-tripos-ii-module-business-studies",
       "title": "Business Studies #8",
       "index": 8,
-      "date": "2025-12-03",
+      "date": "2025-12-03T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -761,7 +761,7 @@
       "moduleId": "cs-tripos-ii-module-category-theory-(option)",
       "title": "Category Theory (Option) #1",
       "index": 1,
-      "date": "2025-10-14",
+      "date": "2025-10-14T08:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -769,7 +769,7 @@
       "moduleId": "cs-tripos-ii-module-category-theory-(option)",
       "title": "Category Theory (Option) #2",
       "index": 2,
-      "date": "2025-10-21",
+      "date": "2025-10-21T08:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -777,7 +777,7 @@
       "moduleId": "cs-tripos-ii-module-category-theory-(option)",
       "title": "Category Theory (Option) #3",
       "index": 3,
-      "date": "2025-10-28",
+      "date": "2025-10-28T09:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -785,7 +785,7 @@
       "moduleId": "cs-tripos-ii-module-category-theory-(option)",
       "title": "Category Theory (Option) #4",
       "index": 4,
-      "date": "2025-11-04",
+      "date": "2025-11-04T09:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -793,7 +793,7 @@
       "moduleId": "cs-tripos-ii-module-category-theory-(option)",
       "title": "Category Theory (Option) #5",
       "index": 5,
-      "date": "2025-11-11",
+      "date": "2025-11-11T09:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -801,7 +801,7 @@
       "moduleId": "cs-tripos-ii-module-category-theory-(option)",
       "title": "Category Theory (Option) #6",
       "index": 6,
-      "date": "2025-11-18",
+      "date": "2025-11-18T09:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -809,7 +809,7 @@
       "moduleId": "cs-tripos-ii-module-category-theory-(option)",
       "title": "Category Theory (Option) #7",
       "index": 7,
-      "date": "2025-11-25",
+      "date": "2025-11-25T09:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -817,7 +817,7 @@
       "moduleId": "cs-tripos-ii-module-category-theory-(option)",
       "title": "Category Theory (Option) #8",
       "index": 8,
-      "date": "2025-12-02",
+      "date": "2025-12-02T09:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -825,7 +825,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #1",
       "index": 1,
-      "date": "2026-01-23",
+      "date": "2026-01-23T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -833,7 +833,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #2",
       "index": 2,
-      "date": "2026-01-26",
+      "date": "2026-01-26T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -841,7 +841,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #3",
       "index": 3,
-      "date": "2026-01-28",
+      "date": "2026-01-28T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -849,7 +849,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #4",
       "index": 4,
-      "date": "2026-01-30",
+      "date": "2026-01-30T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -857,7 +857,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #5",
       "index": 5,
-      "date": "2026-02-02",
+      "date": "2026-02-02T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -865,7 +865,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #6",
       "index": 6,
-      "date": "2026-02-04",
+      "date": "2026-02-04T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -873,7 +873,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #7",
       "index": 7,
-      "date": "2026-02-06",
+      "date": "2026-02-06T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -881,7 +881,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #8",
       "index": 8,
-      "date": "2026-02-09",
+      "date": "2026-02-09T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -889,7 +889,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #9",
       "index": 9,
-      "date": "2026-02-11",
+      "date": "2026-02-11T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -897,7 +897,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #10",
       "index": 10,
-      "date": "2026-02-13",
+      "date": "2026-02-13T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -905,7 +905,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #11",
       "index": 11,
-      "date": "2026-02-16",
+      "date": "2026-02-16T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -913,7 +913,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #12",
       "index": 12,
-      "date": "2026-02-18",
+      "date": "2026-02-18T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -921,7 +921,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #13",
       "index": 13,
-      "date": "2026-02-20",
+      "date": "2026-02-20T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -929,7 +929,7 @@
       "moduleId": "cs-tripos-ii-module-cloud-computing-(option)",
       "title": "Cloud Computing (Option) #14",
       "index": 14,
-      "date": "2026-02-23",
+      "date": "2026-02-23T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -937,7 +937,7 @@
       "moduleId": "cs-tripos-ii-module-computing-education",
       "title": "Computing Education #1",
       "index": 1,
-      "date": "2026-01-26",
+      "date": "2026-01-26T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -945,7 +945,7 @@
       "moduleId": "cs-tripos-ii-module-computing-education",
       "title": "Computing Education #2",
       "index": 2,
-      "date": "2026-02-16",
+      "date": "2026-02-16T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -953,7 +953,7 @@
       "moduleId": "cs-tripos-ii-module-computing-education",
       "title": "Computing Education #3",
       "index": 3,
-      "date": "2026-03-16",
+      "date": "2026-03-16T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -961,7 +961,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #1",
       "index": 1,
-      "date": "2026-01-23",
+      "date": "2026-01-23T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -969,7 +969,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #2",
       "index": 2,
-      "date": "2026-01-26",
+      "date": "2026-01-26T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -977,7 +977,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #3",
       "index": 3,
-      "date": "2026-01-28",
+      "date": "2026-01-28T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -985,7 +985,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #4",
       "index": 4,
-      "date": "2026-01-30",
+      "date": "2026-01-30T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -993,7 +993,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #5",
       "index": 5,
-      "date": "2026-02-02",
+      "date": "2026-02-02T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1001,7 +1001,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #6",
       "index": 6,
-      "date": "2026-02-04",
+      "date": "2026-02-04T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1009,7 +1009,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #7",
       "index": 7,
-      "date": "2026-02-06",
+      "date": "2026-02-06T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1017,7 +1017,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #8",
       "index": 8,
-      "date": "2026-02-09",
+      "date": "2026-02-09T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1025,7 +1025,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #9",
       "index": 9,
-      "date": "2026-02-11",
+      "date": "2026-02-11T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1033,7 +1033,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #10",
       "index": 10,
-      "date": "2026-02-13",
+      "date": "2026-02-13T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1041,7 +1041,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #11",
       "index": 11,
-      "date": "2026-02-16",
+      "date": "2026-02-16T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1049,7 +1049,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #12",
       "index": 12,
-      "date": "2026-02-18",
+      "date": "2026-02-18T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1057,7 +1057,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #13",
       "index": 13,
-      "date": "2026-02-20",
+      "date": "2026-02-20T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1065,7 +1065,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #14",
       "index": 14,
-      "date": "2026-02-23",
+      "date": "2026-02-23T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1073,7 +1073,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #15",
       "index": 15,
-      "date": "2026-02-25",
+      "date": "2026-02-25T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1081,7 +1081,7 @@
       "moduleId": "cs-tripos-ii-module-cryptography",
       "title": "Cryptography #16",
       "index": 16,
-      "date": "2026-02-27",
+      "date": "2026-02-27T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1089,7 +1089,7 @@
       "moduleId": "cs-tripos-ii-module-cybercrime-(option)",
       "title": "Cybercrime (Option) #1",
       "index": 1,
-      "date": "2026-01-26",
+      "date": "2026-01-26T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1097,7 +1097,7 @@
       "moduleId": "cs-tripos-ii-module-cybercrime-(option)",
       "title": "Cybercrime (Option) #2",
       "index": 2,
-      "date": "2026-02-02",
+      "date": "2026-02-02T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1105,7 +1105,7 @@
       "moduleId": "cs-tripos-ii-module-cybercrime-(option)",
       "title": "Cybercrime (Option) #3",
       "index": 3,
-      "date": "2026-02-09",
+      "date": "2026-02-09T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1113,7 +1113,7 @@
       "moduleId": "cs-tripos-ii-module-cybercrime-(option)",
       "title": "Cybercrime (Option) #4",
       "index": 4,
-      "date": "2026-02-16",
+      "date": "2026-02-16T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1121,7 +1121,7 @@
       "moduleId": "cs-tripos-ii-module-cybercrime-(option)",
       "title": "Cybercrime (Option) #5",
       "index": 5,
-      "date": "2026-02-23",
+      "date": "2026-02-23T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1129,7 +1129,7 @@
       "moduleId": "cs-tripos-ii-module-cybercrime-(option)",
       "title": "Cybercrime (Option) #6",
       "index": 6,
-      "date": "2026-03-02",
+      "date": "2026-03-02T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1137,7 +1137,7 @@
       "moduleId": "cs-tripos-ii-module-cybercrime-(option)",
       "title": "Cybercrime (Option) #7",
       "index": 7,
-      "date": "2026-03-09",
+      "date": "2026-03-09T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1145,7 +1145,7 @@
       "moduleId": "cs-tripos-ii-module-cybercrime-(option)",
       "title": "Cybercrime (Option) #8",
       "index": 8,
-      "date": "2026-03-16",
+      "date": "2026-03-16T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1153,7 +1153,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #1",
       "index": 1,
-      "date": "2026-01-27",
+      "date": "2026-01-27T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1161,7 +1161,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #2",
       "index": 2,
-      "date": "2026-01-29",
+      "date": "2026-01-29T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1169,7 +1169,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #3",
       "index": 3,
-      "date": "2026-02-03",
+      "date": "2026-02-03T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1177,7 +1177,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #4",
       "index": 4,
-      "date": "2026-02-05",
+      "date": "2026-02-05T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1185,7 +1185,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #5",
       "index": 5,
-      "date": "2026-02-10",
+      "date": "2026-02-10T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1193,7 +1193,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #6",
       "index": 6,
-      "date": "2026-02-12",
+      "date": "2026-02-12T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1201,7 +1201,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #7",
       "index": 7,
-      "date": "2026-02-17",
+      "date": "2026-02-17T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1209,7 +1209,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #8",
       "index": 8,
-      "date": "2026-02-19",
+      "date": "2026-02-19T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1217,7 +1217,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #9",
       "index": 9,
-      "date": "2026-02-24",
+      "date": "2026-02-24T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1225,7 +1225,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #10",
       "index": 10,
-      "date": "2026-02-26",
+      "date": "2026-02-26T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1233,7 +1233,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #11",
       "index": 11,
-      "date": "2026-03-03",
+      "date": "2026-03-03T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1241,7 +1241,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #12",
       "index": 12,
-      "date": "2026-03-05",
+      "date": "2026-03-05T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1249,7 +1249,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #13",
       "index": 13,
-      "date": "2026-03-10",
+      "date": "2026-03-10T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1257,7 +1257,7 @@
       "moduleId": "cs-tripos-ii-module-deep-neural-networks-(option)",
       "title": "Deep Neural Networks (Option) #14",
       "index": 14,
-      "date": "2026-03-12",
+      "date": "2026-03-12T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1265,7 +1265,7 @@
       "moduleId": "cs-tripos-ii-module-denotational-semantics",
       "title": "Denotational Semantics #1",
       "index": 1,
-      "date": "2025-10-29",
+      "date": "2025-10-29T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1273,7 +1273,7 @@
       "moduleId": "cs-tripos-ii-module-denotational-semantics",
       "title": "Denotational Semantics #2",
       "index": 2,
-      "date": "2025-11-07",
+      "date": "2025-11-07T12:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1281,7 +1281,7 @@
       "moduleId": "cs-tripos-ii-module-denotational-semantics",
       "title": "Denotational Semantics #3",
       "index": 3,
-      "date": "2025-11-12",
+      "date": "2025-11-12T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1289,7 +1289,7 @@
       "moduleId": "cs-tripos-ii-module-denotational-semantics",
       "title": "Denotational Semantics #4",
       "index": 4,
-      "date": "2025-11-14",
+      "date": "2025-11-14T12:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1297,7 +1297,7 @@
       "moduleId": "cs-tripos-ii-module-denotational-semantics",
       "title": "Denotational Semantics #5",
       "index": 5,
-      "date": "2025-11-19",
+      "date": "2025-11-19T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1305,7 +1305,7 @@
       "moduleId": "cs-tripos-ii-module-denotational-semantics",
       "title": "Denotational Semantics #6",
       "index": 6,
-      "date": "2025-11-21",
+      "date": "2025-11-21T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1313,7 +1313,7 @@
       "moduleId": "cs-tripos-ii-module-denotational-semantics",
       "title": "Denotational Semantics #7",
       "index": 7,
-      "date": "2025-11-26",
+      "date": "2025-11-26T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1321,7 +1321,7 @@
       "moduleId": "cs-tripos-ii-module-denotational-semantics",
       "title": "Denotational Semantics #8",
       "index": 8,
-      "date": "2025-11-28",
+      "date": "2025-11-28T12:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1329,7 +1329,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #1",
       "index": 1,
-      "date": "2025-10-10",
+      "date": "2025-10-10T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1337,7 +1337,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #2",
       "index": 2,
-      "date": "2025-10-13",
+      "date": "2025-10-13T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1345,7 +1345,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #3",
       "index": 3,
-      "date": "2025-10-15",
+      "date": "2025-10-15T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1353,7 +1353,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #4",
       "index": 4,
-      "date": "2025-10-17",
+      "date": "2025-10-17T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1361,7 +1361,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #5",
       "index": 5,
-      "date": "2025-10-20",
+      "date": "2025-10-20T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1369,7 +1369,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #6",
       "index": 6,
-      "date": "2025-10-24",
+      "date": "2025-10-24T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1377,7 +1377,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #7",
       "index": 7,
-      "date": "2025-10-27",
+      "date": "2025-10-27T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1385,7 +1385,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #8",
       "index": 8,
-      "date": "2025-10-29",
+      "date": "2025-10-29T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1393,7 +1393,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #9",
       "index": 9,
-      "date": "2025-10-31",
+      "date": "2025-10-31T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1401,7 +1401,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #10",
       "index": 10,
-      "date": "2025-11-03",
+      "date": "2025-11-03T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1409,7 +1409,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #11",
       "index": 11,
-      "date": "2025-11-05",
+      "date": "2025-11-05T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1417,7 +1417,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #12",
       "index": 12,
-      "date": "2025-11-07",
+      "date": "2025-11-07T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1425,7 +1425,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #13",
       "index": 13,
-      "date": "2025-11-10",
+      "date": "2025-11-10T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1433,7 +1433,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #14",
       "index": 14,
-      "date": "2025-11-12",
+      "date": "2025-11-12T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1441,7 +1441,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #15",
       "index": 15,
-      "date": "2025-11-14",
+      "date": "2025-11-14T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1449,7 +1449,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #16",
       "index": 16,
-      "date": "2025-11-17",
+      "date": "2025-11-17T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1457,7 +1457,7 @@
       "moduleId": "cs-tripos-ii-module-digital-signal-processing-(option)",
       "title": "Digital Signal Processing (Option) #17",
       "index": 17,
-      "date": "2025-11-21",
+      "date": "2025-11-21T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1465,7 +1465,7 @@
       "moduleId": "cs-tripos-ii-module-e-commerce",
       "title": "E-Commerce #1",
       "index": 1,
-      "date": "2026-03-02",
+      "date": "2026-03-02T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1473,7 +1473,7 @@
       "moduleId": "cs-tripos-ii-module-e-commerce",
       "title": "E-Commerce #2",
       "index": 2,
-      "date": "2026-03-04",
+      "date": "2026-03-04T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1481,7 +1481,7 @@
       "moduleId": "cs-tripos-ii-module-e-commerce",
       "title": "E-Commerce #3",
       "index": 3,
-      "date": "2026-03-06",
+      "date": "2026-03-06T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1489,7 +1489,7 @@
       "moduleId": "cs-tripos-ii-module-e-commerce",
       "title": "E-Commerce #4",
       "index": 4,
-      "date": "2026-03-09",
+      "date": "2026-03-09T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1497,7 +1497,7 @@
       "moduleId": "cs-tripos-ii-module-e-commerce",
       "title": "E-Commerce #5",
       "index": 5,
-      "date": "2026-03-11",
+      "date": "2026-03-11T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1505,7 +1505,7 @@
       "moduleId": "cs-tripos-ii-module-e-commerce",
       "title": "E-Commerce #6",
       "index": 6,
-      "date": "2026-03-13",
+      "date": "2026-03-13T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1513,7 +1513,7 @@
       "moduleId": "cs-tripos-ii-module-e-commerce",
       "title": "E-Commerce #7",
       "index": 7,
-      "date": "2026-03-16",
+      "date": "2026-03-16T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1521,7 +1521,7 @@
       "moduleId": "cs-tripos-ii-module-e-commerce",
       "title": "E-Commerce #8",
       "index": 8,
-      "date": "2026-03-18",
+      "date": "2026-03-18T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1529,7 +1529,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #1",
       "index": 1,
-      "date": "2026-05-01",
+      "date": "2026-05-01T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1537,7 +1537,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #2",
       "index": 2,
-      "date": "2026-05-06",
+      "date": "2026-05-06T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1545,7 +1545,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #3",
       "index": 3,
-      "date": "2026-05-08",
+      "date": "2026-05-08T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1553,7 +1553,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #4",
       "index": 4,
-      "date": "2026-05-11",
+      "date": "2026-05-11T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1561,7 +1561,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #5",
       "index": 5,
-      "date": "2026-05-13",
+      "date": "2026-05-13T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1569,7 +1569,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #6",
       "index": 6,
-      "date": "2026-05-15",
+      "date": "2026-05-15T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1577,7 +1577,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #7",
       "index": 7,
-      "date": "2026-05-18",
+      "date": "2026-05-18T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1585,7 +1585,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #8",
       "index": 8,
-      "date": "2026-05-20",
+      "date": "2026-05-20T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1593,7 +1593,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #9",
       "index": 9,
-      "date": "2026-05-22",
+      "date": "2026-05-22T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1601,7 +1601,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #10",
       "index": 10,
-      "date": "2026-05-26",
+      "date": "2026-05-26T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1609,7 +1609,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #11",
       "index": 11,
-      "date": "2026-05-27",
+      "date": "2026-05-27T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1617,7 +1617,7 @@
       "moduleId": "cs-tripos-ii-module-hoare-logic-and-model-checking",
       "title": "Hoare Logic and Model Checking #12",
       "index": 12,
-      "date": "2026-05-29",
+      "date": "2026-05-29T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1625,7 +1625,7 @@
       "moduleId": "cs-tripos-ii-module-human-centred-ai-(option)",
       "title": "Human-centred AI (Option) #1",
       "index": 1,
-      "date": "2025-10-14",
+      "date": "2025-10-14T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1633,7 +1633,7 @@
       "moduleId": "cs-tripos-ii-module-human-centred-ai-(option)",
       "title": "Human-centred AI (Option) #2",
       "index": 2,
-      "date": "2025-10-21",
+      "date": "2025-10-21T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1641,7 +1641,7 @@
       "moduleId": "cs-tripos-ii-module-human-centred-ai-(option)",
       "title": "Human-centred AI (Option) #3",
       "index": 3,
-      "date": "2025-10-28",
+      "date": "2025-10-28T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1649,7 +1649,7 @@
       "moduleId": "cs-tripos-ii-module-human-centred-ai-(option)",
       "title": "Human-centred AI (Option) #4",
       "index": 4,
-      "date": "2025-11-04",
+      "date": "2025-11-04T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1657,7 +1657,7 @@
       "moduleId": "cs-tripos-ii-module-human-centred-ai-(option)",
       "title": "Human-centred AI (Option) #5",
       "index": 5,
-      "date": "2025-11-11",
+      "date": "2025-11-11T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1665,7 +1665,7 @@
       "moduleId": "cs-tripos-ii-module-human-centred-ai-(option)",
       "title": "Human-centred AI (Option) #6",
       "index": 6,
-      "date": "2025-11-18",
+      "date": "2025-11-18T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1673,7 +1673,7 @@
       "moduleId": "cs-tripos-ii-module-human-centred-ai-(option)",
       "title": "Human-centred AI (Option) #7",
       "index": 7,
-      "date": "2025-11-25",
+      "date": "2025-11-25T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1681,7 +1681,7 @@
       "moduleId": "cs-tripos-ii-module-human-centred-ai-(option)",
       "title": "Human-centred AI (Option) #8",
       "index": 8,
-      "date": "2025-12-02",
+      "date": "2025-12-02T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1689,7 +1689,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #1",
       "index": 1,
-      "date": "2025-11-10",
+      "date": "2025-11-10T12:30:00+00:00",
       "lengthMinutes": 90
     },
     {
@@ -1697,7 +1697,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #2",
       "index": 2,
-      "date": "2025-11-12",
+      "date": "2025-11-12T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1705,7 +1705,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #3",
       "index": 3,
-      "date": "2025-11-14",
+      "date": "2025-11-14T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1713,7 +1713,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #4",
       "index": 4,
-      "date": "2025-11-17",
+      "date": "2025-11-17T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1721,7 +1721,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #5",
       "index": 5,
-      "date": "2025-11-19",
+      "date": "2025-11-19T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1729,7 +1729,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #6",
       "index": 6,
-      "date": "2025-11-21",
+      "date": "2025-11-21T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1737,7 +1737,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #7",
       "index": 7,
-      "date": "2025-11-24",
+      "date": "2025-11-24T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1745,7 +1745,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #8",
       "index": 8,
-      "date": "2025-11-26",
+      "date": "2025-11-26T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1753,7 +1753,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #9",
       "index": 9,
-      "date": "2025-11-28",
+      "date": "2025-11-28T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1761,7 +1761,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #10",
       "index": 10,
-      "date": "2025-12-01",
+      "date": "2025-12-01T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1769,7 +1769,7 @@
       "moduleId": "cs-tripos-ii-module-information-theory",
       "title": "Information Theory #11",
       "index": 11,
-      "date": "2025-12-03",
+      "date": "2025-12-03T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1777,7 +1777,7 @@
       "moduleId": "cs-tripos-ii-module-latex-and-julia",
       "title": "LaTeX and Julia #1",
       "index": 1,
-      "date": "2025-10-10",
+      "date": "2025-10-10T08:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1785,7 +1785,7 @@
       "moduleId": "cs-tripos-ii-module-latex-and-julia",
       "title": "LaTeX and Julia #2",
       "index": 2,
-      "date": "2025-10-13",
+      "date": "2025-10-13T08:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1793,7 +1793,7 @@
       "moduleId": "cs-tripos-ii-module-latex-and-julia",
       "title": "LaTeX and Julia #3",
       "index": 3,
-      "date": "2025-10-15",
+      "date": "2025-10-15T08:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1801,7 +1801,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #1",
       "index": 1,
-      "date": "2026-01-22",
+      "date": "2026-01-22T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1809,7 +1809,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #2",
       "index": 2,
-      "date": "2026-01-27",
+      "date": "2026-01-27T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1817,7 +1817,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #3",
       "index": 3,
-      "date": "2026-01-29",
+      "date": "2026-01-29T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1825,7 +1825,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #4",
       "index": 4,
-      "date": "2026-02-03",
+      "date": "2026-02-03T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1833,7 +1833,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #5",
       "index": 5,
-      "date": "2026-02-05",
+      "date": "2026-02-05T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1841,7 +1841,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #6",
       "index": 6,
-      "date": "2026-02-10",
+      "date": "2026-02-10T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1849,7 +1849,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #7",
       "index": 7,
-      "date": "2026-02-12",
+      "date": "2026-02-12T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1857,7 +1857,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #8",
       "index": 8,
-      "date": "2026-02-17",
+      "date": "2026-02-17T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1865,7 +1865,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #9",
       "index": 9,
-      "date": "2026-02-19",
+      "date": "2026-02-19T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1873,7 +1873,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #10",
       "index": 10,
-      "date": "2026-02-24",
+      "date": "2026-02-24T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1881,7 +1881,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #11",
       "index": 11,
-      "date": "2026-02-26",
+      "date": "2026-02-26T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1889,7 +1889,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #12",
       "index": 12,
-      "date": "2026-03-03",
+      "date": "2026-03-03T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1897,7 +1897,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #13",
       "index": 13,
-      "date": "2026-03-05",
+      "date": "2026-03-05T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1905,7 +1905,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #14",
       "index": 14,
-      "date": "2026-03-10",
+      "date": "2026-03-10T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1913,7 +1913,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #15",
       "index": 15,
-      "date": "2026-03-12",
+      "date": "2026-03-12T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1921,7 +1921,7 @@
       "moduleId": "cs-tripos-ii-module-machine-learning-and-bayesian-inference",
       "title": "Machine Learning and Bayesian Inference #16",
       "index": 16,
-      "date": "2026-03-17",
+      "date": "2026-03-17T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1929,7 +1929,7 @@
       "moduleId": "cs-tripos-ii-module-machine-vision-perception-(option)",
       "title": "Machine Vision Perception (Option) #1",
       "index": 1,
-      "date": "2025-10-15",
+      "date": "2025-10-15T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1937,7 +1937,7 @@
       "moduleId": "cs-tripos-ii-module-machine-vision-perception-(option)",
       "title": "Machine Vision Perception (Option) #2",
       "index": 2,
-      "date": "2025-10-22",
+      "date": "2025-10-22T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1945,7 +1945,7 @@
       "moduleId": "cs-tripos-ii-module-machine-vision-perception-(option)",
       "title": "Machine Vision Perception (Option) #3",
       "index": 3,
-      "date": "2025-10-29",
+      "date": "2025-10-29T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1953,7 +1953,7 @@
       "moduleId": "cs-tripos-ii-module-machine-vision-perception-(option)",
       "title": "Machine Vision Perception (Option) #4",
       "index": 4,
-      "date": "2025-11-05",
+      "date": "2025-11-05T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1961,7 +1961,7 @@
       "moduleId": "cs-tripos-ii-module-machine-vision-perception-(option)",
       "title": "Machine Vision Perception (Option) #5",
       "index": 5,
-      "date": "2025-11-12",
+      "date": "2025-11-12T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1969,7 +1969,7 @@
       "moduleId": "cs-tripos-ii-module-machine-vision-perception-(option)",
       "title": "Machine Vision Perception (Option) #6",
       "index": 6,
-      "date": "2025-11-19",
+      "date": "2025-11-19T15:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -1977,7 +1977,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #1",
       "index": 1,
-      "date": "2026-01-22",
+      "date": "2026-01-22T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1985,7 +1985,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #2",
       "index": 2,
-      "date": "2026-01-27",
+      "date": "2026-01-27T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1993,7 +1993,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #3",
       "index": 3,
-      "date": "2026-01-29",
+      "date": "2026-01-29T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2001,7 +2001,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #4",
       "index": 4,
-      "date": "2026-02-03",
+      "date": "2026-02-03T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2009,7 +2009,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #5",
       "index": 5,
-      "date": "2026-02-05",
+      "date": "2026-02-05T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2017,7 +2017,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #6",
       "index": 6,
-      "date": "2026-02-10",
+      "date": "2026-02-10T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2025,7 +2025,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #7",
       "index": 7,
-      "date": "2026-02-12",
+      "date": "2026-02-12T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2033,7 +2033,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #8",
       "index": 8,
-      "date": "2026-02-17",
+      "date": "2026-02-17T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2041,7 +2041,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #9",
       "index": 9,
-      "date": "2026-02-19",
+      "date": "2026-02-19T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2049,7 +2049,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #10",
       "index": 10,
-      "date": "2026-02-24",
+      "date": "2026-02-24T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2057,7 +2057,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #11",
       "index": 11,
-      "date": "2026-02-26",
+      "date": "2026-02-26T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2065,7 +2065,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #12",
       "index": 12,
-      "date": "2026-03-03",
+      "date": "2026-03-03T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2073,7 +2073,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #13",
       "index": 13,
-      "date": "2026-03-05",
+      "date": "2026-03-05T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2081,7 +2081,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-health-(option)",
       "title": "Mobile Health (Option) #14",
       "index": 14,
-      "date": "2026-03-10",
+      "date": "2026-03-10T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2089,7 +2089,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-robot-systems-(option)",
       "title": "Mobile Robot Systems (Option) #1",
       "index": 1,
-      "date": "2026-01-27",
+      "date": "2026-01-27T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2097,7 +2097,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-robot-systems-(option)",
       "title": "Mobile Robot Systems (Option) #2",
       "index": 2,
-      "date": "2026-02-03",
+      "date": "2026-02-03T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2105,7 +2105,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-robot-systems-(option)",
       "title": "Mobile Robot Systems (Option) #3",
       "index": 3,
-      "date": "2026-02-10",
+      "date": "2026-02-10T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2113,7 +2113,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-robot-systems-(option)",
       "title": "Mobile Robot Systems (Option) #4",
       "index": 4,
-      "date": "2026-02-17",
+      "date": "2026-02-17T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2121,7 +2121,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-robot-systems-(option)",
       "title": "Mobile Robot Systems (Option) #5",
       "index": 5,
-      "date": "2026-02-24",
+      "date": "2026-02-24T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2129,7 +2129,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-robot-systems-(option)",
       "title": "Mobile Robot Systems (Option) #6",
       "index": 6,
-      "date": "2026-03-03",
+      "date": "2026-03-03T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2137,7 +2137,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-robot-systems-(option)",
       "title": "Mobile Robot Systems (Option) #7",
       "index": 7,
-      "date": "2026-03-10",
+      "date": "2026-03-10T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2145,7 +2145,7 @@
       "moduleId": "cs-tripos-ii-module-mobile-robot-systems-(option)",
       "title": "Mobile Robot Systems (Option) #8",
       "index": 8,
-      "date": "2026-03-17",
+      "date": "2026-03-17T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2153,7 +2153,7 @@
       "moduleId": "cs-tripos-ii-module-multicore-semantics-and-programming-(option)",
       "title": "Multicore Semantics and Programming (Option) #1",
       "index": 1,
-      "date": "2026-01-23",
+      "date": "2026-01-23T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2161,7 +2161,7 @@
       "moduleId": "cs-tripos-ii-module-multicore-semantics-and-programming-(option)",
       "title": "Multicore Semantics and Programming (Option) #2",
       "index": 2,
-      "date": "2026-01-30",
+      "date": "2026-01-30T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2169,7 +2169,7 @@
       "moduleId": "cs-tripos-ii-module-multicore-semantics-and-programming-(option)",
       "title": "Multicore Semantics and Programming (Option) #3",
       "index": 3,
-      "date": "2026-02-06",
+      "date": "2026-02-06T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2177,7 +2177,7 @@
       "moduleId": "cs-tripos-ii-module-multicore-semantics-and-programming-(option)",
       "title": "Multicore Semantics and Programming (Option) #4",
       "index": 4,
-      "date": "2026-02-13",
+      "date": "2026-02-13T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2185,7 +2185,7 @@
       "moduleId": "cs-tripos-ii-module-multicore-semantics-and-programming-(option)",
       "title": "Multicore Semantics and Programming (Option) #5",
       "index": 5,
-      "date": "2026-02-20",
+      "date": "2026-02-20T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2193,7 +2193,7 @@
       "moduleId": "cs-tripos-ii-module-multicore-semantics-and-programming-(option)",
       "title": "Multicore Semantics and Programming (Option) #6",
       "index": 6,
-      "date": "2026-02-27",
+      "date": "2026-02-27T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2201,7 +2201,7 @@
       "moduleId": "cs-tripos-ii-module-multicore-semantics-and-programming-(option)",
       "title": "Multicore Semantics and Programming (Option) #7",
       "index": 7,
-      "date": "2026-03-06",
+      "date": "2026-03-06T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2209,7 +2209,7 @@
       "moduleId": "cs-tripos-ii-module-multicore-semantics-and-programming-(option)",
       "title": "Multicore Semantics and Programming (Option) #8",
       "index": 8,
-      "date": "2026-03-13",
+      "date": "2026-03-13T14:00:00+00:00",
       "lengthMinutes": 120
     },
     {
@@ -2217,7 +2217,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #1",
       "index": 1,
-      "date": "2025-10-10",
+      "date": "2025-10-10T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2225,7 +2225,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #2",
       "index": 2,
-      "date": "2025-10-13",
+      "date": "2025-10-13T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2233,7 +2233,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #3",
       "index": 3,
-      "date": "2025-10-15",
+      "date": "2025-10-15T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2241,7 +2241,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #4",
       "index": 4,
-      "date": "2025-10-17",
+      "date": "2025-10-17T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2249,7 +2249,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #5",
       "index": 5,
-      "date": "2025-10-20",
+      "date": "2025-10-20T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2257,7 +2257,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #6",
       "index": 6,
-      "date": "2025-10-22",
+      "date": "2025-10-22T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2265,7 +2265,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #7",
       "index": 7,
-      "date": "2025-10-24",
+      "date": "2025-10-24T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2273,7 +2273,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #8",
       "index": 8,
-      "date": "2025-10-27",
+      "date": "2025-10-27T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2281,7 +2281,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #9",
       "index": 9,
-      "date": "2025-10-29",
+      "date": "2025-10-29T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2289,7 +2289,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #10",
       "index": 10,
-      "date": "2025-10-31",
+      "date": "2025-10-31T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2297,7 +2297,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #11",
       "index": 11,
-      "date": "2025-11-03",
+      "date": "2025-11-03T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2305,7 +2305,7 @@
       "moduleId": "cs-tripos-ii-module-natural-language-processing-(option)",
       "title": "Natural Language Processing (Option) #12",
       "index": 12,
-      "date": "2025-11-05",
+      "date": "2025-11-05T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2313,7 +2313,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #1",
       "index": 1,
-      "date": "2026-01-23",
+      "date": "2026-01-23T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2321,7 +2321,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #2",
       "index": 2,
-      "date": "2026-01-26",
+      "date": "2026-01-26T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2329,7 +2329,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #3",
       "index": 3,
-      "date": "2026-01-28",
+      "date": "2026-01-28T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2337,7 +2337,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #4",
       "index": 4,
-      "date": "2026-01-30",
+      "date": "2026-01-30T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2345,7 +2345,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #5",
       "index": 5,
-      "date": "2026-02-02",
+      "date": "2026-02-02T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2353,7 +2353,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #6",
       "index": 6,
-      "date": "2026-02-04",
+      "date": "2026-02-04T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2361,7 +2361,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #7",
       "index": 7,
-      "date": "2026-02-06",
+      "date": "2026-02-06T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2369,7 +2369,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #8",
       "index": 8,
-      "date": "2026-02-09",
+      "date": "2026-02-09T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2377,7 +2377,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #9",
       "index": 9,
-      "date": "2026-02-11",
+      "date": "2026-02-11T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2385,7 +2385,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #10",
       "index": 10,
-      "date": "2026-02-13",
+      "date": "2026-02-13T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2393,7 +2393,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #11",
       "index": 11,
-      "date": "2026-02-16",
+      "date": "2026-02-16T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2401,7 +2401,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #12",
       "index": 12,
-      "date": "2026-02-18",
+      "date": "2026-02-18T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2409,7 +2409,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #13",
       "index": 13,
-      "date": "2026-02-20",
+      "date": "2026-02-20T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2417,7 +2417,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #14",
       "index": 14,
-      "date": "2026-02-23",
+      "date": "2026-02-23T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2425,7 +2425,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #15",
       "index": 15,
-      "date": "2026-02-25",
+      "date": "2026-02-25T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2433,7 +2433,7 @@
       "moduleId": "cs-tripos-ii-module-optimising-compilers",
       "title": "Optimising Compilers #16",
       "index": 16,
-      "date": "2026-02-27",
+      "date": "2026-02-27T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2441,7 +2441,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #1",
       "index": 1,
-      "date": "2025-10-09",
+      "date": "2025-10-09T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2449,7 +2449,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #2",
       "index": 2,
-      "date": "2025-10-14",
+      "date": "2025-10-14T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2457,7 +2457,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #3",
       "index": 3,
-      "date": "2025-10-16",
+      "date": "2025-10-16T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2465,7 +2465,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #4",
       "index": 4,
-      "date": "2025-10-21",
+      "date": "2025-10-21T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2473,7 +2473,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #5",
       "index": 5,
-      "date": "2025-10-23",
+      "date": "2025-10-23T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2481,7 +2481,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #6",
       "index": 6,
-      "date": "2025-10-28",
+      "date": "2025-10-28T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2489,7 +2489,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #7",
       "index": 7,
-      "date": "2025-10-30",
+      "date": "2025-10-30T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2497,7 +2497,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #8",
       "index": 8,
-      "date": "2025-11-04",
+      "date": "2025-11-04T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2505,7 +2505,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #9",
       "index": 9,
-      "date": "2025-11-06",
+      "date": "2025-11-06T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2513,7 +2513,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #10",
       "index": 10,
-      "date": "2025-11-11",
+      "date": "2025-11-11T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2521,7 +2521,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #11",
       "index": 11,
-      "date": "2025-11-13",
+      "date": "2025-11-13T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2529,7 +2529,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #12",
       "index": 12,
-      "date": "2025-11-18",
+      "date": "2025-11-18T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2537,7 +2537,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #13",
       "index": 13,
-      "date": "2025-11-20",
+      "date": "2025-11-20T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2545,7 +2545,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #14",
       "index": 14,
-      "date": "2025-11-25",
+      "date": "2025-11-25T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2553,7 +2553,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #15",
       "index": 15,
-      "date": "2025-11-27",
+      "date": "2025-11-27T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2561,7 +2561,7 @@
       "moduleId": "cs-tripos-ii-module-principles-of-communications",
       "title": "Principles of Communications #16",
       "index": 16,
-      "date": "2025-12-02",
+      "date": "2025-12-02T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2569,7 +2569,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #1",
       "index": 1,
-      "date": "2025-10-10",
+      "date": "2025-10-10T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2577,7 +2577,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #2",
       "index": 2,
-      "date": "2025-10-13",
+      "date": "2025-10-13T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2585,7 +2585,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #3",
       "index": 3,
-      "date": "2025-10-17",
+      "date": "2025-10-17T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2593,7 +2593,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #4",
       "index": 4,
-      "date": "2025-10-20",
+      "date": "2025-10-20T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2601,7 +2601,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #5",
       "index": 5,
-      "date": "2025-10-24",
+      "date": "2025-10-24T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2609,7 +2609,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #6",
       "index": 6,
-      "date": "2025-10-27",
+      "date": "2025-10-27T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2617,7 +2617,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #7",
       "index": 7,
-      "date": "2025-10-31",
+      "date": "2025-10-31T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2625,7 +2625,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #8",
       "index": 8,
-      "date": "2025-11-03",
+      "date": "2025-11-03T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2633,7 +2633,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #9",
       "index": 9,
-      "date": "2025-11-07",
+      "date": "2025-11-07T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2641,7 +2641,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #10",
       "index": 10,
-      "date": "2025-11-10",
+      "date": "2025-11-10T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2649,7 +2649,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #11",
       "index": 11,
-      "date": "2025-11-14",
+      "date": "2025-11-14T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2657,7 +2657,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #12",
       "index": 12,
-      "date": "2025-11-17",
+      "date": "2025-11-17T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2665,7 +2665,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #13",
       "index": 13,
-      "date": "2025-11-21",
+      "date": "2025-11-21T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2673,7 +2673,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #14",
       "index": 14,
-      "date": "2025-11-24",
+      "date": "2025-11-24T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2681,7 +2681,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #15",
       "index": 15,
-      "date": "2025-11-28",
+      "date": "2025-11-28T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2689,7 +2689,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-complexity-theory-(option)",
       "title": "Quantum Complexity Theory (Option) #16",
       "index": 16,
-      "date": "2025-12-01",
+      "date": "2025-12-01T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2697,7 +2697,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #1",
       "index": 1,
-      "date": "2026-01-22",
+      "date": "2026-01-22T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2705,7 +2705,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #2",
       "index": 2,
-      "date": "2026-01-27",
+      "date": "2026-01-27T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2713,7 +2713,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #3",
       "index": 3,
-      "date": "2026-01-29",
+      "date": "2026-01-29T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2721,7 +2721,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #4",
       "index": 4,
-      "date": "2026-02-03",
+      "date": "2026-02-03T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2729,7 +2729,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #5",
       "index": 5,
-      "date": "2026-02-05",
+      "date": "2026-02-05T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2737,7 +2737,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #6",
       "index": 6,
-      "date": "2026-02-10",
+      "date": "2026-02-10T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2745,7 +2745,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #7",
       "index": 7,
-      "date": "2026-02-12",
+      "date": "2026-02-12T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2753,7 +2753,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #8",
       "index": 8,
-      "date": "2026-02-17",
+      "date": "2026-02-17T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2761,7 +2761,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #9",
       "index": 9,
-      "date": "2026-02-19",
+      "date": "2026-02-19T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2769,7 +2769,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #10",
       "index": 10,
-      "date": "2026-02-24",
+      "date": "2026-02-24T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2777,7 +2777,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #11",
       "index": 11,
-      "date": "2026-02-26",
+      "date": "2026-02-26T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2785,7 +2785,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #12",
       "index": 12,
-      "date": "2026-03-03",
+      "date": "2026-03-03T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2793,7 +2793,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #13",
       "index": 13,
-      "date": "2026-03-05",
+      "date": "2026-03-05T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2801,7 +2801,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #14",
       "index": 14,
-      "date": "2026-03-10",
+      "date": "2026-03-10T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2809,7 +2809,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #15",
       "index": 15,
-      "date": "2026-03-12",
+      "date": "2026-03-12T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2817,7 +2817,7 @@
       "moduleId": "cs-tripos-ii-module-quantum-computing",
       "title": "Quantum Computing #16",
       "index": 16,
-      "date": "2026-03-17",
+      "date": "2026-03-17T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2825,7 +2825,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #1",
       "index": 1,
-      "date": "2025-10-10",
+      "date": "2025-10-10T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2833,7 +2833,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #2",
       "index": 2,
-      "date": "2025-10-13",
+      "date": "2025-10-13T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2841,7 +2841,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #3",
       "index": 3,
-      "date": "2025-10-15",
+      "date": "2025-10-15T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2849,7 +2849,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #4",
       "index": 4,
-      "date": "2025-10-17",
+      "date": "2025-10-17T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2857,7 +2857,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #5",
       "index": 5,
-      "date": "2025-10-20",
+      "date": "2025-10-20T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2865,7 +2865,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #6",
       "index": 6,
-      "date": "2025-10-22",
+      "date": "2025-10-22T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2873,7 +2873,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #7",
       "index": 7,
-      "date": "2025-10-24",
+      "date": "2025-10-24T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2881,7 +2881,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #8",
       "index": 8,
-      "date": "2025-10-27",
+      "date": "2025-10-27T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2889,7 +2889,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #9",
       "index": 9,
-      "date": "2025-10-29",
+      "date": "2025-10-29T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2897,7 +2897,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #10",
       "index": 10,
-      "date": "2025-10-31",
+      "date": "2025-10-31T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2905,7 +2905,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #11",
       "index": 11,
-      "date": "2025-11-03",
+      "date": "2025-11-03T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2913,7 +2913,7 @@
       "moduleId": "cs-tripos-ii-module-types",
       "title": "Types #12",
       "index": 12,
-      "date": "2025-11-05",
+      "date": "2025-11-05T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2921,7 +2921,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #1",
       "index": 1,
-      "date": "2025-10-10",
+      "date": "2025-10-10T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2929,7 +2929,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #2",
       "index": 2,
-      "date": "2025-10-15",
+      "date": "2025-10-15T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2937,7 +2937,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #3",
       "index": 3,
-      "date": "2025-10-17",
+      "date": "2025-10-17T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2945,7 +2945,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #4",
       "index": 4,
-      "date": "2025-10-22",
+      "date": "2025-10-22T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2953,7 +2953,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #5",
       "index": 5,
-      "date": "2025-10-24",
+      "date": "2025-10-24T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2961,7 +2961,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #6",
       "index": 6,
-      "date": "2025-10-29",
+      "date": "2025-10-29T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2969,7 +2969,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #7",
       "index": 7,
-      "date": "2025-10-31",
+      "date": "2025-10-31T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2977,7 +2977,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #8",
       "index": 8,
-      "date": "2025-11-05",
+      "date": "2025-11-05T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2985,7 +2985,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #9",
       "index": 9,
-      "date": "2025-11-07",
+      "date": "2025-11-07T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -2993,7 +2993,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #10",
       "index": 10,
-      "date": "2025-11-12",
+      "date": "2025-11-12T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -3001,7 +3001,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #11",
       "index": 11,
-      "date": "2025-11-14",
+      "date": "2025-11-14T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -3009,7 +3009,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #12",
       "index": 12,
-      "date": "2025-11-19",
+      "date": "2025-11-19T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -3017,7 +3017,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #13",
       "index": 13,
-      "date": "2025-11-21",
+      "date": "2025-11-21T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -3025,7 +3025,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #14",
       "index": 14,
-      "date": "2025-11-26",
+      "date": "2025-11-26T14:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -3033,7 +3033,7 @@
       "moduleId": "cs-tripos-ii-module-understanding-quantum-architecture-(option)",
       "title": "Understanding Quantum Architecture (Option) #15",
       "index": 15,
-      "date": "2025-11-28",
+      "date": "2025-11-28T14:00:00+00:00",
       "lengthMinutes": 60
     }
   ]

@@ -6,6 +6,7 @@ import {
   primaryKey,
   index,
   foreignKey,
+  timestamp,
 } from "drizzle-orm/pg-core";
 
 export const courses = pgTable("courses", {
@@ -55,7 +56,7 @@ export const lectures = pgTable(
       .references(() => modules.id, { onDelete: "cascade" }),
     title: text("title").notNull(),
     index: integer("index").notNull(), // order within module
-    date: date("date", { mode: "string" }).notNull(), // "YYYY-MM-DD"
+date: timestamp("date", { withTimezone: true, mode: "string" }).notNull(),
     lengthMinutes: integer("length_minutes").notNull(),
   },
   (t) => ({

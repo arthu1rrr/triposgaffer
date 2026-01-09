@@ -1,0 +1,8 @@
+things from index.ts which are actually exported and used
+const COURSES -> a courseDefinition array of all valid courses (courseparts) in db
+getCourse -> returns courseDefinition for a courseId passed in X
+getModulesForCourse -> renamed to listModulesForCourse X
+getModule -> X
+getLecturesForModule -> renamed to listLecturesForModule
+getLecture -> X
+isValidCourseId, isValidModuleId, isValidLectureId -> 

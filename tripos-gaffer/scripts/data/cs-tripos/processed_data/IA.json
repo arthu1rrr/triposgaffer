@@ -91,7 +91,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #1",
       "index": 1,
-      "date": "2026-01-23",
+      "date": "2026-01-23T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -99,7 +99,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #2",
       "index": 2,
-      "date": "2026-01-26",
+      "date": "2026-01-26T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -107,7 +107,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #3",
       "index": 3,
-      "date": "2026-01-28",
+      "date": "2026-01-28T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -115,7 +115,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #4",
       "index": 4,
-      "date": "2026-01-30",
+      "date": "2026-01-30T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -123,7 +123,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #5",
       "index": 5,
-      "date": "2026-02-02",
+      "date": "2026-02-02T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -131,7 +131,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #6",
       "index": 6,
-      "date": "2026-02-04",
+      "date": "2026-02-04T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -139,7 +139,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #7",
       "index": 7,
-      "date": "2026-02-06",
+      "date": "2026-02-06T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -147,7 +147,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #8",
       "index": 8,
-      "date": "2026-02-09",
+      "date": "2026-02-09T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -155,7 +155,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #9",
       "index": 9,
-      "date": "2026-02-11",
+      "date": "2026-02-11T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -163,7 +163,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #10",
       "index": 10,
-      "date": "2026-02-13",
+      "date": "2026-02-13T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -171,7 +171,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #11",
       "index": 11,
-      "date": "2026-02-16",
+      "date": "2026-02-16T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -179,7 +179,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-1",
       "title": "Algorithms 1 #12",
       "index": 12,
-      "date": "2026-02-18",
+      "date": "2026-02-18T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -187,7 +187,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #1",
       "index": 1,
-      "date": "2026-02-20",
+      "date": "2026-02-20T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -195,7 +195,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #2",
       "index": 2,
-      "date": "2026-02-23",
+      "date": "2026-02-23T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -203,7 +203,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #3",
       "index": 3,
-      "date": "2026-02-25",
+      "date": "2026-02-25T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -211,7 +211,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #4",
       "index": 4,
-      "date": "2026-02-27",
+      "date": "2026-02-27T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -219,7 +219,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #5",
       "index": 5,
-      "date": "2026-03-02",
+      "date": "2026-03-02T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -227,7 +227,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #6",
       "index": 6,
-      "date": "2026-03-04",
+      "date": "2026-03-04T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -235,7 +235,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #7",
       "index": 7,
-      "date": "2026-03-06",
+      "date": "2026-03-06T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -243,7 +243,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #8",
       "index": 8,
-      "date": "2026-03-09",
+      "date": "2026-03-09T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -251,7 +251,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #9",
       "index": 9,
-      "date": "2026-03-11",
+      "date": "2026-03-11T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -259,7 +259,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #10",
       "index": 10,
-      "date": "2026-03-13",
+      "date": "2026-03-13T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -267,7 +267,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #11",
       "index": 11,
-      "date": "2026-03-16",
+      "date": "2026-03-16T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -275,7 +275,7 @@
       "moduleId": "cs-tripos-ia-module-algorithms-2",
       "title": "Algorithms 2 #12",
       "index": 12,
-      "date": "2026-03-18",
+      "date": "2026-03-18T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -283,7 +283,7 @@
       "moduleId": "cs-tripos-ia-module-databases",
       "title": "Databases #1",
       "index": 1,
-      "date": "2025-10-14",
+      "date": "2025-10-14T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -291,7 +291,7 @@
       "moduleId": "cs-tripos-ia-module-databases",
       "title": "Databases #2",
       "index": 2,
-      "date": "2025-10-21",
+      "date": "2025-10-21T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -299,7 +299,7 @@
       "moduleId": "cs-tripos-ia-module-databases",
       "title": "Databases #3",
       "index": 3,
-      "date": "2025-10-28",
+      "date": "2025-10-28T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -307,7 +307,7 @@
       "moduleId": "cs-tripos-ia-module-databases",
       "title": "Databases #4",
       "index": 4,
-      "date": "2025-11-04",
+      "date": "2025-11-04T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -315,7 +315,7 @@
       "moduleId": "cs-tripos-ia-module-databases",
       "title": "Databases #5",
       "index": 5,
-      "date": "2025-11-11",
+      "date": "2025-11-11T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -323,7 +323,7 @@
       "moduleId": "cs-tripos-ia-module-databases",
       "title": "Databases #6",
       "index": 6,
-      "date": "2025-11-18",
+      "date": "2025-11-18T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -331,7 +331,7 @@
       "moduleId": "cs-tripos-ia-module-databases",
       "title": "Databases #7",
       "index": 7,
-      "date": "2025-11-25",
+      "date": "2025-11-25T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -339,7 +339,7 @@
       "moduleId": "cs-tripos-ia-module-databases",
       "title": "Databases #8",
       "index": 8,
-      "date": "2025-12-02",
+      "date": "2025-12-02T13:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -347,7 +347,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #1",
       "index": 1,
-      "date": "2025-10-14",
+      "date": "2025-10-14T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -355,7 +355,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #2",
       "index": 2,
-      "date": "2025-10-15",
+      "date": "2025-10-15T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -363,7 +363,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #3",
       "index": 3,
-      "date": "2025-10-16",
+      "date": "2025-10-16T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -371,7 +371,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #4",
       "index": 4,
-      "date": "2025-10-17",
+      "date": "2025-10-17T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -379,7 +379,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #5",
       "index": 5,
-      "date": "2025-10-20",
+      "date": "2025-10-20T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -387,7 +387,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #6",
       "index": 6,
-      "date": "2025-10-22",
+      "date": "2025-10-22T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -395,7 +395,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #7",
       "index": 7,
-      "date": "2025-10-24",
+      "date": "2025-10-24T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -403,7 +403,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #8",
       "index": 8,
-      "date": "2025-10-27",
+      "date": "2025-10-27T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -411,7 +411,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #9",
       "index": 9,
-      "date": "2025-10-29",
+      "date": "2025-10-29T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -419,7 +419,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #10",
       "index": 10,
-      "date": "2025-10-31",
+      "date": "2025-10-31T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -427,7 +427,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #11",
       "index": 11,
-      "date": "2025-11-03",
+      "date": "2025-11-03T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -435,7 +435,7 @@
       "moduleId": "cs-tripos-ia-module-digital-electronics",
       "title": "Digital Electronics #12",
       "index": 12,
-      "date": "2025-11-05",
+      "date": "2025-11-05T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -443,7 +443,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #1",
       "index": 1,
-      "date": "2025-11-07",
+      "date": "2025-11-07T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -451,7 +451,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #2",
       "index": 2,
-      "date": "2025-11-10",
+      "date": "2025-11-10T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -459,7 +459,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #3",
       "index": 3,
-      "date": "2025-11-12",
+      "date": "2025-11-12T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -467,7 +467,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #4",
       "index": 4,
-      "date": "2025-11-14",
+      "date": "2025-11-14T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -475,7 +475,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #5",
       "index": 5,
-      "date": "2025-11-17",
+      "date": "2025-11-17T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -483,7 +483,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #6",
       "index": 6,
-      "date": "2025-11-19",
+      "date": "2025-11-19T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -491,7 +491,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #7",
       "index": 7,
-      "date": "2025-11-21",
+      "date": "2025-11-21T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -499,7 +499,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #8",
       "index": 8,
-      "date": "2025-11-24",
+      "date": "2025-11-24T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -507,7 +507,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #9",
       "index": 9,
-      "date": "2025-11-26",
+      "date": "2025-11-26T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -515,7 +515,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #10",
       "index": 10,
-      "date": "2025-11-28",
+      "date": "2025-11-28T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -523,7 +523,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #11",
       "index": 11,
-      "date": "2025-12-01",
+      "date": "2025-12-01T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -531,7 +531,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #12",
       "index": 12,
-      "date": "2025-12-03",
+      "date": "2025-12-03T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -539,7 +539,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #13",
       "index": 13,
-      "date": "2026-01-23",
+      "date": "2026-01-23T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -547,7 +547,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #14",
       "index": 14,
-      "date": "2026-01-26",
+      "date": "2026-01-26T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -555,7 +555,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #15",
       "index": 15,
-      "date": "2026-01-28",
+      "date": "2026-01-28T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -563,7 +563,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #16",
       "index": 16,
-      "date": "2026-01-30",
+      "date": "2026-01-30T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -571,7 +571,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #17",
       "index": 17,
-      "date": "2026-02-02",
+      "date": "2026-02-02T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -579,7 +579,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #18",
       "index": 18,
-      "date": "2026-02-04",
+      "date": "2026-02-04T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -587,7 +587,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #19",
       "index": 19,
-      "date": "2026-02-06",
+      "date": "2026-02-06T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -595,7 +595,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #20",
       "index": 20,
-      "date": "2026-02-09",
+      "date": "2026-02-09T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -603,7 +603,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #21",
       "index": 21,
-      "date": "2026-02-11",
+      "date": "2026-02-11T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -611,7 +611,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #22",
       "index": 22,
-      "date": "2026-02-13",
+      "date": "2026-02-13T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -619,7 +619,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #23",
       "index": 23,
-      "date": "2026-02-16",
+      "date": "2026-02-16T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -627,7 +627,7 @@
       "moduleId": "cs-tripos-ia-module-discrete-maths",
       "title": "Discrete Maths #24",
       "index": 24,
-      "date": "2026-02-18",
+      "date": "2026-02-18T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -635,7 +635,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #1",
       "index": 1,
-      "date": "2025-10-15",
+      "date": "2025-10-15T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -643,7 +643,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #2",
       "index": 2,
-      "date": "2025-10-17",
+      "date": "2025-10-17T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -651,7 +651,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #3",
       "index": 3,
-      "date": "2025-10-20",
+      "date": "2025-10-20T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -659,7 +659,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #4",
       "index": 4,
-      "date": "2025-10-22",
+      "date": "2025-10-22T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -667,7 +667,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #5",
       "index": 5,
-      "date": "2025-10-24",
+      "date": "2025-10-24T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -675,7 +675,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #6",
       "index": 6,
-      "date": "2025-10-27",
+      "date": "2025-10-27T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -683,7 +683,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #7",
       "index": 7,
-      "date": "2025-10-29",
+      "date": "2025-10-29T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -691,7 +691,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #8",
       "index": 8,
-      "date": "2025-10-31",
+      "date": "2025-10-31T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -699,7 +699,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #9",
       "index": 9,
-      "date": "2025-11-03",
+      "date": "2025-11-03T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -707,7 +707,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #10",
       "index": 10,
-      "date": "2025-11-05",
+      "date": "2025-11-05T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -715,7 +715,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #11",
       "index": 11,
-      "date": "2025-11-07",
+      "date": "2025-11-07T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -723,7 +723,7 @@
       "moduleId": "cs-tripos-ia-module-foundations-of-computer-science",
       "title": "Foundations of Computer Science #12",
       "index": 12,
-      "date": "2025-11-10",
+      "date": "2025-11-10T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -731,7 +731,7 @@
       "moduleId": "cs-tripos-ia-module-interaction-design",
       "title": "Interaction Design #1",
       "index": 1,
-      "date": "2026-04-30",
+      "date": "2026-04-30T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -739,7 +739,7 @@
       "moduleId": "cs-tripos-ia-module-interaction-design",
       "title": "Interaction Design #2",
       "index": 2,
-      "date": "2026-05-05",
+      "date": "2026-05-05T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -747,7 +747,7 @@
       "moduleId": "cs-tripos-ia-module-interaction-design",
       "title": "Interaction Design #3",
       "index": 3,
-      "date": "2026-05-07",
+      "date": "2026-05-07T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -755,7 +755,7 @@
       "moduleId": "cs-tripos-ia-module-interaction-design",
       "title": "Interaction Design #4",
       "index": 4,
-      "date": "2026-05-12",
+      "date": "2026-05-12T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -763,7 +763,7 @@
       "moduleId": "cs-tripos-ia-module-interaction-design",
       "title": "Interaction Design #5",
       "index": 5,
-      "date": "2026-05-14",
+      "date": "2026-05-14T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -771,7 +771,7 @@
       "moduleId": "cs-tripos-ia-module-interaction-design",
       "title": "Interaction Design #6",
       "index": 6,
-      "date": "2026-05-19",
+      "date": "2026-05-19T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -779,7 +779,7 @@
       "moduleId": "cs-tripos-ia-module-interaction-design",
       "title": "Interaction Design #7",
       "index": 7,
-      "date": "2026-05-21",
+      "date": "2026-05-21T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -787,7 +787,7 @@
       "moduleId": "cs-tripos-ia-module-interaction-design-student-group-presentations",
       "title": "Interaction Design Student Group Presentations #1",
       "index": 1,
-      "date": "2026-05-28",
+      "date": "2026-05-28T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -795,7 +795,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-graphics",
       "title": "Introduction to Graphics #1",
       "index": 1,
-      "date": "2025-11-06",
+      "date": "2025-11-06T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -803,7 +803,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-graphics",
       "title": "Introduction to Graphics #2",
       "index": 2,
-      "date": "2025-11-11",
+      "date": "2025-11-11T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -811,7 +811,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-graphics",
       "title": "Introduction to Graphics #3",
       "index": 3,
-      "date": "2025-11-13",
+      "date": "2025-11-13T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -819,7 +819,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-graphics",
       "title": "Introduction to Graphics #4",
       "index": 4,
-      "date": "2025-11-18",
+      "date": "2025-11-18T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -827,7 +827,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-graphics",
       "title": "Introduction to Graphics #5",
       "index": 5,
-      "date": "2025-11-20",
+      "date": "2025-11-20T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -835,7 +835,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-graphics",
       "title": "Introduction to Graphics #6",
       "index": 6,
-      "date": "2025-11-25",
+      "date": "2025-11-25T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -843,7 +843,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-graphics",
       "title": "Introduction to Graphics #7",
       "index": 7,
-      "date": "2025-11-27",
+      "date": "2025-11-27T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -851,7 +851,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-graphics",
       "title": "Introduction to Graphics #8",
       "index": 8,
-      "date": "2025-12-02",
+      "date": "2025-12-02T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -859,7 +859,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #1",
       "index": 1,
-      "date": "2026-05-01",
+      "date": "2026-05-01T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -867,7 +867,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #2",
       "index": 2,
-      "date": "2026-05-04",
+      "date": "2026-05-04T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -875,7 +875,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #3",
       "index": 3,
-      "date": "2026-05-06",
+      "date": "2026-05-06T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -883,7 +883,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #4",
       "index": 4,
-      "date": "2026-05-08",
+      "date": "2026-05-08T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -891,7 +891,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #5",
       "index": 5,
-      "date": "2026-05-11",
+      "date": "2026-05-11T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -899,7 +899,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #6",
       "index": 6,
-      "date": "2026-05-13",
+      "date": "2026-05-13T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -907,7 +907,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #7",
       "index": 7,
-      "date": "2026-05-15",
+      "date": "2026-05-15T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -915,7 +915,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #8",
       "index": 8,
-      "date": "2026-05-18",
+      "date": "2026-05-18T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -923,7 +923,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #9",
       "index": 9,
-      "date": "2026-05-20",
+      "date": "2026-05-20T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -931,7 +931,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #10",
       "index": 10,
-      "date": "2026-05-22",
+      "date": "2026-05-22T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -939,7 +939,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #11",
       "index": 11,
-      "date": "2026-05-25",
+      "date": "2026-05-25T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -947,7 +947,7 @@
       "moduleId": "cs-tripos-ia-module-introduction-to-probability",
       "title": "Introduction to Probability #12",
       "index": 12,
-      "date": "2026-05-27",
+      "date": "2026-05-27T09:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -955,7 +955,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #1",
       "index": 1,
-      "date": "2026-01-23",
+      "date": "2026-01-23T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -963,7 +963,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #2",
       "index": 2,
-      "date": "2026-01-26",
+      "date": "2026-01-26T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -971,7 +971,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #3",
       "index": 3,
-      "date": "2026-01-30",
+      "date": "2026-01-30T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -979,7 +979,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #4",
       "index": 4,
-      "date": "2026-02-02",
+      "date": "2026-02-02T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -987,7 +987,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #5",
       "index": 5,
-      "date": "2026-02-06",
+      "date": "2026-02-06T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -995,7 +995,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #6",
       "index": 6,
-      "date": "2026-02-09",
+      "date": "2026-02-09T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -1003,7 +1003,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #7",
       "index": 7,
-      "date": "2026-02-13",
+      "date": "2026-02-13T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -1011,7 +1011,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #8",
       "index": 8,
-      "date": "2026-02-16",
+      "date": "2026-02-16T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -1019,7 +1019,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #9",
       "index": 9,
-      "date": "2026-02-20",
+      "date": "2026-02-20T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -1027,7 +1027,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #10",
       "index": 10,
-      "date": "2026-02-23",
+      "date": "2026-02-23T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -1035,7 +1035,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #11",
       "index": 11,
-      "date": "2026-02-27",
+      "date": "2026-02-27T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -1043,7 +1043,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #12",
       "index": 12,
-      "date": "2026-03-02",
+      "date": "2026-03-02T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -1051,7 +1051,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #13",
       "index": 13,
-      "date": "2026-03-06",
+      "date": "2026-03-06T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -1059,7 +1059,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #14",
       "index": 14,
-      "date": "2026-03-09",
+      "date": "2026-03-09T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -1067,7 +1067,7 @@
       "moduleId": "cs-tripos-ia-module-machine-learning-and-real-world-data",
       "title": "Machine Learning and Real-world Data #15",
       "index": 15,
-      "date": "2026-03-13",
+      "date": "2026-03-13T14:00:00+00:00",
       "lengthMinutes": 30
     },
     {
@@ -1075,7 +1075,7 @@
       "moduleId": "cs-tripos-ia-module-object-oriented-programming",
       "title": "Object-Oriented Programming #1",
       "index": 1,
-      "date": "2025-11-12",
+      "date": "2025-11-12T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1083,7 +1083,7 @@
       "moduleId": "cs-tripos-ia-module-object-oriented-programming",
       "title": "Object-Oriented Programming #2",
       "index": 2,
-      "date": "2025-11-14",
+      "date": "2025-11-14T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1091,7 +1091,7 @@
       "moduleId": "cs-tripos-ia-module-object-oriented-programming",
       "title": "Object-Oriented Programming #3",
       "index": 3,
-      "date": "2025-11-17",
+      "date": "2025-11-17T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1099,7 +1099,7 @@
       "moduleId": "cs-tripos-ia-module-object-oriented-programming",
       "title": "Object-Oriented Programming #4",
       "index": 4,
-      "date": "2025-11-19",
+      "date": "2025-11-19T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1107,7 +1107,7 @@
       "moduleId": "cs-tripos-ia-module-object-oriented-programming",
       "title": "Object-Oriented Programming #5",
       "index": 5,
-      "date": "2025-11-21",
+      "date": "2025-11-21T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1115,7 +1115,7 @@
       "moduleId": "cs-tripos-ia-module-object-oriented-programming",
       "title": "Object-Oriented Programming #6",
       "index": 6,
-      "date": "2025-11-24",
+      "date": "2025-11-24T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1123,7 +1123,7 @@
       "moduleId": "cs-tripos-ia-module-object-oriented-programming",
       "title": "Object-Oriented Programming #7",
       "index": 7,
-      "date": "2025-11-26",
+      "date": "2025-11-26T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1131,7 +1131,7 @@
       "moduleId": "cs-tripos-ia-module-object-oriented-programming",
       "title": "Object-Oriented Programming #8",
       "index": 8,
-      "date": "2025-11-28",
+      "date": "2025-11-28T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1139,7 +1139,7 @@
       "moduleId": "cs-tripos-ia-module-object-oriented-programming",
       "title": "Object-Oriented Programming #9",
       "index": 9,
-      "date": "2025-12-01",
+      "date": "2025-12-01T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1147,7 +1147,7 @@
       "moduleId": "cs-tripos-ia-module-object-oriented-programming",
       "title": "Object-Oriented Programming #10",
       "index": 10,
-      "date": "2025-12-03",
+      "date": "2025-12-03T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1155,7 +1155,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #1",
       "index": 1,
-      "date": "2026-02-20",
+      "date": "2026-02-20T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1163,7 +1163,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #2",
       "index": 2,
-      "date": "2026-02-23",
+      "date": "2026-02-23T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1171,7 +1171,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #3",
       "index": 3,
-      "date": "2026-02-25",
+      "date": "2026-02-25T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1179,7 +1179,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #4",
       "index": 4,
-      "date": "2026-02-27",
+      "date": "2026-02-27T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1187,7 +1187,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #5",
       "index": 5,
-      "date": "2026-03-02",
+      "date": "2026-03-02T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1195,7 +1195,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #6",
       "index": 6,
-      "date": "2026-03-04",
+      "date": "2026-03-04T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1203,7 +1203,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #7",
       "index": 7,
-      "date": "2026-03-06",
+      "date": "2026-03-06T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1211,7 +1211,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #8",
       "index": 8,
-      "date": "2026-03-09",
+      "date": "2026-03-09T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1219,7 +1219,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #9",
       "index": 9,
-      "date": "2026-03-11",
+      "date": "2026-03-11T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1227,7 +1227,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #10",
       "index": 10,
-      "date": "2026-03-13",
+      "date": "2026-03-13T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1235,7 +1235,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #11",
       "index": 11,
-      "date": "2026-03-16",
+      "date": "2026-03-16T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1243,7 +1243,7 @@
       "moduleId": "cs-tripos-ia-module-operating-systems",
       "title": "Operating Systems #12",
       "index": 12,
-      "date": "2026-03-18",
+      "date": "2026-03-18T11:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1251,7 +1251,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #1",
       "index": 1,
-      "date": "2026-05-01",
+      "date": "2026-05-01T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1259,7 +1259,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #2",
       "index": 2,
-      "date": "2026-05-04",
+      "date": "2026-05-04T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1267,7 +1267,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #3",
       "index": 3,
-      "date": "2026-05-06",
+      "date": "2026-05-06T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1275,7 +1275,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #4",
       "index": 4,
-      "date": "2026-05-08",
+      "date": "2026-05-08T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1283,7 +1283,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #5",
       "index": 5,
-      "date": "2026-05-11",
+      "date": "2026-05-11T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1291,7 +1291,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #6",
       "index": 6,
-      "date": "2026-05-13",
+      "date": "2026-05-13T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1299,7 +1299,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #7",
       "index": 7,
-      "date": "2026-05-15",
+      "date": "2026-05-15T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1307,7 +1307,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #8",
       "index": 8,
-      "date": "2026-05-18",
+      "date": "2026-05-18T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1315,7 +1315,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #9",
       "index": 9,
-      "date": "2026-05-20",
+      "date": "2026-05-20T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1323,7 +1323,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #10",
       "index": 10,
-      "date": "2026-05-22",
+      "date": "2026-05-22T10:00:00+00:00",
       "lengthMinutes": 60
     },
     {
@@ -1331,7 +1331,7 @@
       "moduleId": "cs-tripos-ia-module-software-and-security-engineering",
       "title": "Software and Security Engineering #11",
       "index": 11,
-      "date": "2026-05-27",
+      "date": "2026-05-27T10:00:00+00:00",
       "lengthMinutes": 60
     }
   ]

@@ -4,6 +4,7 @@ import path from 'path';
 import { db } from '@/db/index';
 import { modules, lectures } from '@/db/schema';
 import type { Year } from '@/lib/catalog/types';
+import { eq } from 'drizzle-orm/sql/expressions/conditions';
 
 type ModuleRow = {
     id: string;
@@ -48,15 +49,15 @@ async function main() {
             .onConflictDoNothing();
         }
         // Insert lectures (500 at a time)
-        const chunkSize = 500;
-        for (let i = 0; i < allLectures.length; i += chunkSize) {
-            const chunk = allLectures.slice(i, i + chunkSize);
+        
+            for (const lec of allLectures) {
             await tx
-            .insert(lectures)
-            .values(chunk)
-            .onConflictDoNothing();
-        }
-    });
+            .update(lectures)
+            .set({date: lec.date})
+            .where(eq(lectures.id,lec.id));
+            }
+        });
+        
     console.log('Import completed successfully.');
 }
     

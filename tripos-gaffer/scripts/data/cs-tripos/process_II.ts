@@ -162,7 +162,7 @@ const lecturesList = allLectures.map((lecture: any) => {
         moduleId: `cs-tripos-ii-module-${lecture.module.replace(/\s+/g, "-").toLowerCase()}`,
         title: lecture.title,
         index: lecture.index,
-        date: lecture.start.split("T")[0],
+        date: lecture.start,
         lengthMinutes: lecture.length_minutes,
     };
 });
