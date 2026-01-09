@@ -13,7 +13,8 @@
     "db:seed": "DOTENV_CONFIG_PATH=.env.local tsx -r dotenv/config scripts/seed.ts",
     "script:process-ia": "tsx scripts/data/cs-tripos/process_IA.ts",
     "script:process-ib": "tsx scripts/data/cs-tripos/process_IB.ts",
-    "script:process-ii": "tsx scripts/data/cs-tripos/process_II.ts"
+    "script:process-ii": "tsx scripts/data/cs-tripos/process_II.ts",
+    "script:import-cs-tripos": "DOTENV_CONFIG_PATH=.env.local tsx -r dotenv/config scripts/data/import_cs-tripos.ts"
     },
   "dependencies": {
     "@vercel/postgres": "^0.10.0",

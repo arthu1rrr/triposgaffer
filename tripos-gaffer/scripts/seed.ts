@@ -3,6 +3,8 @@
 import { db } from "../src/db/index";
 import { courses, courseParts, modules, lectures } from "../src/db/schema";
 
+
+
 async function main() {
   // 1) Course
   await db
