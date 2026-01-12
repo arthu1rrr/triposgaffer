@@ -3,8 +3,8 @@ import { listLecturesForModule, listLecturesForCourse } from "@/lib/catalog/quer
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
-   const courseId = searchParams.get("courseId");
-  const moduleId = searchParams.get("moduleId");
+   const courseId = decodeURIComponent(searchParams.get("courseId") || "");
+  const moduleId = decodeURIComponent(searchParams.get("moduleId") || "");
 
   if (courseId) {
     const lecs = await listLecturesForCourse(courseId as any);
